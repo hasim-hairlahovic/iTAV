@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # Database for development
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=analytics_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_dev_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - dev-network
+
+  # Redis for development
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - dev-network
+
+  # API Server with hot reload
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=postgresql://postgres:password@db:5432/analytics_db
+      - JWT_SECRET=dev-jwt-secret-key
+    depends_on:
+      - db
+      - redis
+    networks:
+      - dev-network
+    volumes:
+      - ./api:/app
+      - /app/node_modules
+    command: npm run dev
+
+volumes:
+  postgres_dev_data:
+
+networks:
+  dev-network:
+    driver: bridge 
