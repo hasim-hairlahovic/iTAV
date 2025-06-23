@@ -1,0 +1,1729 @@
+﻿Date,Age Range,Gender,Segment,Product,Total Customers,Region,Language Preference
+1/1/2024,18-34,Male,Highly Engaged,Basic,722,South,Spanish
+1/1/2024,18-34,Male,Highly Engaged,Enhanced,701,Northeast,Vietnamese
+1/1/2024,18-34,Male,Highly Engaged,Premium,811,Midwest,English
+1/1/2024,18-34,Male,Reactive Engagers,Basic,706,South,English
+1/1/2024,18-34,Male,Reactive Engagers,Enhanced,680,Northeast,English
+1/1/2024,18-34,Male,Reactive Engagers,Premium,803,Midwest,English
+1/1/2024,18-34,Male,Content & Complacent,Basic,759,South,English
+1/1/2024,18-34,Male,Content & Complacent,Enhanced,741,Northeast,English
+1/1/2024,18-34,Male,Content & Complacent,Premium,721,West,English
+1/1/2024,18-34,Male,Unengaged,Basic,714,South,Spanish
+1/1/2024,18-34,Male,Unengaged,Enhanced,676,West,English
+1/1/2024,18-34,Male,Unengaged,Premium,779,West,English
+1/1/2024,18-34,Female,Highly Engaged,Basic,821,Midwest,English
+1/1/2024,18-34,Female,Highly Engaged,Enhanced,716,Northeast,English
+1/1/2024,18-34,Female,Highly Engaged,Premium,761,Midwest,English
+1/1/2024,18-34,Female,Reactive Engagers,Basic,709,West,English
+1/1/2024,18-34,Female,Reactive Engagers,Enhanced,752,Northeast,English
+1/1/2024,18-34,Female,Reactive Engagers,Premium,735,Northeast,Chinese
+1/1/2024,18-34,Female,Content & Complacent,Basic,827,Midwest,Spanish
+1/1/2024,18-34,Female,Content & Complacent,Enhanced,756,West,English
+1/1/2024,18-34,Female,Content & Complacent,Premium,831,Midwest,English
+1/1/2024,18-34,Female,Unengaged,Basic,679,South,Spanish
+1/1/2024,18-34,Female,Unengaged,Enhanced,701,West,English
+1/1/2024,18-34,Female,Unengaged,Premium,679,South,English
+1/1/2024,35-49,Male,Highly Engaged,Basic,700,Northeast,Spanish
+1/1/2024,35-49,Male,Highly Engaged,Enhanced,806,South,English
+1/1/2024,35-49,Male,Highly Engaged,Premium,819,Midwest,Vietnamese
+1/1/2024,35-49,Male,Reactive Engagers,Basic,819,Midwest,English
+1/1/2024,35-49,Male,Reactive Engagers,Enhanced,723,Midwest,Spanish
+1/1/2024,35-49,Male,Reactive Engagers,Premium,821,Northeast,Spanish
+1/1/2024,35-49,Male,Content & Complacent,Basic,790,West,English
+1/1/2024,35-49,Male,Content & Complacent,Enhanced,746,South,English
+1/1/2024,35-49,Male,Content & Complacent,Premium,771,West,English
+1/1/2024,35-49,Male,Unengaged,Basic,695,Northeast,English
+1/1/2024,35-49,Male,Unengaged,Enhanced,810,Northeast,English
+1/1/2024,35-49,Male,Unengaged,Premium,694,Northeast,English
+1/1/2024,35-49,Female,Highly Engaged,Basic,701,Northeast,English
+1/1/2024,35-49,Female,Highly Engaged,Enhanced,676,Northeast,English
+1/1/2024,35-49,Female,Highly Engaged,Premium,718,Midwest,English
+1/1/2024,35-49,Female,Reactive Engagers,Basic,707,West,Spanish
+1/1/2024,35-49,Female,Reactive Engagers,Enhanced,793,Midwest,Chinese
+1/1/2024,35-49,Female,Reactive Engagers,Premium,697,West,Spanish
+1/1/2024,35-49,Female,Content & Complacent,Basic,834,West,Spanish
+1/1/2024,35-49,Female,Content & Complacent,Enhanced,717,Northeast,English
+1/1/2024,35-49,Female,Content & Complacent,Premium,761,West,English
+1/1/2024,35-49,Female,Unengaged,Basic,681,South,English
+1/1/2024,35-49,Female,Unengaged,Enhanced,684,South,English
+1/1/2024,35-49,Female,Unengaged,Premium,765,Northeast,English
+1/1/2024,50-64,Male,Highly Engaged,Basic,720,West,English
+1/1/2024,50-64,Male,Highly Engaged,Enhanced,784,Midwest,English
+1/1/2024,50-64,Male,Highly Engaged,Premium,704,West,Chinese
+1/1/2024,50-64,Male,Reactive Engagers,Basic,679,West,Chinese
+1/1/2024,50-64,Male,Reactive Engagers,Enhanced,774,Northeast,English
+1/1/2024,50-64,Male,Reactive Engagers,Premium,710,South,Spanish
+1/1/2024,50-64,Male,Content & Complacent,Basic,809,West,English
+1/1/2024,50-64,Male,Content & Complacent,Enhanced,772,West,English
+1/1/2024,50-64,Male,Content & Complacent,Premium,815,South,English
+1/1/2024,50-64,Male,Unengaged,Basic,823,West,Chinese
+1/1/2024,50-64,Male,Unengaged,Enhanced,696,West,Spanish
+1/1/2024,50-64,Male,Unengaged,Premium,813,West,English
+1/1/2024,50-64,Female,Highly Engaged,Basic,741,West,English
+1/1/2024,50-64,Female,Highly Engaged,Enhanced,751,South,Spanish
+1/1/2024,50-64,Female,Highly Engaged,Premium,809,West,Spanish
+1/1/2024,50-64,Female,Reactive Engagers,Basic,757,Midwest,Spanish
+1/1/2024,50-64,Female,Reactive Engagers,Enhanced,802,Midwest,English
+1/1/2024,50-64,Female,Reactive Engagers,Premium,714,South,English
+1/1/2024,50-64,Female,Content & Complacent,Basic,816,Midwest,Chinese
+1/1/2024,50-64,Female,Content & Complacent,Enhanced,754,West,English
+1/1/2024,50-64,Female,Content & Complacent,Premium,801,Northeast,Spanish
+1/1/2024,50-64,Female,Unengaged,Basic,749,Midwest,English
+1/1/2024,50-64,Female,Unengaged,Enhanced,732,South,English
+1/1/2024,50-64,Female,Unengaged,Premium,832,Northeast,Vietnamese
+1/1/2024,65+,Male,Highly Engaged,Basic,695,Midwest,English
+1/1/2024,65+,Male,Highly Engaged,Enhanced,769,Midwest,English
+1/1/2024,65+,Male,Highly Engaged,Premium,808,South,English
+1/1/2024,65+,Male,Reactive Engagers,Basic,766,South,English
+1/1/2024,65+,Male,Reactive Engagers,Enhanced,781,West,English
+1/1/2024,65+,Male,Reactive Engagers,Premium,823,Midwest,English
+1/1/2024,65+,Male,Content & Complacent,Basic,827,Northeast,English
+1/1/2024,65+,Male,Content & Complacent,Enhanced,686,West,English
+1/1/2024,65+,Male,Content & Complacent,Premium,737,West,English
+1/1/2024,65+,Male,Unengaged,Basic,673,Northeast,Spanish
+1/1/2024,65+,Male,Unengaged,Enhanced,770,Midwest,English
+1/1/2024,65+,Male,Unengaged,Premium,795,Northeast,Spanish
+1/1/2024,65+,Female,Highly Engaged,Basic,780,Northeast,English
+1/1/2024,65+,Female,Highly Engaged,Enhanced,687,West,English
+1/1/2024,65+,Female,Highly Engaged,Premium,719,Northeast,English
+1/1/2024,65+,Female,Reactive Engagers,Basic,680,Midwest,English
+1/1/2024,65+,Female,Reactive Engagers,Enhanced,825,West,English
+1/1/2024,65+,Female,Reactive Engagers,Premium,693,South,English
+1/1/2024,65+,Female,Content & Complacent,Basic,760,West,English
+1/1/2024,65+,Female,Content & Complacent,Enhanced,819,Northeast,English
+1/1/2024,65+,Female,Content & Complacent,Premium,764,Midwest,English
+1/1/2024,65+,Female,Unengaged,Basic,716,West,English
+1/1/2024,65+,Female,Unengaged,Enhanced,716,West,English
+1/1/2024,65+,Female,Unengaged,Premium,731,South,English
+2/1/2024,18-34,Male,Highly Engaged,Basic,794,West,English
+2/1/2024,18-34,Male,Highly Engaged,Enhanced,714,West,English
+2/1/2024,18-34,Male,Highly Engaged,Premium,815,West,English
+2/1/2024,18-34,Male,Reactive Engagers,Basic,783,Midwest,English
+2/1/2024,18-34,Male,Reactive Engagers,Enhanced,706,South,English
+2/1/2024,18-34,Male,Reactive Engagers,Premium,737,West,English
+2/1/2024,18-34,Male,Content & Complacent,Basic,745,Midwest,English
+2/1/2024,18-34,Male,Content & Complacent,Enhanced,744,South,English
+2/1/2024,18-34,Male,Content & Complacent,Premium,765,Northeast,Spanish
+2/1/2024,18-34,Male,Unengaged,Basic,707,Northeast,English
+2/1/2024,18-34,Male,Unengaged,Enhanced,798,West,English
+2/1/2024,18-34,Male,Unengaged,Premium,806,Midwest,English
+2/1/2024,18-34,Female,Highly Engaged,Basic,759,West,English
+2/1/2024,18-34,Female,Highly Engaged,Enhanced,777,West,English
+2/1/2024,18-34,Female,Highly Engaged,Premium,827,Northeast,Spanish
+2/1/2024,18-34,Female,Reactive Engagers,Basic,709,West,English
+2/1/2024,18-34,Female,Reactive Engagers,Enhanced,826,West,English
+2/1/2024,18-34,Female,Reactive Engagers,Premium,685,Midwest,Spanish
+2/1/2024,18-34,Female,Content & Complacent,Basic,828,Midwest,Spanish
+2/1/2024,18-34,Female,Content & Complacent,Enhanced,741,West,English
+2/1/2024,18-34,Female,Content & Complacent,Premium,805,West,English
+2/1/2024,18-34,Female,Unengaged,Basic,826,Northeast,Spanish
+2/1/2024,18-34,Female,Unengaged,Enhanced,833,West,English
+2/1/2024,18-34,Female,Unengaged,Premium,702,Northeast,English
+2/1/2024,35-49,Male,Highly Engaged,Basic,746,Northeast,Chinese
+2/1/2024,35-49,Male,Highly Engaged,Enhanced,810,Northeast,English
+2/1/2024,35-49,Male,Highly Engaged,Premium,735,Northeast,English
+2/1/2024,35-49,Male,Reactive Engagers,Basic,790,Northeast,English
+2/1/2024,35-49,Male,Reactive Engagers,Enhanced,742,Northeast,English
+2/1/2024,35-49,Male,Reactive Engagers,Premium,736,South,Spanish
+2/1/2024,35-49,Male,Content & Complacent,Basic,764,West,English
+2/1/2024,35-49,Male,Content & Complacent,Enhanced,787,West,English
+2/1/2024,35-49,Male,Content & Complacent,Premium,793,South,English
+2/1/2024,35-49,Male,Unengaged,Basic,705,Northeast,English
+2/1/2024,35-49,Male,Unengaged,Enhanced,804,South,Vietnamese
+2/1/2024,35-49,Male,Unengaged,Premium,777,South,Spanish
+2/1/2024,35-49,Female,Highly Engaged,Basic,685,South,English
+2/1/2024,35-49,Female,Highly Engaged,Enhanced,763,Northeast,English
+2/1/2024,35-49,Female,Highly Engaged,Premium,689,Midwest,English
+2/1/2024,35-49,Female,Reactive Engagers,Basic,687,West,Spanish
+2/1/2024,35-49,Female,Reactive Engagers,Enhanced,790,Midwest,English
+2/1/2024,35-49,Female,Reactive Engagers,Premium,817,West,English
+2/1/2024,35-49,Female,Content & Complacent,Basic,827,Northeast,English
+2/1/2024,35-49,Female,Content & Complacent,Enhanced,686,Midwest,English
+2/1/2024,35-49,Female,Content & Complacent,Premium,794,Midwest,English
+2/1/2024,35-49,Female,Unengaged,Basic,760,Midwest,English
+2/1/2024,35-49,Female,Unengaged,Enhanced,704,Midwest,Chinese
+2/1/2024,35-49,Female,Unengaged,Premium,769,West,English
+2/1/2024,50-64,Male,Highly Engaged,Basic,795,West,English
+2/1/2024,50-64,Male,Highly Engaged,Enhanced,750,West,Spanish
+2/1/2024,50-64,Male,Highly Engaged,Premium,737,South,English
+2/1/2024,50-64,Male,Reactive Engagers,Basic,777,South,English
+2/1/2024,50-64,Male,Reactive Engagers,Enhanced,792,South,Spanish
+2/1/2024,50-64,Male,Reactive Engagers,Premium,675,Midwest,English
+2/1/2024,50-64,Male,Content & Complacent,Basic,829,Midwest,English
+2/1/2024,50-64,Male,Content & Complacent,Enhanced,816,West,Vietnamese
+2/1/2024,50-64,Male,Content & Complacent,Premium,800,Northeast,English
+2/1/2024,50-64,Male,Unengaged,Basic,778,Northeast,Spanish
+2/1/2024,50-64,Male,Unengaged,Enhanced,683,Northeast,English
+2/1/2024,50-64,Male,Unengaged,Premium,678,South,Spanish
+2/1/2024,50-64,Female,Highly Engaged,Basic,675,Midwest,English
+2/1/2024,50-64,Female,Highly Engaged,Enhanced,718,South,Spanish
+2/1/2024,50-64,Female,Highly Engaged,Premium,808,West,English
+2/1/2024,50-64,Female,Reactive Engagers,Basic,820,Northeast,Spanish
+2/1/2024,50-64,Female,Reactive Engagers,Enhanced,744,South,English
+2/1/2024,50-64,Female,Reactive Engagers,Premium,803,Northeast,Spanish
+2/1/2024,50-64,Female,Content & Complacent,Basic,682,West,English
+2/1/2024,50-64,Female,Content & Complacent,Enhanced,802,Midwest,English
+2/1/2024,50-64,Female,Content & Complacent,Premium,683,West,English
+2/1/2024,50-64,Female,Unengaged,Basic,788,South,Spanish
+2/1/2024,50-64,Female,Unengaged,Enhanced,756,Northeast,English
+2/1/2024,50-64,Female,Unengaged,Premium,688,West,English
+2/1/2024,65+,Male,Highly Engaged,Basic,800,Midwest,English
+2/1/2024,65+,Male,Highly Engaged,Enhanced,792,West,Vietnamese
+2/1/2024,65+,Male,Highly Engaged,Premium,673,West,English
+2/1/2024,65+,Male,Reactive Engagers,Basic,713,Midwest,English
+2/1/2024,65+,Male,Reactive Engagers,Enhanced,784,Northeast,English
+2/1/2024,65+,Male,Reactive Engagers,Premium,808,Northeast,English
+2/1/2024,65+,Male,Content & Complacent,Basic,678,Midwest,Spanish
+2/1/2024,65+,Male,Content & Complacent,Enhanced,693,South,English
+2/1/2024,65+,Male,Content & Complacent,Premium,727,Midwest,Vietnamese
+2/1/2024,65+,Male,Unengaged,Basic,834,South,Spanish
+2/1/2024,65+,Male,Unengaged,Enhanced,675,West,English
+2/1/2024,65+,Male,Unengaged,Premium,713,West,Chinese
+2/1/2024,65+,Female,Highly Engaged,Basic,684,West,English
+2/1/2024,65+,Female,Highly Engaged,Enhanced,792,Northeast,English
+2/1/2024,65+,Female,Highly Engaged,Premium,685,Northeast,English
+2/1/2024,65+,Female,Reactive Engagers,Basic,779,Northeast,English
+2/1/2024,65+,Female,Reactive Engagers,Enhanced,828,Northeast,English
+2/1/2024,65+,Female,Reactive Engagers,Premium,699,West,Vietnamese
+2/1/2024,65+,Female,Content & Complacent,Basic,683,Midwest,English
+2/1/2024,65+,Female,Content & Complacent,Enhanced,745,South,Spanish
+2/1/2024,65+,Female,Content & Complacent,Premium,694,Northeast,Spanish
+2/1/2024,65+,Female,Unengaged,Basic,755,Northeast,English
+2/1/2024,65+,Female,Unengaged,Enhanced,729,Midwest,Spanish
+2/1/2024,65+,Female,Unengaged,Premium,826,South,English
+3/1/2024,18-34,Male,Highly Engaged,Basic,121,South,Spanish
+3/1/2024,18-34,Male,Highly Engaged,Enhanced,125,Northeast,English
+3/1/2024,18-34,Male,Highly Engaged,Premium,179,West,English
+3/1/2024,18-34,Male,Reactive Engagers,Basic,146,Midwest,Spanish
+3/1/2024,18-34,Male,Reactive Engagers,Enhanced,188,Midwest,Vietnamese
+3/1/2024,18-34,Male,Reactive Engagers,Premium,154,Northeast,Spanish
+3/1/2024,18-34,Male,Content & Complacent,Basic,220,Midwest,English
+3/1/2024,18-34,Male,Content & Complacent,Enhanced,206,West,Spanish
+3/1/2024,18-34,Male,Content & Complacent,Premium,187,Midwest,English
+3/1/2024,18-34,Male,Unengaged,Basic,161,South,Vietnamese
+3/1/2024,18-34,Male,Unengaged,Enhanced,199,West,English
+3/1/2024,18-34,Male,Unengaged,Premium,171,Northeast,English
+3/1/2024,18-34,Female,Highly Engaged,Basic,171,Northeast,Spanish
+3/1/2024,18-34,Female,Highly Engaged,Enhanced,185,West,English
+3/1/2024,18-34,Female,Highly Engaged,Premium,157,West,Spanish
+3/1/2024,18-34,Female,Reactive Engagers,Basic,125,Midwest,Spanish
+3/1/2024,18-34,Female,Reactive Engagers,Enhanced,172,West,Spanish
+3/1/2024,18-34,Female,Reactive Engagers,Premium,121,Northeast,English
+3/1/2024,18-34,Female,Content & Complacent,Basic,165,West,English
+3/1/2024,18-34,Female,Content & Complacent,Enhanced,105,Midwest,English
+3/1/2024,18-34,Female,Content & Complacent,Premium,128,Northeast,English
+3/1/2024,18-34,Female,Unengaged,Basic,129,Midwest,English
+3/1/2024,18-34,Female,Unengaged,Enhanced,154,South,English
+3/1/2024,18-34,Female,Unengaged,Premium,202,Midwest,English
+3/1/2024,35-49,Male,Highly Engaged,Basic,206,West,English
+3/1/2024,35-49,Male,Highly Engaged,Enhanced,188,South,English
+3/1/2024,35-49,Male,Highly Engaged,Premium,172,South,English
+3/1/2024,35-49,Male,Reactive Engagers,Basic,163,South,Chinese
+3/1/2024,35-49,Male,Reactive Engagers,Enhanced,136,South,Spanish
+3/1/2024,35-49,Male,Reactive Engagers,Premium,150,South,English
+3/1/2024,35-49,Male,Content & Complacent,Basic,212,South,Vietnamese
+3/1/2024,35-49,Male,Content & Complacent,Enhanced,123,South,English
+3/1/2024,35-49,Male,Content & Complacent,Premium,141,Northeast,English
+3/1/2024,35-49,Male,Unengaged,Basic,201,Midwest,English
+3/1/2024,35-49,Male,Unengaged,Enhanced,166,Northeast,English
+3/1/2024,35-49,Male,Unengaged,Premium,114,South,English
+3/1/2024,35-49,Female,Highly Engaged,Basic,151,West,English
+3/1/2024,35-49,Female,Highly Engaged,Enhanced,112,Northeast,English
+3/1/2024,35-49,Female,Highly Engaged,Premium,141,West,English
+3/1/2024,35-49,Female,Reactive Engagers,Basic,194,Northeast,English
+3/1/2024,35-49,Female,Reactive Engagers,Enhanced,156,West,English
+3/1/2024,35-49,Female,Reactive Engagers,Premium,129,South,Spanish
+3/1/2024,35-49,Female,Content & Complacent,Basic,139,West,Spanish
+3/1/2024,35-49,Female,Content & Complacent,Enhanced,206,West,Spanish
+3/1/2024,35-49,Female,Content & Complacent,Premium,129,Midwest,English
+3/1/2024,35-49,Female,Unengaged,Basic,191,South,Spanish
+3/1/2024,35-49,Female,Unengaged,Enhanced,156,Northeast,English
+3/1/2024,35-49,Female,Unengaged,Premium,194,South,English
+3/1/2024,50-64,Male,Highly Engaged,Basic,199,West,English
+3/1/2024,50-64,Male,Highly Engaged,Enhanced,178,Northeast,English
+3/1/2024,50-64,Male,Highly Engaged,Premium,109,West,English
+3/1/2024,50-64,Male,Reactive Engagers,Basic,135,South,English
+3/1/2024,50-64,Male,Reactive Engagers,Enhanced,159,South,English
+3/1/2024,50-64,Male,Reactive Engagers,Premium,151,West,Spanish
+3/1/2024,50-64,Male,Content & Complacent,Basic,188,Midwest,English
+3/1/2024,50-64,Male,Content & Complacent,Enhanced,122,Northeast,English
+3/1/2024,50-64,Male,Content & Complacent,Premium,140,Northeast,English
+3/1/2024,50-64,Male,Unengaged,Basic,162,South,English
+3/1/2024,50-64,Male,Unengaged,Enhanced,191,Northeast,English
+3/1/2024,50-64,Male,Unengaged,Premium,163,South,English
+3/1/2024,50-64,Female,Highly Engaged,Basic,186,Northeast,English
+3/1/2024,50-64,Female,Highly Engaged,Enhanced,174,Midwest,English
+3/1/2024,50-64,Female,Highly Engaged,Premium,210,Northeast,English
+3/1/2024,50-64,Female,Reactive Engagers,Basic,128,South,English
+3/1/2024,50-64,Female,Reactive Engagers,Enhanced,183,Northeast,English
+3/1/2024,50-64,Female,Reactive Engagers,Premium,148,West,English
+3/1/2024,50-64,Female,Content & Complacent,Basic,123,West,Chinese
+3/1/2024,50-64,Female,Content & Complacent,Enhanced,132,Northeast,English
+3/1/2024,50-64,Female,Content & Complacent,Premium,177,Midwest,English
+3/1/2024,50-64,Female,Unengaged,Basic,136,Northeast,English
+3/1/2024,50-64,Female,Unengaged,Enhanced,167,Northeast,English
+3/1/2024,50-64,Female,Unengaged,Premium,205,Northeast,English
+3/1/2024,65+,Male,Highly Engaged,Basic,207,Northeast,English
+3/1/2024,65+,Male,Highly Engaged,Enhanced,155,South,Spanish
+3/1/2024,65+,Male,Highly Engaged,Premium,166,West,English
+3/1/2024,65+,Male,Reactive Engagers,Basic,170,Northeast,English
+3/1/2024,65+,Male,Reactive Engagers,Enhanced,231,South,English
+3/1/2024,65+,Male,Reactive Engagers,Premium,186,Midwest,English
+3/1/2024,65+,Male,Content & Complacent,Basic,164,Northeast,Chinese
+3/1/2024,65+,Male,Content & Complacent,Enhanced,175,Northeast,English
+3/1/2024,65+,Male,Content & Complacent,Premium,191,Midwest,English
+3/1/2024,65+,Male,Unengaged,Basic,171,Northeast,English
+3/1/2024,65+,Male,Unengaged,Enhanced,121,Midwest,English
+3/1/2024,65+,Male,Unengaged,Premium,189,West,English
+3/1/2024,65+,Female,Highly Engaged,Basic,116,Northeast,English
+3/1/2024,65+,Female,Highly Engaged,Enhanced,178,Midwest,English
+3/1/2024,65+,Female,Highly Engaged,Premium,175,Northeast,English
+3/1/2024,65+,Female,Reactive Engagers,Basic,198,South,Chinese
+3/1/2024,65+,Female,Reactive Engagers,Enhanced,204,Northeast,English
+3/1/2024,65+,Female,Reactive Engagers,Premium,189,Midwest,Vietnamese
+3/1/2024,65+,Female,Content & Complacent,Basic,167,Northeast,English
+3/1/2024,65+,Female,Content & Complacent,Enhanced,143,West,Spanish
+3/1/2024,65+,Female,Content & Complacent,Premium,163,South,English
+3/1/2024,65+,Female,Unengaged,Basic,210,South,English
+3/1/2024,65+,Female,Unengaged,Enhanced,233,Midwest,English
+3/1/2024,65+,Female,Unengaged,Premium,147,Midwest,Spanish
+4/1/2024,18-34,Male,Highly Engaged,Basic,129,West,English
+4/1/2024,18-34,Male,Highly Engaged,Enhanced,113,Midwest,English
+4/1/2024,18-34,Male,Highly Engaged,Premium,184,Northeast,English
+4/1/2024,18-34,Male,Reactive Engagers,Basic,217,Midwest,English
+4/1/2024,18-34,Male,Reactive Engagers,Enhanced,153,West,English
+4/1/2024,18-34,Male,Reactive Engagers,Premium,185,Northeast,Chinese
+4/1/2024,18-34,Male,Content & Complacent,Basic,211,Northeast,English
+4/1/2024,18-34,Male,Content & Complacent,Enhanced,154,South,English
+4/1/2024,18-34,Male,Content & Complacent,Premium,201,Northeast,English
+4/1/2024,18-34,Male,Unengaged,Basic,169,West,Spanish
+4/1/2024,18-34,Male,Unengaged,Enhanced,168,South,English
+4/1/2024,18-34,Male,Unengaged,Premium,132,Midwest,English
+4/1/2024,18-34,Female,Highly Engaged,Basic,119,West,Vietnamese
+4/1/2024,18-34,Female,Highly Engaged,Enhanced,148,Northeast,Spanish
+4/1/2024,18-34,Female,Highly Engaged,Premium,146,West,English
+4/1/2024,18-34,Female,Reactive Engagers,Basic,139,South,Spanish
+4/1/2024,18-34,Female,Reactive Engagers,Enhanced,128,Midwest,English
+4/1/2024,18-34,Female,Reactive Engagers,Premium,121,South,English
+4/1/2024,18-34,Female,Content & Complacent,Basic,182,West,English
+4/1/2024,18-34,Female,Content & Complacent,Enhanced,173,Northeast,English
+4/1/2024,18-34,Female,Content & Complacent,Premium,133,West,English
+4/1/2024,18-34,Female,Unengaged,Basic,123,West,English
+4/1/2024,18-34,Female,Unengaged,Enhanced,179,South,Vietnamese
+4/1/2024,18-34,Female,Unengaged,Premium,190,Northeast,English
+4/1/2024,35-49,Male,Highly Engaged,Basic,181,West,English
+4/1/2024,35-49,Male,Highly Engaged,Enhanced,204,West,English
+4/1/2024,35-49,Male,Highly Engaged,Premium,117,Midwest,Spanish
+4/1/2024,35-49,Male,Reactive Engagers,Basic,173,South,English
+4/1/2024,35-49,Male,Reactive Engagers,Enhanced,215,West,Spanish
+4/1/2024,35-49,Male,Reactive Engagers,Premium,155,South,English
+4/1/2024,35-49,Male,Content & Complacent,Basic,162,South,English
+4/1/2024,35-49,Male,Content & Complacent,Enhanced,121,West,English
+4/1/2024,35-49,Male,Content & Complacent,Premium,146,West,Spanish
+4/1/2024,35-49,Male,Unengaged,Basic,175,South,English
+4/1/2024,35-49,Male,Unengaged,Enhanced,207,South,English
+4/1/2024,35-49,Male,Unengaged,Premium,205,South,English
+4/1/2024,35-49,Female,Highly Engaged,Basic,203,South,English
+4/1/2024,35-49,Female,Highly Engaged,Enhanced,146,South,English
+4/1/2024,35-49,Female,Highly Engaged,Premium,179,West,English
+4/1/2024,35-49,Female,Reactive Engagers,Basic,117,Midwest,English
+4/1/2024,35-49,Female,Reactive Engagers,Enhanced,143,West,Spanish
+4/1/2024,35-49,Female,Reactive Engagers,Premium,114,Midwest,Spanish
+4/1/2024,35-49,Female,Content & Complacent,Basic,132,West,English
+4/1/2024,35-49,Female,Content & Complacent,Enhanced,210,West,English
+4/1/2024,35-49,Female,Content & Complacent,Premium,150,Midwest,English
+4/1/2024,35-49,Female,Unengaged,Basic,185,Midwest,English
+4/1/2024,35-49,Female,Unengaged,Enhanced,215,South,English
+4/1/2024,35-49,Female,Unengaged,Premium,138,Midwest,Spanish
+4/1/2024,50-64,Male,Highly Engaged,Basic,186,Midwest,English
+4/1/2024,50-64,Male,Highly Engaged,Enhanced,199,Northeast,English
+4/1/2024,50-64,Male,Highly Engaged,Premium,141,South,English
+4/1/2024,50-64,Male,Reactive Engagers,Basic,150,West,Spanish
+4/1/2024,50-64,Male,Reactive Engagers,Enhanced,197,South,English
+4/1/2024,50-64,Male,Reactive Engagers,Premium,189,Midwest,English
+4/1/2024,50-64,Male,Content & Complacent,Basic,135,West,Spanish
+4/1/2024,50-64,Male,Content & Complacent,Enhanced,158,West,English
+4/1/2024,50-64,Male,Content & Complacent,Premium,127,Northeast,English
+4/1/2024,50-64,Male,Unengaged,Basic,192,Midwest,English
+4/1/2024,50-64,Male,Unengaged,Enhanced,196,South,English
+4/1/2024,50-64,Male,Unengaged,Premium,176,West,English
+4/1/2024,50-64,Female,Highly Engaged,Basic,216,Northeast,English
+4/1/2024,50-64,Female,Highly Engaged,Enhanced,175,Midwest,Spanish
+4/1/2024,50-64,Female,Highly Engaged,Premium,180,West,English
+4/1/2024,50-64,Female,Reactive Engagers,Basic,113,Midwest,English
+4/1/2024,50-64,Female,Reactive Engagers,Enhanced,132,Midwest,English
+4/1/2024,50-64,Female,Reactive Engagers,Premium,188,Northeast,Vietnamese
+4/1/2024,50-64,Female,Content & Complacent,Basic,187,South,English
+4/1/2024,50-64,Female,Content & Complacent,Enhanced,201,Midwest,English
+4/1/2024,50-64,Female,Content & Complacent,Premium,138,Midwest,English
+4/1/2024,50-64,Female,Unengaged,Basic,160,West,English
+4/1/2024,50-64,Female,Unengaged,Enhanced,202,South,English
+4/1/2024,50-64,Female,Unengaged,Premium,119,Midwest,English
+4/1/2024,65+,Male,Highly Engaged,Basic,163,South,English
+4/1/2024,65+,Male,Highly Engaged,Enhanced,110,South,English
+4/1/2024,65+,Male,Highly Engaged,Premium,141,Northeast,English
+4/1/2024,65+,Male,Reactive Engagers,Basic,202,Midwest,English
+4/1/2024,65+,Male,Reactive Engagers,Enhanced,113,Midwest,English
+4/1/2024,65+,Male,Reactive Engagers,Premium,212,Midwest,Spanish
+4/1/2024,65+,Male,Content & Complacent,Basic,231,Northeast,Vietnamese
+4/1/2024,65+,Male,Content & Complacent,Enhanced,191,Northeast,Vietnamese
+4/1/2024,65+,Male,Content & Complacent,Premium,171,Northeast,English
+4/1/2024,65+,Male,Unengaged,Basic,121,South,English
+4/1/2024,65+,Male,Unengaged,Enhanced,148,Midwest,English
+4/1/2024,65+,Male,Unengaged,Premium,170,Midwest,English
+4/1/2024,65+,Female,Highly Engaged,Basic,135,Northeast,Spanish
+4/1/2024,65+,Female,Highly Engaged,Enhanced,180,West,English
+4/1/2024,65+,Female,Highly Engaged,Premium,165,Northeast,English
+4/1/2024,65+,Female,Reactive Engagers,Basic,158,South,English
+4/1/2024,65+,Female,Reactive Engagers,Enhanced,180,Midwest,Spanish
+4/1/2024,65+,Female,Reactive Engagers,Premium,191,West,English
+4/1/2024,65+,Female,Content & Complacent,Basic,163,Midwest,Spanish
+4/1/2024,65+,Female,Content & Complacent,Enhanced,129,Northeast,English
+4/1/2024,65+,Female,Content & Complacent,Premium,180,Midwest,English
+4/1/2024,65+,Female,Unengaged,Basic,127,Midwest,English
+4/1/2024,65+,Female,Unengaged,Enhanced,112,West,English
+4/1/2024,65+,Female,Unengaged,Premium,162,Midwest,Chinese
+5/1/2024,18-34,Male,Highly Engaged,Basic,144,Midwest,Spanish
+5/1/2024,18-34,Male,Highly Engaged,Enhanced,126,South,Spanish
+5/1/2024,18-34,Male,Highly Engaged,Premium,187,South,English
+5/1/2024,18-34,Male,Reactive Engagers,Basic,131,Midwest,English
+5/1/2024,18-34,Male,Reactive Engagers,Enhanced,121,Northeast,English
+5/1/2024,18-34,Male,Reactive Engagers,Premium,158,Midwest,English
+5/1/2024,18-34,Male,Content & Complacent,Basic,111,Northeast,English
+5/1/2024,18-34,Male,Content & Complacent,Enhanced,122,South,English
+5/1/2024,18-34,Male,Content & Complacent,Premium,153,Northeast,English
+5/1/2024,18-34,Male,Unengaged,Basic,154,South,English
+5/1/2024,18-34,Male,Unengaged,Enhanced,198,West,English
+5/1/2024,18-34,Male,Unengaged,Premium,145,West,English
+5/1/2024,18-34,Female,Highly Engaged,Basic,155,Midwest,Spanish
+5/1/2024,18-34,Female,Highly Engaged,Enhanced,180,South,English
+5/1/2024,18-34,Female,Highly Engaged,Premium,169,Midwest,Vietnamese
+5/1/2024,18-34,Female,Reactive Engagers,Basic,205,Northeast,English
+5/1/2024,18-34,Female,Reactive Engagers,Enhanced,209,Midwest,English
+5/1/2024,18-34,Female,Reactive Engagers,Premium,117,West,English
+5/1/2024,18-34,Female,Content & Complacent,Basic,174,Midwest,English
+5/1/2024,18-34,Female,Content & Complacent,Enhanced,126,Northeast,Spanish
+5/1/2024,18-34,Female,Content & Complacent,Premium,163,South,English
+5/1/2024,18-34,Female,Unengaged,Basic,194,Northeast,English
+5/1/2024,18-34,Female,Unengaged,Enhanced,184,West,English
+5/1/2024,18-34,Female,Unengaged,Premium,148,Midwest,Spanish
+5/1/2024,35-49,Male,Highly Engaged,Basic,120,South,Spanish
+5/1/2024,35-49,Male,Highly Engaged,Enhanced,191,South,Vietnamese
+5/1/2024,35-49,Male,Highly Engaged,Premium,158,Midwest,English
+5/1/2024,35-49,Male,Reactive Engagers,Basic,129,South,English
+5/1/2024,35-49,Male,Reactive Engagers,Enhanced,122,West,English
+5/1/2024,35-49,Male,Reactive Engagers,Premium,109,Northeast,Spanish
+5/1/2024,35-49,Male,Content & Complacent,Basic,208,South,English
+5/1/2024,35-49,Male,Content & Complacent,Enhanced,143,West,Spanish
+5/1/2024,35-49,Male,Content & Complacent,Premium,176,Midwest,Spanish
+5/1/2024,35-49,Male,Unengaged,Basic,162,Midwest,English
+5/1/2024,35-49,Male,Unengaged,Enhanced,112,Northeast,English
+5/1/2024,35-49,Male,Unengaged,Premium,177,South,English
+5/1/2024,35-49,Female,Highly Engaged,Basic,156,Northeast,English
+5/1/2024,35-49,Female,Highly Engaged,Enhanced,219,South,English
+5/1/2024,35-49,Female,Highly Engaged,Premium,191,Northeast,Spanish
+5/1/2024,35-49,Female,Reactive Engagers,Basic,127,South,English
+5/1/2024,35-49,Female,Reactive Engagers,Enhanced,159,Northeast,English
+5/1/2024,35-49,Female,Reactive Engagers,Premium,196,West,Spanish
+5/1/2024,35-49,Female,Content & Complacent,Basic,171,Northeast,English
+5/1/2024,35-49,Female,Content & Complacent,Enhanced,181,West,English
+5/1/2024,35-49,Female,Content & Complacent,Premium,202,Midwest,English
+5/1/2024,35-49,Female,Unengaged,Basic,131,West,English
+5/1/2024,35-49,Female,Unengaged,Enhanced,176,Midwest,Spanish
+5/1/2024,35-49,Female,Unengaged,Premium,175,Midwest,Spanish
+5/1/2024,50-64,Male,Highly Engaged,Basic,110,West,Spanish
+5/1/2024,50-64,Male,Highly Engaged,Enhanced,206,Midwest,English
+5/1/2024,50-64,Male,Highly Engaged,Premium,184,South,Spanish
+5/1/2024,50-64,Male,Reactive Engagers,Basic,195,Midwest,English
+5/1/2024,50-64,Male,Reactive Engagers,Enhanced,114,South,English
+5/1/2024,50-64,Male,Reactive Engagers,Premium,191,Northeast,Chinese
+5/1/2024,50-64,Male,Content & Complacent,Basic,145,South,Spanish
+5/1/2024,50-64,Male,Content & Complacent,Enhanced,124,South,English
+5/1/2024,50-64,Male,Content & Complacent,Premium,151,Northeast,English
+5/1/2024,50-64,Male,Unengaged,Basic,167,South,English
+5/1/2024,50-64,Male,Unengaged,Enhanced,196,South,English
+5/1/2024,50-64,Male,Unengaged,Premium,167,West,English
+5/1/2024,50-64,Female,Highly Engaged,Basic,227,South,English
+5/1/2024,50-64,Female,Highly Engaged,Enhanced,214,South,Spanish
+5/1/2024,50-64,Female,Highly Engaged,Premium,186,South,Spanish
+5/1/2024,50-64,Female,Reactive Engagers,Basic,216,Midwest,English
+5/1/2024,50-64,Female,Reactive Engagers,Enhanced,103,Northeast,English
+5/1/2024,50-64,Female,Reactive Engagers,Premium,127,West,English
+5/1/2024,50-64,Female,Content & Complacent,Basic,126,Midwest,English
+5/1/2024,50-64,Female,Content & Complacent,Enhanced,159,Midwest,English
+5/1/2024,50-64,Female,Content & Complacent,Premium,134,South,English
+5/1/2024,50-64,Female,Unengaged,Basic,213,South,English
+5/1/2024,50-64,Female,Unengaged,Enhanced,125,West,Spanish
+5/1/2024,50-64,Female,Unengaged,Premium,189,South,English
+5/1/2024,65+,Male,Highly Engaged,Basic,106,Northeast,Spanish
+5/1/2024,65+,Male,Highly Engaged,Enhanced,123,Northeast,English
+5/1/2024,65+,Male,Highly Engaged,Premium,216,Northeast,English
+5/1/2024,65+,Male,Reactive Engagers,Basic,187,South,English
+5/1/2024,65+,Male,Reactive Engagers,Enhanced,161,West,English
+5/1/2024,65+,Male,Reactive Engagers,Premium,135,Northeast,English
+5/1/2024,65+,Male,Content & Complacent,Basic,108,Midwest,Chinese
+5/1/2024,65+,Male,Content & Complacent,Enhanced,208,South,English
+5/1/2024,65+,Male,Content & Complacent,Premium,117,South,English
+5/1/2024,65+,Male,Unengaged,Basic,174,Midwest,English
+5/1/2024,65+,Male,Unengaged,Enhanced,165,West,English
+5/1/2024,65+,Male,Unengaged,Premium,127,South,English
+5/1/2024,65+,Female,Highly Engaged,Basic,159,South,English
+5/1/2024,65+,Female,Highly Engaged,Enhanced,107,Midwest,English
+5/1/2024,65+,Female,Highly Engaged,Premium,167,Midwest,English
+5/1/2024,65+,Female,Reactive Engagers,Basic,172,South,English
+5/1/2024,65+,Female,Reactive Engagers,Enhanced,141,Northeast,English
+5/1/2024,65+,Female,Reactive Engagers,Premium,129,West,Spanish
+5/1/2024,65+,Female,Content & Complacent,Basic,137,West,English
+5/1/2024,65+,Female,Content & Complacent,Enhanced,210,Midwest,English
+5/1/2024,65+,Female,Content & Complacent,Premium,161,Midwest,Spanish
+5/1/2024,65+,Female,Unengaged,Basic,124,Midwest,English
+5/1/2024,65+,Female,Unengaged,Enhanced,190,West,English
+5/1/2024,65+,Female,Unengaged,Premium,177,South,English
+6/1/2024,18-34,Male,Highly Engaged,Basic,163,Midwest,English
+6/1/2024,18-34,Male,Highly Engaged,Enhanced,159,South,English
+6/1/2024,18-34,Male,Highly Engaged,Premium,128,South,English
+6/1/2024,18-34,Male,Reactive Engagers,Basic,202,Midwest,English
+6/1/2024,18-34,Male,Reactive Engagers,Enhanced,160,West,English
+6/1/2024,18-34,Male,Reactive Engagers,Premium,180,Northeast,English
+6/1/2024,18-34,Male,Content & Complacent,Basic,212,Midwest,English
+6/1/2024,18-34,Male,Content & Complacent,Enhanced,120,Midwest,Chinese
+6/1/2024,18-34,Male,Content & Complacent,Premium,189,South,English
+6/1/2024,18-34,Male,Unengaged,Basic,165,West,Spanish
+6/1/2024,18-34,Male,Unengaged,Enhanced,224,West,English
+6/1/2024,18-34,Male,Unengaged,Premium,160,West,English
+6/1/2024,18-34,Female,Highly Engaged,Basic,196,West,English
+6/1/2024,18-34,Female,Highly Engaged,Enhanced,130,Midwest,English
+6/1/2024,18-34,Female,Highly Engaged,Premium,134,Northeast,English
+6/1/2024,18-34,Female,Reactive Engagers,Basic,122,South,English
+6/1/2024,18-34,Female,Reactive Engagers,Enhanced,114,Northeast,Spanish
+6/1/2024,18-34,Female,Reactive Engagers,Premium,134,West,English
+6/1/2024,18-34,Female,Content & Complacent,Basic,201,South,English
+6/1/2024,18-34,Female,Content & Complacent,Enhanced,163,Northeast,English
+6/1/2024,18-34,Female,Content & Complacent,Premium,125,South,English
+6/1/2024,18-34,Female,Unengaged,Basic,150,West,English
+6/1/2024,18-34,Female,Unengaged,Enhanced,203,Northeast,English
+6/1/2024,18-34,Female,Unengaged,Premium,194,Northeast,English
+6/1/2024,35-49,Male,Highly Engaged,Basic,165,West,Spanish
+6/1/2024,35-49,Male,Highly Engaged,Enhanced,125,Midwest,English
+6/1/2024,35-49,Male,Highly Engaged,Premium,185,West,Vietnamese
+6/1/2024,35-49,Male,Reactive Engagers,Basic,194,South,English
+6/1/2024,35-49,Male,Reactive Engagers,Enhanced,142,West,English
+6/1/2024,35-49,Male,Reactive Engagers,Premium,223,South,English
+6/1/2024,35-49,Male,Content & Complacent,Basic,208,Northeast,English
+6/1/2024,35-49,Male,Content & Complacent,Enhanced,174,West,English
+6/1/2024,35-49,Male,Content & Complacent,Premium,183,Northeast,English
+6/1/2024,35-49,Male,Unengaged,Basic,165,Northeast,English
+6/1/2024,35-49,Male,Unengaged,Enhanced,126,Midwest,English
+6/1/2024,35-49,Male,Unengaged,Premium,150,Midwest,English
+6/1/2024,35-49,Female,Highly Engaged,Basic,115,Northeast,English
+6/1/2024,35-49,Female,Highly Engaged,Enhanced,208,Northeast,English
+6/1/2024,35-49,Female,Highly Engaged,Premium,233,South,English
+6/1/2024,35-49,Female,Reactive Engagers,Basic,180,Midwest,Spanish
+6/1/2024,35-49,Female,Reactive Engagers,Enhanced,183,West,English
+6/1/2024,35-49,Female,Reactive Engagers,Premium,116,Midwest,English
+6/1/2024,35-49,Female,Content & Complacent,Basic,111,Midwest,English
+6/1/2024,35-49,Female,Content & Complacent,Enhanced,125,West,English
+6/1/2024,35-49,Female,Content & Complacent,Premium,173,Northeast,English
+6/1/2024,35-49,Female,Unengaged,Basic,141,Midwest,English
+6/1/2024,35-49,Female,Unengaged,Enhanced,187,Midwest,Chinese
+6/1/2024,35-49,Female,Unengaged,Premium,156,West,Spanish
+6/1/2024,50-64,Male,Highly Engaged,Basic,167,West,Chinese
+6/1/2024,50-64,Male,Highly Engaged,Enhanced,205,West,English
+6/1/2024,50-64,Male,Highly Engaged,Premium,235,Northeast,English
+6/1/2024,50-64,Male,Reactive Engagers,Basic,191,Midwest,Spanish
+6/1/2024,50-64,Male,Reactive Engagers,Enhanced,124,Northeast,Vietnamese
+6/1/2024,50-64,Male,Reactive Engagers,Premium,131,Midwest,English
+6/1/2024,50-64,Male,Content & Complacent,Basic,134,South,English
+6/1/2024,50-64,Male,Content & Complacent,Enhanced,125,West,English
+6/1/2024,50-64,Male,Content & Complacent,Premium,187,Northeast,English
+6/1/2024,50-64,Male,Unengaged,Basic,152,West,English
+6/1/2024,50-64,Male,Unengaged,Enhanced,179,West,English
+6/1/2024,50-64,Male,Unengaged,Premium,152,West,Vietnamese
+6/1/2024,50-64,Female,Highly Engaged,Basic,159,West,Spanish
+6/1/2024,50-64,Female,Highly Engaged,Enhanced,164,South,English
+6/1/2024,50-64,Female,Highly Engaged,Premium,202,West,English
+6/1/2024,50-64,Female,Reactive Engagers,Basic,187,South,Spanish
+6/1/2024,50-64,Female,Reactive Engagers,Enhanced,184,West,English
+6/1/2024,50-64,Female,Reactive Engagers,Premium,168,West,English
+6/1/2024,50-64,Female,Content & Complacent,Basic,124,Northeast,English
+6/1/2024,50-64,Female,Content & Complacent,Enhanced,190,West,English
+6/1/2024,50-64,Female,Content & Complacent,Premium,188,Midwest,English
+6/1/2024,50-64,Female,Unengaged,Basic,135,West,English
+6/1/2024,50-64,Female,Unengaged,Enhanced,211,South,English
+6/1/2024,50-64,Female,Unengaged,Premium,125,Northeast,Spanish
+6/1/2024,65+,Male,Highly Engaged,Basic,227,West,Vietnamese
+6/1/2024,65+,Male,Highly Engaged,Enhanced,176,South,English
+6/1/2024,65+,Male,Highly Engaged,Premium,193,Midwest,English
+6/1/2024,65+,Male,Reactive Engagers,Basic,159,South,Chinese
+6/1/2024,65+,Male,Reactive Engagers,Enhanced,177,Midwest,Vietnamese
+6/1/2024,65+,Male,Reactive Engagers,Premium,116,South,English
+6/1/2024,65+,Male,Content & Complacent,Basic,133,South,Spanish
+6/1/2024,65+,Male,Content & Complacent,Enhanced,118,Northeast,Vietnamese
+6/1/2024,65+,Male,Content & Complacent,Premium,126,South,English
+6/1/2024,65+,Male,Unengaged,Basic,184,South,English
+6/1/2024,65+,Male,Unengaged,Enhanced,132,Northeast,English
+6/1/2024,65+,Male,Unengaged,Premium,140,West,English
+6/1/2024,65+,Female,Highly Engaged,Basic,104,South,English
+6/1/2024,65+,Female,Highly Engaged,Enhanced,191,Northeast,Spanish
+6/1/2024,65+,Female,Highly Engaged,Premium,225,Northeast,Chinese
+6/1/2024,65+,Female,Reactive Engagers,Basic,178,Midwest,Spanish
+6/1/2024,65+,Female,Reactive Engagers,Enhanced,147,West,English
+6/1/2024,65+,Female,Reactive Engagers,Premium,183,Midwest,English
+6/1/2024,65+,Female,Content & Complacent,Basic,147,Northeast,English
+6/1/2024,65+,Female,Content & Complacent,Enhanced,155,South,English
+6/1/2024,65+,Female,Content & Complacent,Premium,210,Midwest,Spanish
+6/1/2024,65+,Female,Unengaged,Basic,193,West,English
+6/1/2024,65+,Female,Unengaged,Enhanced,219,West,English
+6/1/2024,65+,Female,Unengaged,Premium,171,Midwest,English
+7/1/2024,18-34,Male,Highly Engaged,Basic,178,Northeast,English
+7/1/2024,18-34,Male,Highly Engaged,Enhanced,205,South,English
+7/1/2024,18-34,Male,Highly Engaged,Premium,110,Midwest,English
+7/1/2024,18-34,Male,Reactive Engagers,Basic,156,Midwest,Spanish
+7/1/2024,18-34,Male,Reactive Engagers,Enhanced,215,Northeast,Spanish
+7/1/2024,18-34,Male,Reactive Engagers,Premium,184,Midwest,Spanish
+7/1/2024,18-34,Male,Content & Complacent,Basic,176,West,English
+7/1/2024,18-34,Male,Content & Complacent,Enhanced,164,West,Spanish
+7/1/2024,18-34,Male,Content & Complacent,Premium,220,West,Spanish
+7/1/2024,18-34,Male,Unengaged,Basic,137,West,English
+7/1/2024,18-34,Male,Unengaged,Enhanced,199,Midwest,Spanish
+7/1/2024,18-34,Male,Unengaged,Premium,145,Midwest,English
+7/1/2024,18-34,Female,Highly Engaged,Basic,157,Northeast,English
+7/1/2024,18-34,Female,Highly Engaged,Enhanced,164,Midwest,English
+7/1/2024,18-34,Female,Highly Engaged,Premium,188,West,English
+7/1/2024,18-34,Female,Reactive Engagers,Basic,147,West,English
+7/1/2024,18-34,Female,Reactive Engagers,Enhanced,168,West,Chinese
+7/1/2024,18-34,Female,Reactive Engagers,Premium,149,West,Spanish
+7/1/2024,18-34,Female,Content & Complacent,Basic,117,Northeast,English
+7/1/2024,18-34,Female,Content & Complacent,Enhanced,146,Midwest,English
+7/1/2024,18-34,Female,Content & Complacent,Premium,111,Midwest,Chinese
+7/1/2024,18-34,Female,Unengaged,Basic,147,Midwest,English
+7/1/2024,18-34,Female,Unengaged,Enhanced,214,South,Vietnamese
+7/1/2024,18-34,Female,Unengaged,Premium,186,Northeast,Spanish
+7/1/2024,35-49,Male,Highly Engaged,Basic,194,South,Spanish
+7/1/2024,35-49,Male,Highly Engaged,Enhanced,201,South,English
+7/1/2024,35-49,Male,Highly Engaged,Premium,113,Northeast,English
+7/1/2024,35-49,Male,Reactive Engagers,Basic,173,Midwest,English
+7/1/2024,35-49,Male,Reactive Engagers,Enhanced,114,Northeast,English
+7/1/2024,35-49,Male,Reactive Engagers,Premium,158,Northeast,Spanish
+7/1/2024,35-49,Male,Content & Complacent,Basic,113,West,English
+7/1/2024,35-49,Male,Content & Complacent,Enhanced,152,South,English
+7/1/2024,35-49,Male,Content & Complacent,Premium,233,Midwest,English
+7/1/2024,35-49,Male,Unengaged,Basic,152,South,English
+7/1/2024,35-49,Male,Unengaged,Enhanced,174,Midwest,Spanish
+7/1/2024,35-49,Male,Unengaged,Premium,212,South,English
+7/1/2024,35-49,Female,Highly Engaged,Basic,117,South,English
+7/1/2024,35-49,Female,Highly Engaged,Enhanced,195,Midwest,Spanish
+7/1/2024,35-49,Female,Highly Engaged,Premium,184,South,Spanish
+7/1/2024,35-49,Female,Reactive Engagers,Basic,222,Northeast,Spanish
+7/1/2024,35-49,Female,Reactive Engagers,Enhanced,170,Midwest,English
+7/1/2024,35-49,Female,Reactive Engagers,Premium,188,Midwest,English
+7/1/2024,35-49,Female,Content & Complacent,Basic,146,West,English
+7/1/2024,35-49,Female,Content & Complacent,Enhanced,128,South,Spanish
+7/1/2024,35-49,Female,Content & Complacent,Premium,155,South,English
+7/1/2024,35-49,Female,Unengaged,Basic,110,South,English
+7/1/2024,35-49,Female,Unengaged,Enhanced,135,South,English
+7/1/2024,35-49,Female,Unengaged,Premium,221,Midwest,English
+7/1/2024,50-64,Male,Highly Engaged,Basic,198,West,Vietnamese
+7/1/2024,50-64,Male,Highly Engaged,Enhanced,218,South,English
+7/1/2024,50-64,Male,Highly Engaged,Premium,155,Northeast,English
+7/1/2024,50-64,Male,Reactive Engagers,Basic,134,South,English
+7/1/2024,50-64,Male,Reactive Engagers,Enhanced,222,West,Chinese
+7/1/2024,50-64,Male,Reactive Engagers,Premium,119,Midwest,Spanish
+7/1/2024,50-64,Male,Content & Complacent,Basic,119,West,English
+7/1/2024,50-64,Male,Content & Complacent,Enhanced,171,South,Spanish
+7/1/2024,50-64,Male,Content & Complacent,Premium,185,Midwest,English
+7/1/2024,50-64,Male,Unengaged,Basic,212,Northeast,English
+7/1/2024,50-64,Male,Unengaged,Enhanced,147,South,Vietnamese
+7/1/2024,50-64,Male,Unengaged,Premium,198,Midwest,Spanish
+7/1/2024,50-64,Female,Highly Engaged,Basic,164,West,English
+7/1/2024,50-64,Female,Highly Engaged,Enhanced,187,South,English
+7/1/2024,50-64,Female,Highly Engaged,Premium,153,Northeast,English
+7/1/2024,50-64,Female,Reactive Engagers,Basic,127,Midwest,English
+7/1/2024,50-64,Female,Reactive Engagers,Enhanced,163,Midwest,English
+7/1/2024,50-64,Female,Reactive Engagers,Premium,114,West,English
+7/1/2024,50-64,Female,Content & Complacent,Basic,168,West,English
+7/1/2024,50-64,Female,Content & Complacent,Enhanced,144,West,Spanish
+7/1/2024,50-64,Female,Content & Complacent,Premium,122,West,Spanish
+7/1/2024,50-64,Female,Unengaged,Basic,136,Midwest,English
+7/1/2024,50-64,Female,Unengaged,Enhanced,209,South,Spanish
+7/1/2024,50-64,Female,Unengaged,Premium,206,West,English
+7/1/2024,65+,Male,Highly Engaged,Basic,139,South,Spanish
+7/1/2024,65+,Male,Highly Engaged,Enhanced,129,South,Spanish
+7/1/2024,65+,Male,Highly Engaged,Premium,151,South,English
+7/1/2024,65+,Male,Reactive Engagers,Basic,142,West,Spanish
+7/1/2024,65+,Male,Reactive Engagers,Enhanced,115,West,Vietnamese
+7/1/2024,65+,Male,Reactive Engagers,Premium,210,Midwest,English
+7/1/2024,65+,Male,Content & Complacent,Basic,135,Midwest,Spanish
+7/1/2024,65+,Male,Content & Complacent,Enhanced,200,South,Vietnamese
+7/1/2024,65+,Male,Content & Complacent,Premium,124,South,English
+7/1/2024,65+,Male,Unengaged,Basic,217,Northeast,English
+7/1/2024,65+,Male,Unengaged,Enhanced,175,Northeast,English
+7/1/2024,65+,Male,Unengaged,Premium,128,West,Chinese
+7/1/2024,65+,Female,Highly Engaged,Basic,149,South,English
+7/1/2024,65+,Female,Highly Engaged,Enhanced,164,South,English
+7/1/2024,65+,Female,Highly Engaged,Premium,157,West,English
+7/1/2024,65+,Female,Reactive Engagers,Basic,197,South,English
+7/1/2024,65+,Female,Reactive Engagers,Enhanced,114,Northeast,English
+7/1/2024,65+,Female,Reactive Engagers,Premium,140,West,English
+7/1/2024,65+,Female,Content & Complacent,Basic,224,Northeast,English
+7/1/2024,65+,Female,Content & Complacent,Enhanced,167,West,Spanish
+7/1/2024,65+,Female,Content & Complacent,Premium,149,West,English
+7/1/2024,65+,Female,Unengaged,Basic,193,South,English
+7/1/2024,65+,Female,Unengaged,Enhanced,222,Midwest,Chinese
+7/1/2024,65+,Female,Unengaged,Premium,182,West,English
+8/1/2024,18-34,Male,Highly Engaged,Basic,169,West,English
+8/1/2024,18-34,Male,Highly Engaged,Enhanced,110,West,Chinese
+8/1/2024,18-34,Male,Highly Engaged,Premium,206,West,English
+8/1/2024,18-34,Male,Reactive Engagers,Basic,108,Midwest,English
+8/1/2024,18-34,Male,Reactive Engagers,Enhanced,144,South,English
+8/1/2024,18-34,Male,Reactive Engagers,Premium,161,Midwest,Spanish
+8/1/2024,18-34,Male,Content & Complacent,Basic,185,Northeast,English
+8/1/2024,18-34,Male,Content & Complacent,Enhanced,230,West,Spanish
+8/1/2024,18-34,Male,Content & Complacent,Premium,163,South,Spanish
+8/1/2024,18-34,Male,Unengaged,Basic,132,Midwest,Spanish
+8/1/2024,18-34,Male,Unengaged,Enhanced,122,West,English
+8/1/2024,18-34,Male,Unengaged,Premium,138,West,English
+8/1/2024,18-34,Female,Highly Engaged,Basic,202,Northeast,English
+8/1/2024,18-34,Female,Highly Engaged,Enhanced,150,Midwest,English
+8/1/2024,18-34,Female,Highly Engaged,Premium,107,West,Spanish
+8/1/2024,18-34,Female,Reactive Engagers,Basic,143,West,Vietnamese
+8/1/2024,18-34,Female,Reactive Engagers,Enhanced,116,South,English
+8/1/2024,18-34,Female,Reactive Engagers,Premium,205,Midwest,English
+8/1/2024,18-34,Female,Content & Complacent,Basic,111,Midwest,Spanish
+8/1/2024,18-34,Female,Content & Complacent,Enhanced,123,Northeast,Spanish
+8/1/2024,18-34,Female,Content & Complacent,Premium,181,South,Spanish
+8/1/2024,18-34,Female,Unengaged,Basic,142,Midwest,Spanish
+8/1/2024,18-34,Female,Unengaged,Enhanced,164,Midwest,English
+8/1/2024,18-34,Female,Unengaged,Premium,191,Northeast,English
+8/1/2024,35-49,Male,Highly Engaged,Basic,198,South,Vietnamese
+8/1/2024,35-49,Male,Highly Engaged,Enhanced,120,Northeast,English
+8/1/2024,35-49,Male,Highly Engaged,Premium,182,West,English
+8/1/2024,35-49,Male,Reactive Engagers,Basic,208,South,English
+8/1/2024,35-49,Male,Reactive Engagers,Enhanced,155,Midwest,Vietnamese
+8/1/2024,35-49,Male,Reactive Engagers,Premium,125,Northeast,Spanish
+8/1/2024,35-49,Male,Content & Complacent,Basic,164,Midwest,English
+8/1/2024,35-49,Male,Content & Complacent,Enhanced,123,Northeast,English
+8/1/2024,35-49,Male,Content & Complacent,Premium,120,Northeast,English
+8/1/2024,35-49,Male,Unengaged,Basic,193,West,English
+8/1/2024,35-49,Male,Unengaged,Enhanced,137,South,English
+8/1/2024,35-49,Male,Unengaged,Premium,218,Northeast,Spanish
+8/1/2024,35-49,Female,Highly Engaged,Basic,117,Northeast,English
+8/1/2024,35-49,Female,Highly Engaged,Enhanced,130,Midwest,Spanish
+8/1/2024,35-49,Female,Highly Engaged,Premium,153,West,Spanish
+8/1/2024,35-49,Female,Reactive Engagers,Basic,212,South,English
+8/1/2024,35-49,Female,Reactive Engagers,Enhanced,199,South,English
+8/1/2024,35-49,Female,Reactive Engagers,Premium,142,West,Spanish
+8/1/2024,35-49,Female,Content & Complacent,Basic,127,South,English
+8/1/2024,35-49,Female,Content & Complacent,Enhanced,152,Northeast,Spanish
+8/1/2024,35-49,Female,Content & Complacent,Premium,125,West,English
+8/1/2024,35-49,Female,Unengaged,Basic,118,Midwest,Spanish
+8/1/2024,35-49,Female,Unengaged,Enhanced,148,Northeast,Spanish
+8/1/2024,35-49,Female,Unengaged,Premium,118,West,Spanish
+8/1/2024,50-64,Male,Highly Engaged,Basic,186,West,English
+8/1/2024,50-64,Male,Highly Engaged,Enhanced,126,Midwest,Chinese
+8/1/2024,50-64,Male,Highly Engaged,Premium,142,Midwest,English
+8/1/2024,50-64,Male,Reactive Engagers,Basic,175,Northeast,English
+8/1/2024,50-64,Male,Reactive Engagers,Enhanced,201,Northeast,English
+8/1/2024,50-64,Male,Reactive Engagers,Premium,134,South,English
+8/1/2024,50-64,Male,Content & Complacent,Basic,190,West,English
+8/1/2024,50-64,Male,Content & Complacent,Enhanced,114,West,English
+8/1/2024,50-64,Male,Content & Complacent,Premium,149,Midwest,English
+8/1/2024,50-64,Male,Unengaged,Basic,207,West,English
+8/1/2024,50-64,Male,Unengaged,Enhanced,224,West,Spanish
+8/1/2024,50-64,Male,Unengaged,Premium,189,South,English
+8/1/2024,50-64,Female,Highly Engaged,Basic,142,Midwest,Spanish
+8/1/2024,50-64,Female,Highly Engaged,Enhanced,158,West,English
+8/1/2024,50-64,Female,Highly Engaged,Premium,153,West,English
+8/1/2024,50-64,Female,Reactive Engagers,Basic,168,Northeast,English
+8/1/2024,50-64,Female,Reactive Engagers,Enhanced,155,Northeast,English
+8/1/2024,50-64,Female,Reactive Engagers,Premium,159,South,English
+8/1/2024,50-64,Female,Content & Complacent,Basic,162,South,Chinese
+8/1/2024,50-64,Female,Content & Complacent,Enhanced,121,South,English
+8/1/2024,50-64,Female,Content & Complacent,Premium,119,South,English
+8/1/2024,50-64,Female,Unengaged,Basic,117,West,English
+8/1/2024,50-64,Female,Unengaged,Enhanced,159,South,English
+8/1/2024,50-64,Female,Unengaged,Premium,181,Midwest,English
+8/1/2024,65+,Male,Highly Engaged,Basic,155,Northeast,Chinese
+8/1/2024,65+,Male,Highly Engaged,Enhanced,108,Northeast,English
+8/1/2024,65+,Male,Highly Engaged,Premium,125,Northeast,English
+8/1/2024,65+,Male,Reactive Engagers,Basic,120,South,English
+8/1/2024,65+,Male,Reactive Engagers,Enhanced,187,West,English
+8/1/2024,65+,Male,Reactive Engagers,Premium,221,Midwest,Spanish
+8/1/2024,65+,Male,Content & Complacent,Basic,160,South,Spanish
+8/1/2024,65+,Male,Content & Complacent,Enhanced,220,Midwest,English
+8/1/2024,65+,Male,Content & Complacent,Premium,163,South,English
+8/1/2024,65+,Male,Unengaged,Basic,216,South,English
+8/1/2024,65+,Male,Unengaged,Enhanced,180,West,English
+8/1/2024,65+,Male,Unengaged,Premium,179,Northeast,English
+8/1/2024,65+,Female,Highly Engaged,Basic,214,Northeast,Chinese
+8/1/2024,65+,Female,Highly Engaged,Enhanced,200,Midwest,English
+8/1/2024,65+,Female,Highly Engaged,Premium,169,South,English
+8/1/2024,65+,Female,Reactive Engagers,Basic,187,West,English
+8/1/2024,65+,Female,Reactive Engagers,Enhanced,132,West,English
+8/1/2024,65+,Female,Reactive Engagers,Premium,177,Midwest,English
+8/1/2024,65+,Female,Content & Complacent,Basic,127,Midwest,English
+8/1/2024,65+,Female,Content & Complacent,Enhanced,186,Northeast,Vietnamese
+8/1/2024,65+,Female,Content & Complacent,Premium,207,South,English
+8/1/2024,65+,Female,Unengaged,Basic,200,Midwest,English
+8/1/2024,65+,Female,Unengaged,Enhanced,208,Midwest,English
+8/1/2024,65+,Female,Unengaged,Premium,134,Midwest,Spanish
+9/1/2024,18-34,Male,Highly Engaged,Basic,211,West,English
+9/1/2024,18-34,Male,Highly Engaged,Enhanced,152,Midwest,English
+9/1/2024,18-34,Male,Highly Engaged,Premium,181,South,English
+9/1/2024,18-34,Male,Reactive Engagers,Basic,199,Northeast,Chinese
+9/1/2024,18-34,Male,Reactive Engagers,Enhanced,159,West,English
+9/1/2024,18-34,Male,Reactive Engagers,Premium,157,Midwest,English
+9/1/2024,18-34,Male,Content & Complacent,Basic,228,South,Vietnamese
+9/1/2024,18-34,Male,Content & Complacent,Enhanced,185,Midwest,English
+9/1/2024,18-34,Male,Content & Complacent,Premium,184,West,Chinese
+9/1/2024,18-34,Male,Unengaged,Basic,207,South,English
+9/1/2024,18-34,Male,Unengaged,Enhanced,214,West,English
+9/1/2024,18-34,Male,Unengaged,Premium,154,West,English
+9/1/2024,18-34,Female,Highly Engaged,Basic,223,South,Spanish
+9/1/2024,18-34,Female,Highly Engaged,Enhanced,134,Midwest,English
+9/1/2024,18-34,Female,Highly Engaged,Premium,191,Northeast,Vietnamese
+9/1/2024,18-34,Female,Reactive Engagers,Basic,162,Northeast,English
+9/1/2024,18-34,Female,Reactive Engagers,Enhanced,227,Northeast,English
+9/1/2024,18-34,Female,Reactive Engagers,Premium,208,Northeast,English
+9/1/2024,18-34,Female,Content & Complacent,Basic,152,West,English
+9/1/2024,18-34,Female,Content & Complacent,Enhanced,172,South,Spanish
+9/1/2024,18-34,Female,Content & Complacent,Premium,112,Midwest,English
+9/1/2024,18-34,Female,Unengaged,Basic,217,Midwest,Vietnamese
+9/1/2024,18-34,Female,Unengaged,Enhanced,157,Northeast,Spanish
+9/1/2024,18-34,Female,Unengaged,Premium,224,West,English
+9/1/2024,35-49,Male,Highly Engaged,Basic,167,Midwest,English
+9/1/2024,35-49,Male,Highly Engaged,Enhanced,113,West,Spanish
+9/1/2024,35-49,Male,Highly Engaged,Premium,165,West,Spanish
+9/1/2024,35-49,Male,Reactive Engagers,Basic,151,West,English
+9/1/2024,35-49,Male,Reactive Engagers,Enhanced,150,Midwest,Chinese
+9/1/2024,35-49,Male,Reactive Engagers,Premium,113,West,English
+9/1/2024,35-49,Male,Content & Complacent,Basic,129,Midwest,English
+9/1/2024,35-49,Male,Content & Complacent,Enhanced,105,Northeast,English
+9/1/2024,35-49,Male,Content & Complacent,Premium,168,West,English
+9/1/2024,35-49,Male,Unengaged,Basic,195,West,English
+9/1/2024,35-49,Male,Unengaged,Enhanced,182,South,English
+9/1/2024,35-49,Male,Unengaged,Premium,145,Midwest,English
+9/1/2024,35-49,Female,Highly Engaged,Basic,171,Midwest,English
+9/1/2024,35-49,Female,Highly Engaged,Enhanced,129,West,English
+9/1/2024,35-49,Female,Highly Engaged,Premium,176,West,Vietnamese
+9/1/2024,35-49,Female,Reactive Engagers,Basic,155,Midwest,English
+9/1/2024,35-49,Female,Reactive Engagers,Enhanced,169,West,English
+9/1/2024,35-49,Female,Reactive Engagers,Premium,183,Midwest,English
+9/1/2024,35-49,Female,Content & Complacent,Basic,168,Midwest,English
+9/1/2024,35-49,Female,Content & Complacent,Enhanced,158,South,Spanish
+9/1/2024,35-49,Female,Content & Complacent,Premium,124,South,Vietnamese
+9/1/2024,35-49,Female,Unengaged,Basic,210,South,English
+9/1/2024,35-49,Female,Unengaged,Enhanced,172,Midwest,English
+9/1/2024,35-49,Female,Unengaged,Premium,156,Midwest,English
+9/1/2024,50-64,Male,Highly Engaged,Basic,211,Midwest,Chinese
+9/1/2024,50-64,Male,Highly Engaged,Enhanced,186,Northeast,Spanish
+9/1/2024,50-64,Male,Highly Engaged,Premium,150,Northeast,English
+9/1/2024,50-64,Male,Reactive Engagers,Basic,136,South,English
+9/1/2024,50-64,Male,Reactive Engagers,Enhanced,197,Northeast,English
+9/1/2024,50-64,Male,Reactive Engagers,Premium,219,Midwest,Spanish
+9/1/2024,50-64,Male,Content & Complacent,Basic,127,West,English
+9/1/2024,50-64,Male,Content & Complacent,Enhanced,124,Northeast,English
+9/1/2024,50-64,Male,Content & Complacent,Premium,225,West,Spanish
+9/1/2024,50-64,Male,Unengaged,Basic,198,Northeast,Vietnamese
+9/1/2024,50-64,Male,Unengaged,Enhanced,179,Northeast,Spanish
+9/1/2024,50-64,Male,Unengaged,Premium,176,West,English
+9/1/2024,50-64,Female,Highly Engaged,Basic,207,West,Spanish
+9/1/2024,50-64,Female,Highly Engaged,Enhanced,162,Northeast,Spanish
+9/1/2024,50-64,Female,Highly Engaged,Premium,218,Midwest,Chinese
+9/1/2024,50-64,Female,Reactive Engagers,Basic,156,South,English
+9/1/2024,50-64,Female,Reactive Engagers,Enhanced,112,West,Spanish
+9/1/2024,50-64,Female,Reactive Engagers,Premium,155,Northeast,Vietnamese
+9/1/2024,50-64,Female,Content & Complacent,Basic,234,Midwest,English
+9/1/2024,50-64,Female,Content & Complacent,Enhanced,179,South,English
+9/1/2024,50-64,Female,Content & Complacent,Premium,139,West,English
+9/1/2024,50-64,Female,Unengaged,Basic,124,West,Spanish
+9/1/2024,50-64,Female,Unengaged,Enhanced,133,Midwest,English
+9/1/2024,50-64,Female,Unengaged,Premium,169,South,English
+9/1/2024,65+,Male,Highly Engaged,Basic,167,South,English
+9/1/2024,65+,Male,Highly Engaged,Enhanced,217,West,English
+9/1/2024,65+,Male,Highly Engaged,Premium,129,South,English
+9/1/2024,65+,Male,Reactive Engagers,Basic,183,Midwest,Vietnamese
+9/1/2024,65+,Male,Reactive Engagers,Enhanced,208,Northeast,Spanish
+9/1/2024,65+,Male,Reactive Engagers,Premium,159,Northeast,English
+9/1/2024,65+,Male,Content & Complacent,Basic,189,South,Spanish
+9/1/2024,65+,Male,Content & Complacent,Enhanced,130,Northeast,Chinese
+9/1/2024,65+,Male,Content & Complacent,Premium,198,Northeast,English
+9/1/2024,65+,Male,Unengaged,Basic,148,West,English
+9/1/2024,65+,Male,Unengaged,Enhanced,211,Midwest,Chinese
+9/1/2024,65+,Male,Unengaged,Premium,106,West,English
+9/1/2024,65+,Female,Highly Engaged,Basic,154,West,English
+9/1/2024,65+,Female,Highly Engaged,Enhanced,144,Northeast,Spanish
+9/1/2024,65+,Female,Highly Engaged,Premium,121,West,Spanish
+9/1/2024,65+,Female,Reactive Engagers,Basic,131,Northeast,Chinese
+9/1/2024,65+,Female,Reactive Engagers,Enhanced,160,Midwest,English
+9/1/2024,65+,Female,Reactive Engagers,Premium,147,South,Spanish
+9/1/2024,65+,Female,Content & Complacent,Basic,176,Northeast,Spanish
+9/1/2024,65+,Female,Content & Complacent,Enhanced,173,South,English
+9/1/2024,65+,Female,Content & Complacent,Premium,127,South,English
+9/1/2024,65+,Female,Unengaged,Basic,178,West,English
+9/1/2024,65+,Female,Unengaged,Enhanced,132,Midwest,Spanish
+9/1/2024,65+,Female,Unengaged,Premium,217,South,English
+10/1/2024,18-34,Male,Highly Engaged,Basic,962,South,Spanish
+10/1/2024,18-34,Male,Highly Engaged,Enhanced,1095,Northeast,Spanish
+10/1/2024,18-34,Male,Highly Engaged,Premium,965,South,English
+10/1/2024,18-34,Male,Reactive Engagers,Basic,1151,West,English
+10/1/2024,18-34,Male,Reactive Engagers,Enhanced,1024,West,English
+10/1/2024,18-34,Male,Reactive Engagers,Premium,1063,Midwest,English
+10/1/2024,18-34,Male,Content & Complacent,Basic,1164,South,English
+10/1/2024,18-34,Male,Content & Complacent,Enhanced,1183,Northeast,Spanish
+10/1/2024,18-34,Male,Content & Complacent,Premium,1018,Midwest,English
+10/1/2024,18-34,Male,Unengaged,Basic,1070,Midwest,Spanish
+10/1/2024,18-34,Male,Unengaged,Enhanced,1045,Midwest,English
+10/1/2024,18-34,Male,Unengaged,Premium,1095,Northeast,English
+10/1/2024,18-34,Female,Highly Engaged,Basic,1020,West,English
+10/1/2024,18-34,Female,Highly Engaged,Enhanced,1156,Northeast,Spanish
+10/1/2024,18-34,Female,Highly Engaged,Premium,1016,South,Spanish
+10/1/2024,18-34,Female,Reactive Engagers,Basic,1185,West,Chinese
+10/1/2024,18-34,Female,Reactive Engagers,Enhanced,999,West,Spanish
+10/1/2024,18-34,Female,Reactive Engagers,Premium,994,West,English
+10/1/2024,18-34,Female,Content & Complacent,Basic,1193,Midwest,Spanish
+10/1/2024,18-34,Female,Content & Complacent,Enhanced,1034,Northeast,English
+10/1/2024,18-34,Female,Content & Complacent,Premium,1118,West,English
+10/1/2024,18-34,Female,Unengaged,Basic,1003,Northeast,English
+10/1/2024,18-34,Female,Unengaged,Enhanced,1018,Northeast,Spanish
+10/1/2024,18-34,Female,Unengaged,Premium,1050,Midwest,English
+10/1/2024,35-49,Male,Highly Engaged,Basic,971,West,Spanish
+10/1/2024,35-49,Male,Highly Engaged,Enhanced,1197,South,English
+10/1/2024,35-49,Male,Highly Engaged,Premium,1066,South,English
+10/1/2024,35-49,Male,Reactive Engagers,Basic,1031,West,Spanish
+10/1/2024,35-49,Male,Reactive Engagers,Enhanced,998,Northeast,English
+10/1/2024,35-49,Male,Reactive Engagers,Premium,1071,Northeast,English
+10/1/2024,35-49,Male,Content & Complacent,Basic,1183,West,Spanish
+10/1/2024,35-49,Male,Content & Complacent,Enhanced,1038,Northeast,English
+10/1/2024,35-49,Male,Content & Complacent,Premium,1198,South,Spanish
+10/1/2024,35-49,Male,Unengaged,Basic,1118,Midwest,English
+10/1/2024,35-49,Male,Unengaged,Enhanced,1182,Northeast,English
+10/1/2024,35-49,Male,Unengaged,Premium,1169,South,English
+10/1/2024,35-49,Female,Highly Engaged,Basic,1016,South,English
+10/1/2024,35-49,Female,Highly Engaged,Enhanced,1156,South,English
+10/1/2024,35-49,Female,Highly Engaged,Premium,1107,West,English
+10/1/2024,35-49,Female,Reactive Engagers,Basic,1007,South,Spanish
+10/1/2024,35-49,Female,Reactive Engagers,Enhanced,1039,West,English
+10/1/2024,35-49,Female,Reactive Engagers,Premium,1158,South,Spanish
+10/1/2024,35-49,Female,Content & Complacent,Basic,1141,Northeast,Spanish
+10/1/2024,35-49,Female,Content & Complacent,Enhanced,1173,Midwest,English
+10/1/2024,35-49,Female,Content & Complacent,Premium,1092,Midwest,Vietnamese
+10/1/2024,35-49,Female,Unengaged,Basic,1169,Northeast,Spanish
+10/1/2024,35-49,Female,Unengaged,Enhanced,1093,South,Vietnamese
+10/1/2024,35-49,Female,Unengaged,Premium,1160,South,English
+10/1/2024,50-64,Male,Highly Engaged,Basic,1003,Midwest,English
+10/1/2024,50-64,Male,Highly Engaged,Enhanced,1058,Northeast,English
+10/1/2024,50-64,Male,Highly Engaged,Premium,1055,Northeast,English
+10/1/2024,50-64,Male,Reactive Engagers,Basic,1041,West,English
+10/1/2024,50-64,Male,Reactive Engagers,Enhanced,1131,West,English
+10/1/2024,50-64,Male,Reactive Engagers,Premium,1074,Northeast,English
+10/1/2024,50-64,Male,Content & Complacent,Basic,1083,West,English
+10/1/2024,50-64,Male,Content & Complacent,Enhanced,984,South,English
+10/1/2024,50-64,Male,Content & Complacent,Premium,1089,South,Chinese
+10/1/2024,50-64,Male,Unengaged,Basic,1197,Northeast,English
+10/1/2024,50-64,Male,Unengaged,Enhanced,1111,Midwest,Spanish
+10/1/2024,50-64,Male,Unengaged,Premium,1049,South,English
+10/1/2024,50-64,Female,Highly Engaged,Basic,989,South,Spanish
+10/1/2024,50-64,Female,Highly Engaged,Enhanced,1197,South,English
+10/1/2024,50-64,Female,Highly Engaged,Premium,1077,Midwest,Spanish
+10/1/2024,50-64,Female,Reactive Engagers,Basic,1028,Northeast,Spanish
+10/1/2024,50-64,Female,Reactive Engagers,Enhanced,1148,Northeast,English
+10/1/2024,50-64,Female,Reactive Engagers,Premium,991,South,English
+10/1/2024,50-64,Female,Content & Complacent,Basic,1042,South,English
+10/1/2024,50-64,Female,Content & Complacent,Enhanced,1180,South,English
+10/1/2024,50-64,Female,Content & Complacent,Premium,1003,West,English
+10/1/2024,50-64,Female,Unengaged,Basic,976,Northeast,English
+10/1/2024,50-64,Female,Unengaged,Enhanced,1064,South,English
+10/1/2024,50-64,Female,Unengaged,Premium,1189,West,English
+10/1/2024,65+,Male,Highly Engaged,Basic,1146,South,English
+10/1/2024,65+,Male,Highly Engaged,Enhanced,1168,Midwest,English
+10/1/2024,65+,Male,Highly Engaged,Premium,1035,Midwest,Spanish
+10/1/2024,65+,Male,Reactive Engagers,Basic,1021,Northeast,English
+10/1/2024,65+,Male,Reactive Engagers,Enhanced,1100,South,Spanish
+10/1/2024,65+,Male,Reactive Engagers,Premium,1064,Midwest,English
+10/1/2024,65+,Male,Content & Complacent,Basic,1191,South,English
+10/1/2024,65+,Male,Content & Complacent,Enhanced,1060,South,English
+10/1/2024,65+,Male,Content & Complacent,Premium,1058,Northeast,Spanish
+10/1/2024,65+,Male,Unengaged,Basic,1176,Northeast,English
+10/1/2024,65+,Male,Unengaged,Enhanced,1180,South,Chinese
+10/1/2024,65+,Male,Unengaged,Premium,1089,West,Spanish
+10/1/2024,65+,Female,Highly Engaged,Basic,1004,Northeast,English
+10/1/2024,65+,Female,Highly Engaged,Enhanced,992,South,English
+10/1/2024,65+,Female,Highly Engaged,Premium,1184,Midwest,English
+10/1/2024,65+,Female,Reactive Engagers,Basic,1194,Midwest,Spanish
+10/1/2024,65+,Female,Reactive Engagers,Enhanced,1150,South,English
+10/1/2024,65+,Female,Reactive Engagers,Premium,987,West,English
+10/1/2024,65+,Female,Content & Complacent,Basic,1014,West,English
+10/1/2024,65+,Female,Content & Complacent,Enhanced,1182,West,English
+10/1/2024,65+,Female,Content & Complacent,Premium,1006,West,English
+10/1/2024,65+,Female,Unengaged,Basic,1073,Midwest,English
+10/1/2024,65+,Female,Unengaged,Enhanced,1111,West,English
+10/1/2024,65+,Female,Unengaged,Premium,1160,Northeast,Vietnamese
+11/1/2024,18-34,Male,Highly Engaged,Basic,1179,West,Spanish
+11/1/2024,18-34,Male,Highly Engaged,Enhanced,1097,South,Spanish
+11/1/2024,18-34,Male,Highly Engaged,Premium,960,Midwest,English
+11/1/2024,18-34,Male,Reactive Engagers,Basic,968,West,Spanish
+11/1/2024,18-34,Male,Reactive Engagers,Enhanced,1043,Midwest,English
+11/1/2024,18-34,Male,Reactive Engagers,Premium,960,Midwest,Chinese
+11/1/2024,18-34,Male,Content & Complacent,Basic,969,West,English
+11/1/2024,18-34,Male,Content & Complacent,Enhanced,1024,South,English
+11/1/2024,18-34,Male,Content & Complacent,Premium,1180,South,English
+11/1/2024,18-34,Male,Unengaged,Basic,1161,West,Spanish
+11/1/2024,18-34,Male,Unengaged,Enhanced,1143,West,English
+11/1/2024,18-34,Male,Unengaged,Premium,1197,Northeast,Spanish
+11/1/2024,18-34,Female,Highly Engaged,Basic,1082,Midwest,English
+11/1/2024,18-34,Female,Highly Engaged,Enhanced,1116,Northeast,Chinese
+11/1/2024,18-34,Female,Highly Engaged,Premium,964,South,English
+11/1/2024,18-34,Female,Reactive Engagers,Basic,1163,Midwest,Vietnamese
+11/1/2024,18-34,Female,Reactive Engagers,Enhanced,1068,South,English
+11/1/2024,18-34,Female,Reactive Engagers,Premium,1146,Northeast,English
+11/1/2024,18-34,Female,Content & Complacent,Basic,1175,Northeast,English
+11/1/2024,18-34,Female,Content & Complacent,Enhanced,1060,Northeast,English
+11/1/2024,18-34,Female,Content & Complacent,Premium,1193,West,English
+11/1/2024,18-34,Female,Unengaged,Basic,966,Northeast,English
+11/1/2024,18-34,Female,Unengaged,Enhanced,1090,South,English
+11/1/2024,18-34,Female,Unengaged,Premium,1002,Northeast,English
+11/1/2024,35-49,Male,Highly Engaged,Basic,1028,South,English
+11/1/2024,35-49,Male,Highly Engaged,Enhanced,1169,South,English
+11/1/2024,35-49,Male,Highly Engaged,Premium,1020,South,English
+11/1/2024,35-49,Male,Reactive Engagers,Basic,988,West,English
+11/1/2024,35-49,Male,Reactive Engagers,Enhanced,1100,West,English
+11/1/2024,35-49,Male,Reactive Engagers,Premium,1070,West,English
+11/1/2024,35-49,Male,Content & Complacent,Basic,1129,Midwest,English
+11/1/2024,35-49,Male,Content & Complacent,Enhanced,962,Midwest,English
+11/1/2024,35-49,Male,Content & Complacent,Premium,992,West,English
+11/1/2024,35-49,Male,Unengaged,Basic,1147,West,English
+11/1/2024,35-49,Male,Unengaged,Enhanced,1084,Midwest,Spanish
+11/1/2024,35-49,Male,Unengaged,Premium,1118,Midwest,English
+11/1/2024,35-49,Female,Highly Engaged,Basic,1124,Northeast,English
+11/1/2024,35-49,Female,Highly Engaged,Enhanced,1195,South,English
+11/1/2024,35-49,Female,Highly Engaged,Premium,989,Midwest,English
+11/1/2024,35-49,Female,Reactive Engagers,Basic,992,West,English
+11/1/2024,35-49,Female,Reactive Engagers,Enhanced,1041,Northeast,English
+11/1/2024,35-49,Female,Reactive Engagers,Premium,973,West,English
+11/1/2024,35-49,Female,Content & Complacent,Basic,1192,Northeast,Spanish
+11/1/2024,35-49,Female,Content & Complacent,Enhanced,1081,Midwest,Vietnamese
+11/1/2024,35-49,Female,Content & Complacent,Premium,973,South,Vietnamese
+11/1/2024,35-49,Female,Unengaged,Basic,1048,South,English
+11/1/2024,35-49,Female,Unengaged,Enhanced,1145,Northeast,Vietnamese
+11/1/2024,35-49,Female,Unengaged,Premium,1158,South,Vietnamese
+11/1/2024,50-64,Male,Highly Engaged,Basic,1117,Northeast,English
+11/1/2024,50-64,Male,Highly Engaged,Enhanced,1198,West,Chinese
+11/1/2024,50-64,Male,Highly Engaged,Premium,1033,West,English
+11/1/2024,50-64,Male,Reactive Engagers,Basic,1100,Midwest,English
+11/1/2024,50-64,Male,Reactive Engagers,Enhanced,982,Northeast,English
+11/1/2024,50-64,Male,Reactive Engagers,Premium,1112,South,English
+11/1/2024,50-64,Male,Content & Complacent,Basic,1176,West,English
+11/1/2024,50-64,Male,Content & Complacent,Enhanced,1096,West,English
+11/1/2024,50-64,Male,Content & Complacent,Premium,1089,Midwest,Vietnamese
+11/1/2024,50-64,Male,Unengaged,Basic,1041,Northeast,English
+11/1/2024,50-64,Male,Unengaged,Enhanced,1139,West,English
+11/1/2024,50-64,Male,Unengaged,Premium,1089,Northeast,Spanish
+11/1/2024,50-64,Female,Highly Engaged,Basic,1056,South,English
+11/1/2024,50-64,Female,Highly Engaged,Enhanced,1106,Midwest,English
+11/1/2024,50-64,Female,Highly Engaged,Premium,1171,Northeast,English
+11/1/2024,50-64,Female,Reactive Engagers,Basic,968,West,Spanish
+11/1/2024,50-64,Female,Reactive Engagers,Enhanced,1157,West,Chinese
+11/1/2024,50-64,Female,Reactive Engagers,Premium,1013,West,English
+11/1/2024,50-64,Female,Content & Complacent,Basic,1037,Midwest,English
+11/1/2024,50-64,Female,Content & Complacent,Enhanced,1141,South,English
+11/1/2024,50-64,Female,Content & Complacent,Premium,1146,Northeast,English
+11/1/2024,50-64,Female,Unengaged,Basic,1066,Northeast,English
+11/1/2024,50-64,Female,Unengaged,Enhanced,1095,Northeast,English
+11/1/2024,50-64,Female,Unengaged,Premium,1171,South,English
+11/1/2024,65+,Male,Highly Engaged,Basic,1072,Midwest,Spanish
+11/1/2024,65+,Male,Highly Engaged,Enhanced,1108,Midwest,English
+11/1/2024,65+,Male,Highly Engaged,Premium,985,South,English
+11/1/2024,65+,Male,Reactive Engagers,Basic,1113,South,Chinese
+11/1/2024,65+,Male,Reactive Engagers,Enhanced,1061,West,Spanish
+11/1/2024,65+,Male,Reactive Engagers,Premium,966,West,English
+11/1/2024,65+,Male,Content & Complacent,Basic,1185,Midwest,English
+11/1/2024,65+,Male,Content & Complacent,Enhanced,1182,West,English
+11/1/2024,65+,Male,Content & Complacent,Premium,1073,West,English
+11/1/2024,65+,Male,Unengaged,Basic,977,West,English
+11/1/2024,65+,Male,Unengaged,Enhanced,1021,Midwest,Vietnamese
+11/1/2024,65+,Male,Unengaged,Premium,1111,South,Vietnamese
+11/1/2024,65+,Female,Highly Engaged,Basic,999,Midwest,Spanish
+11/1/2024,65+,Female,Highly Engaged,Enhanced,1161,Northeast,Spanish
+11/1/2024,65+,Female,Highly Engaged,Premium,983,Midwest,English
+11/1/2024,65+,Female,Reactive Engagers,Basic,1176,West,English
+11/1/2024,65+,Female,Reactive Engagers,Enhanced,1107,South,English
+11/1/2024,65+,Female,Reactive Engagers,Premium,987,Northeast,English
+11/1/2024,65+,Female,Content & Complacent,Basic,1151,South,English
+11/1/2024,65+,Female,Content & Complacent,Enhanced,972,West,Spanish
+11/1/2024,65+,Female,Content & Complacent,Premium,1151,South,Spanish
+11/1/2024,65+,Female,Unengaged,Basic,1090,Northeast,Vietnamese
+11/1/2024,65+,Female,Unengaged,Enhanced,1112,Northeast,English
+11/1/2024,65+,Female,Unengaged,Premium,1068,Northeast,English
+12/1/2024,18-34,Male,Highly Engaged,Basic,1124,West,English
+12/1/2024,18-34,Male,Highly Engaged,Enhanced,1175,West,English
+12/1/2024,18-34,Male,Highly Engaged,Premium,1114,South,English
+12/1/2024,18-34,Male,Reactive Engagers,Basic,1095,Midwest,English
+12/1/2024,18-34,Male,Reactive Engagers,Enhanced,1146,Northeast,English
+12/1/2024,18-34,Male,Reactive Engagers,Premium,983,Northeast,English
+12/1/2024,18-34,Male,Content & Complacent,Basic,1114,Midwest,English
+12/1/2024,18-34,Male,Content & Complacent,Enhanced,1175,South,English
+12/1/2024,18-34,Male,Content & Complacent,Premium,1043,Midwest,English
+12/1/2024,18-34,Male,Unengaged,Basic,1161,Northeast,English
+12/1/2024,18-34,Male,Unengaged,Enhanced,1167,Northeast,Spanish
+12/1/2024,18-34,Male,Unengaged,Premium,992,South,English
+12/1/2024,18-34,Female,Highly Engaged,Basic,1128,South,Vietnamese
+12/1/2024,18-34,Female,Highly Engaged,Enhanced,1008,Midwest,English
+12/1/2024,18-34,Female,Highly Engaged,Premium,1146,West,English
+12/1/2024,18-34,Female,Reactive Engagers,Basic,1196,Midwest,English
+12/1/2024,18-34,Female,Reactive Engagers,Enhanced,1139,Northeast,English
+12/1/2024,18-34,Female,Reactive Engagers,Premium,988,West,English
+12/1/2024,18-34,Female,Content & Complacent,Basic,1114,South,English
+12/1/2024,18-34,Female,Content & Complacent,Enhanced,1104,Northeast,English
+12/1/2024,18-34,Female,Content & Complacent,Premium,1193,Northeast,English
+12/1/2024,18-34,Female,Unengaged,Basic,998,South,English
+12/1/2024,18-34,Female,Unengaged,Enhanced,1031,South,English
+12/1/2024,18-34,Female,Unengaged,Premium,1054,Midwest,English
+12/1/2024,35-49,Male,Highly Engaged,Basic,1041,West,English
+12/1/2024,35-49,Male,Highly Engaged,Enhanced,1111,South,Vietnamese
+12/1/2024,35-49,Male,Highly Engaged,Premium,1014,Midwest,English
+12/1/2024,35-49,Male,Reactive Engagers,Basic,982,West,English
+12/1/2024,35-49,Male,Reactive Engagers,Enhanced,984,South,English
+12/1/2024,35-49,Male,Reactive Engagers,Premium,1060,Northeast,English
+12/1/2024,35-49,Male,Content & Complacent,Basic,1088,West,English
+12/1/2024,35-49,Male,Content & Complacent,Enhanced,997,South,Spanish
+12/1/2024,35-49,Male,Content & Complacent,Premium,988,West,Spanish
+12/1/2024,35-49,Male,Unengaged,Basic,1057,Midwest,English
+12/1/2024,35-49,Male,Unengaged,Enhanced,1138,South,Vietnamese
+12/1/2024,35-49,Male,Unengaged,Premium,1086,West,English
+12/1/2024,35-49,Female,Highly Engaged,Basic,1122,Midwest,English
+12/1/2024,35-49,Female,Highly Engaged,Enhanced,1071,West,Spanish
+12/1/2024,35-49,Female,Highly Engaged,Premium,1070,West,English
+12/1/2024,35-49,Female,Reactive Engagers,Basic,1082,Midwest,English
+12/1/2024,35-49,Female,Reactive Engagers,Enhanced,1108,Midwest,English
+12/1/2024,35-49,Female,Reactive Engagers,Premium,984,Midwest,English
+12/1/2024,35-49,Female,Content & Complacent,Basic,1123,Midwest,Spanish
+12/1/2024,35-49,Female,Content & Complacent,Enhanced,1053,West,English
+12/1/2024,35-49,Female,Content & Complacent,Premium,1163,South,Spanish
+12/1/2024,35-49,Female,Unengaged,Basic,1092,West,Spanish
+12/1/2024,35-49,Female,Unengaged,Enhanced,1040,West,English
+12/1/2024,35-49,Female,Unengaged,Premium,1026,Midwest,English
+12/1/2024,50-64,Male,Highly Engaged,Basic,1190,Midwest,English
+12/1/2024,50-64,Male,Highly Engaged,Enhanced,1087,South,English
+12/1/2024,50-64,Male,Highly Engaged,Premium,1130,Midwest,English
+12/1/2024,50-64,Male,Reactive Engagers,Basic,1164,Midwest,Vietnamese
+12/1/2024,50-64,Male,Reactive Engagers,Enhanced,1148,South,English
+12/1/2024,50-64,Male,Reactive Engagers,Premium,1171,West,English
+12/1/2024,50-64,Male,Content & Complacent,Basic,1056,Northeast,Chinese
+12/1/2024,50-64,Male,Content & Complacent,Enhanced,1113,Northeast,English
+12/1/2024,50-64,Male,Content & Complacent,Premium,1136,Northeast,Spanish
+12/1/2024,50-64,Male,Unengaged,Basic,968,South,Chinese
+12/1/2024,50-64,Male,Unengaged,Enhanced,1150,West,English
+12/1/2024,50-64,Male,Unengaged,Premium,1046,Midwest,English
+12/1/2024,50-64,Female,Highly Engaged,Basic,1076,Midwest,Spanish
+12/1/2024,50-64,Female,Highly Engaged,Enhanced,1031,South,English
+12/1/2024,50-64,Female,Highly Engaged,Premium,980,South,English
+12/1/2024,50-64,Female,Reactive Engagers,Basic,980,Northeast,English
+12/1/2024,50-64,Female,Reactive Engagers,Enhanced,989,Northeast,English
+12/1/2024,50-64,Female,Reactive Engagers,Premium,1016,Midwest,English
+12/1/2024,50-64,Female,Content & Complacent,Basic,1071,Midwest,English
+12/1/2024,50-64,Female,Content & Complacent,Enhanced,962,Northeast,English
+12/1/2024,50-64,Female,Content & Complacent,Premium,1172,Northeast,English
+12/1/2024,50-64,Female,Unengaged,Basic,1162,Midwest,English
+12/1/2024,50-64,Female,Unengaged,Enhanced,990,Midwest,Chinese
+12/1/2024,50-64,Female,Unengaged,Premium,1102,South,English
+12/1/2024,65+,Male,Highly Engaged,Basic,1014,West,English
+12/1/2024,65+,Male,Highly Engaged,Enhanced,965,South,Spanish
+12/1/2024,65+,Male,Highly Engaged,Premium,1178,West,Chinese
+12/1/2024,65+,Male,Reactive Engagers,Basic,1144,South,English
+12/1/2024,65+,Male,Reactive Engagers,Enhanced,963,South,English
+12/1/2024,65+,Male,Reactive Engagers,Premium,1118,Midwest,English
+12/1/2024,65+,Male,Content & Complacent,Basic,1051,West,English
+12/1/2024,65+,Male,Content & Complacent,Enhanced,1181,Midwest,Chinese
+12/1/2024,65+,Male,Content & Complacent,Premium,966,Northeast,English
+12/1/2024,65+,Male,Unengaged,Basic,1180,West,English
+12/1/2024,65+,Male,Unengaged,Enhanced,1147,Midwest,English
+12/1/2024,65+,Male,Unengaged,Premium,1193,Midwest,English
+12/1/2024,65+,Female,Highly Engaged,Basic,1143,Northeast,Spanish
+12/1/2024,65+,Female,Highly Engaged,Enhanced,1156,Midwest,Spanish
+12/1/2024,65+,Female,Highly Engaged,Premium,965,West,English
+12/1/2024,65+,Female,Reactive Engagers,Basic,1046,West,Spanish
+12/1/2024,65+,Female,Reactive Engagers,Enhanced,1092,Midwest,Spanish
+12/1/2024,65+,Female,Reactive Engagers,Premium,1048,Midwest,English
+12/1/2024,65+,Female,Content & Complacent,Basic,1159,Midwest,English
+12/1/2024,65+,Female,Content & Complacent,Enhanced,1119,West,Spanish
+12/1/2024,65+,Female,Content & Complacent,Premium,1017,Northeast,Spanish
+12/1/2024,65+,Female,Unengaged,Basic,1103,South,English
+12/1/2024,65+,Female,Unengaged,Enhanced,1022,Northeast,English
+12/1/2024,65+,Female,Unengaged,Premium,993,West,Spanish
+1/1/2025,18-34,Male,Highly Engaged,Basic,839,Northeast,Vietnamese
+1/1/2025,18-34,Male,Highly Engaged,Enhanced,690,South,Spanish
+1/1/2025,18-34,Male,Highly Engaged,Premium,740,West,English
+1/1/2025,18-34,Male,Reactive Engagers,Basic,795,West,English
+1/1/2025,18-34,Male,Reactive Engagers,Enhanced,803,Northeast,English
+1/1/2025,18-34,Male,Reactive Engagers,Premium,733,South,Chinese
+1/1/2025,18-34,Male,Content & Complacent,Basic,692,South,English
+1/1/2025,18-34,Male,Content & Complacent,Enhanced,755,Midwest,English
+1/1/2025,18-34,Male,Content & Complacent,Premium,782,South,English
+1/1/2025,18-34,Male,Unengaged,Basic,771,West,Spanish
+1/1/2025,18-34,Male,Unengaged,Enhanced,837,Northeast,English
+1/1/2025,18-34,Male,Unengaged,Premium,765,Midwest,English
+1/1/2025,18-34,Female,Highly Engaged,Basic,821,South,Spanish
+1/1/2025,18-34,Female,Highly Engaged,Enhanced,726,Northeast,English
+1/1/2025,18-34,Female,Highly Engaged,Premium,762,Midwest,English
+1/1/2025,18-34,Female,Reactive Engagers,Basic,822,South,English
+1/1/2025,18-34,Female,Reactive Engagers,Enhanced,712,Northeast,Spanish
+1/1/2025,18-34,Female,Reactive Engagers,Premium,771,South,Spanish
+1/1/2025,18-34,Female,Content & Complacent,Basic,689,Northeast,English
+1/1/2025,18-34,Female,Content & Complacent,Enhanced,731,Northeast,Chinese
+1/1/2025,18-34,Female,Content & Complacent,Premium,729,Midwest,English
+1/1/2025,18-34,Female,Unengaged,Basic,715,South,English
+1/1/2025,18-34,Female,Unengaged,Enhanced,700,Midwest,English
+1/1/2025,18-34,Female,Unengaged,Premium,743,Midwest,English
+1/1/2025,35-49,Male,Highly Engaged,Basic,783,West,English
+1/1/2025,35-49,Male,Highly Engaged,Enhanced,714,Midwest,English
+1/1/2025,35-49,Male,Highly Engaged,Premium,822,Midwest,English
+1/1/2025,35-49,Male,Reactive Engagers,Basic,779,South,English
+1/1/2025,35-49,Male,Reactive Engagers,Enhanced,770,Northeast,Spanish
+1/1/2025,35-49,Male,Reactive Engagers,Premium,745,Midwest,English
+1/1/2025,35-49,Male,Content & Complacent,Basic,682,Midwest,English
+1/1/2025,35-49,Male,Content & Complacent,Enhanced,834,Midwest,English
+1/1/2025,35-49,Male,Content & Complacent,Premium,837,South,English
+1/1/2025,35-49,Male,Unengaged,Basic,813,Midwest,English
+1/1/2025,35-49,Male,Unengaged,Enhanced,796,Midwest,Spanish
+1/1/2025,35-49,Male,Unengaged,Premium,780,Midwest,Spanish
+1/1/2025,35-49,Female,Highly Engaged,Basic,802,Midwest,English
+1/1/2025,35-49,Female,Highly Engaged,Enhanced,710,Northeast,English
+1/1/2025,35-49,Female,Highly Engaged,Premium,726,Midwest,English
+1/1/2025,35-49,Female,Reactive Engagers,Basic,810,South,English
+1/1/2025,35-49,Female,Reactive Engagers,Enhanced,775,South,English
+1/1/2025,35-49,Female,Reactive Engagers,Premium,725,West,English
+1/1/2025,35-49,Female,Content & Complacent,Basic,810,South,English
+1/1/2025,35-49,Female,Content & Complacent,Enhanced,813,Northeast,English
+1/1/2025,35-49,Female,Content & Complacent,Premium,773,South,English
+1/1/2025,35-49,Female,Unengaged,Basic,677,Midwest,Spanish
+1/1/2025,35-49,Female,Unengaged,Enhanced,707,Midwest,English
+1/1/2025,35-49,Female,Unengaged,Premium,735,West,Spanish
+1/1/2025,50-64,Male,Highly Engaged,Basic,832,West,English
+1/1/2025,50-64,Male,Highly Engaged,Enhanced,721,Midwest,English
+1/1/2025,50-64,Male,Highly Engaged,Premium,746,West,English
+1/1/2025,50-64,Male,Reactive Engagers,Basic,812,South,English
+1/1/2025,50-64,Male,Reactive Engagers,Enhanced,692,South,English
+1/1/2025,50-64,Male,Reactive Engagers,Premium,743,Northeast,Spanish
+1/1/2025,50-64,Male,Content & Complacent,Basic,798,West,English
+1/1/2025,50-64,Male,Content & Complacent,Enhanced,724,West,English
+1/1/2025,50-64,Male,Content & Complacent,Premium,786,Northeast,Spanish
+1/1/2025,50-64,Male,Unengaged,Basic,738,Midwest,English
+1/1/2025,50-64,Male,Unengaged,Enhanced,688,South,English
+1/1/2025,50-64,Male,Unengaged,Premium,820,West,English
+1/1/2025,50-64,Female,Highly Engaged,Basic,818,Midwest,English
+1/1/2025,50-64,Female,Highly Engaged,Enhanced,708,Midwest,English
+1/1/2025,50-64,Female,Highly Engaged,Premium,753,Midwest,English
+1/1/2025,50-64,Female,Reactive Engagers,Basic,798,West,English
+1/1/2025,50-64,Female,Reactive Engagers,Enhanced,692,West,English
+1/1/2025,50-64,Female,Reactive Engagers,Premium,827,Midwest,Spanish
+1/1/2025,50-64,Female,Content & Complacent,Basic,832,Northeast,English
+1/1/2025,50-64,Female,Content & Complacent,Enhanced,831,South,English
+1/1/2025,50-64,Female,Content & Complacent,Premium,690,South,English
+1/1/2025,50-64,Female,Unengaged,Basic,769,Northeast,Vietnamese
+1/1/2025,50-64,Female,Unengaged,Enhanced,807,Midwest,English
+1/1/2025,50-64,Female,Unengaged,Premium,747,West,Spanish
+1/1/2025,65+,Male,Highly Engaged,Basic,705,Midwest,English
+1/1/2025,65+,Male,Highly Engaged,Enhanced,712,South,Vietnamese
+1/1/2025,65+,Male,Highly Engaged,Premium,795,West,English
+1/1/2025,65+,Male,Reactive Engagers,Basic,710,South,Spanish
+1/1/2025,65+,Male,Reactive Engagers,Enhanced,710,Northeast,English
+1/1/2025,65+,Male,Reactive Engagers,Premium,737,Northeast,English
+1/1/2025,65+,Male,Content & Complacent,Basic,700,Midwest,English
+1/1/2025,65+,Male,Content & Complacent,Enhanced,783,Northeast,Chinese
+1/1/2025,65+,Male,Content & Complacent,Premium,810,West,English
+1/1/2025,65+,Male,Unengaged,Basic,675,South,English
+1/1/2025,65+,Male,Unengaged,Enhanced,787,Northeast,English
+1/1/2025,65+,Male,Unengaged,Premium,736,West,English
+1/1/2025,65+,Female,Highly Engaged,Basic,702,Northeast,English
+1/1/2025,65+,Female,Highly Engaged,Enhanced,730,West,English
+1/1/2025,65+,Female,Highly Engaged,Premium,703,South,English
+1/1/2025,65+,Female,Reactive Engagers,Basic,705,Midwest,English
+1/1/2025,65+,Female,Reactive Engagers,Enhanced,812,West,English
+1/1/2025,65+,Female,Reactive Engagers,Premium,800,Northeast,English
+1/1/2025,65+,Female,Content & Complacent,Basic,805,West,English
+1/1/2025,65+,Female,Content & Complacent,Enhanced,800,South,English
+1/1/2025,65+,Female,Content & Complacent,Premium,750,Midwest,English
+1/1/2025,65+,Female,Unengaged,Basic,766,Northeast,English
+1/1/2025,65+,Female,Unengaged,Enhanced,674,West,English
+1/1/2025,65+,Female,Unengaged,Premium,722,Midwest,English
+2/1/2025,18-34,Male,Highly Engaged,Basic,713,South,English
+2/1/2025,18-34,Male,Highly Engaged,Enhanced,787,West,English
+2/1/2025,18-34,Male,Highly Engaged,Premium,754,Midwest,English
+2/1/2025,18-34,Male,Reactive Engagers,Basic,798,Midwest,Vietnamese
+2/1/2025,18-34,Male,Reactive Engagers,Enhanced,771,West,English
+2/1/2025,18-34,Male,Reactive Engagers,Premium,777,South,English
+2/1/2025,18-34,Male,Content & Complacent,Basic,731,Northeast,Spanish
+2/1/2025,18-34,Male,Content & Complacent,Enhanced,682,Northeast,English
+2/1/2025,18-34,Male,Content & Complacent,Premium,704,South,English
+2/1/2025,18-34,Male,Unengaged,Basic,804,South,English
+2/1/2025,18-34,Male,Unengaged,Enhanced,795,South,English
+2/1/2025,18-34,Male,Unengaged,Premium,834,South,English
+2/1/2025,18-34,Female,Highly Engaged,Basic,767,Midwest,English
+2/1/2025,18-34,Female,Highly Engaged,Enhanced,788,Midwest,Spanish
+2/1/2025,18-34,Female,Highly Engaged,Premium,757,Midwest,English
+2/1/2025,18-34,Female,Reactive Engagers,Basic,700,Northeast,English
+2/1/2025,18-34,Female,Reactive Engagers,Enhanced,728,Midwest,English
+2/1/2025,18-34,Female,Reactive Engagers,Premium,707,Midwest,Spanish
+2/1/2025,18-34,Female,Content & Complacent,Basic,698,West,Vietnamese
+2/1/2025,18-34,Female,Content & Complacent,Enhanced,774,West,English
+2/1/2025,18-34,Female,Content & Complacent,Premium,748,South,Vietnamese
+2/1/2025,18-34,Female,Unengaged,Basic,686,Northeast,English
+2/1/2025,18-34,Female,Unengaged,Enhanced,805,South,English
+2/1/2025,18-34,Female,Unengaged,Premium,717,Midwest,English
+2/1/2025,35-49,Male,Highly Engaged,Basic,767,South,English
+2/1/2025,35-49,Male,Highly Engaged,Enhanced,818,West,English
+2/1/2025,35-49,Male,Highly Engaged,Premium,682,Midwest,Spanish
+2/1/2025,35-49,Male,Reactive Engagers,Basic,795,Midwest,English
+2/1/2025,35-49,Male,Reactive Engagers,Enhanced,799,Northeast,English
+2/1/2025,35-49,Male,Reactive Engagers,Premium,699,West,English
+2/1/2025,35-49,Male,Content & Complacent,Basic,772,West,English
+2/1/2025,35-49,Male,Content & Complacent,Enhanced,820,Northeast,English
+2/1/2025,35-49,Male,Content & Complacent,Premium,749,South,English
+2/1/2025,35-49,Male,Unengaged,Basic,685,South,English
+2/1/2025,35-49,Male,Unengaged,Enhanced,693,Northeast,English
+2/1/2025,35-49,Male,Unengaged,Premium,692,Midwest,English
+2/1/2025,35-49,Female,Highly Engaged,Basic,777,West,Spanish
+2/1/2025,35-49,Female,Highly Engaged,Enhanced,784,Midwest,English
+2/1/2025,35-49,Female,Highly Engaged,Premium,805,Midwest,English
+2/1/2025,35-49,Female,Reactive Engagers,Basic,808,South,English
+2/1/2025,35-49,Female,Reactive Engagers,Enhanced,738,South,English
+2/1/2025,35-49,Female,Reactive Engagers,Premium,772,Northeast,English
+2/1/2025,35-49,Female,Content & Complacent,Basic,787,West,Spanish
+2/1/2025,35-49,Female,Content & Complacent,Enhanced,769,South,Spanish
+2/1/2025,35-49,Female,Content & Complacent,Premium,839,Midwest,Spanish
+2/1/2025,35-49,Female,Unengaged,Basic,696,Midwest,Vietnamese
+2/1/2025,35-49,Female,Unengaged,Enhanced,790,South,English
+2/1/2025,35-49,Female,Unengaged,Premium,806,Northeast,Spanish
+2/1/2025,50-64,Male,Highly Engaged,Basic,787,Northeast,English
+2/1/2025,50-64,Male,Highly Engaged,Enhanced,732,Midwest,Spanish
+2/1/2025,50-64,Male,Highly Engaged,Premium,808,Northeast,English
+2/1/2025,50-64,Male,Reactive Engagers,Basic,826,South,Spanish
+2/1/2025,50-64,Male,Reactive Engagers,Enhanced,683,Northeast,Spanish
+2/1/2025,50-64,Male,Reactive Engagers,Premium,839,Midwest,English
+2/1/2025,50-64,Male,Content & Complacent,Basic,720,Midwest,English
+2/1/2025,50-64,Male,Content & Complacent,Enhanced,812,West,English
+2/1/2025,50-64,Male,Content & Complacent,Premium,770,Midwest,English
+2/1/2025,50-64,Male,Unengaged,Basic,772,South,Chinese
+2/1/2025,50-64,Male,Unengaged,Enhanced,695,Northeast,English
+2/1/2025,50-64,Male,Unengaged,Premium,708,South,English
+2/1/2025,50-64,Female,Highly Engaged,Basic,724,Northeast,English
+2/1/2025,50-64,Female,Highly Engaged,Enhanced,760,South,English
+2/1/2025,50-64,Female,Highly Engaged,Premium,766,West,English
+2/1/2025,50-64,Female,Reactive Engagers,Basic,796,Midwest,English
+2/1/2025,50-64,Female,Reactive Engagers,Enhanced,786,Northeast,English
+2/1/2025,50-64,Female,Reactive Engagers,Premium,699,Northeast,Spanish
+2/1/2025,50-64,Female,Content & Complacent,Basic,677,Northeast,Spanish
+2/1/2025,50-64,Female,Content & Complacent,Enhanced,759,West,English
+2/1/2025,50-64,Female,Content & Complacent,Premium,799,West,English
+2/1/2025,50-64,Female,Unengaged,Basic,736,West,English
+2/1/2025,50-64,Female,Unengaged,Enhanced,766,Midwest,English
+2/1/2025,50-64,Female,Unengaged,Premium,782,Northeast,Spanish
+2/1/2025,65+,Male,Highly Engaged,Basic,672,Northeast,English
+2/1/2025,65+,Male,Highly Engaged,Enhanced,685,Northeast,Vietnamese
+2/1/2025,65+,Male,Highly Engaged,Premium,833,Northeast,Spanish
+2/1/2025,65+,Male,Reactive Engagers,Basic,829,Northeast,English
+2/1/2025,65+,Male,Reactive Engagers,Enhanced,761,West,Spanish
+2/1/2025,65+,Male,Reactive Engagers,Premium,811,South,English
+2/1/2025,65+,Male,Content & Complacent,Basic,732,West,English
+2/1/2025,65+,Male,Content & Complacent,Enhanced,781,Northeast,Vietnamese
+2/1/2025,65+,Male,Content & Complacent,Premium,745,Northeast,English
+2/1/2025,65+,Male,Unengaged,Basic,790,Midwest,Spanish
+2/1/2025,65+,Male,Unengaged,Enhanced,736,Northeast,English
+2/1/2025,65+,Male,Unengaged,Premium,774,Northeast,English
+2/1/2025,65+,Female,Highly Engaged,Basic,716,South,Spanish
+2/1/2025,65+,Female,Highly Engaged,Enhanced,734,Northeast,Spanish
+2/1/2025,65+,Female,Highly Engaged,Premium,711,West,Spanish
+2/1/2025,65+,Female,Reactive Engagers,Basic,690,West,Spanish
+2/1/2025,65+,Female,Reactive Engagers,Enhanced,793,Midwest,Spanish
+2/1/2025,65+,Female,Reactive Engagers,Premium,718,South,English
+2/1/2025,65+,Female,Content & Complacent,Basic,688,Midwest,English
+2/1/2025,65+,Female,Content & Complacent,Enhanced,731,Midwest,Spanish
+2/1/2025,65+,Female,Content & Complacent,Premium,690,South,Chinese
+2/1/2025,65+,Female,Unengaged,Basic,832,South,Spanish
+2/1/2025,65+,Female,Unengaged,Enhanced,757,West,Spanish
+2/1/2025,65+,Female,Unengaged,Premium,837,Northeast,English
+3/1/2025,18-34,Male,Highly Engaged,Basic,198,Midwest,English
+3/1/2025,18-34,Male,Highly Engaged,Enhanced,200,South,English
+3/1/2025,18-34,Male,Highly Engaged,Premium,196,Northeast,Chinese
+3/1/2025,18-34,Male,Reactive Engagers,Basic,178,Midwest,English
+3/1/2025,18-34,Male,Reactive Engagers,Enhanced,227,Northeast,English
+3/1/2025,18-34,Male,Reactive Engagers,Premium,134,West,English
+3/1/2025,18-34,Male,Content & Complacent,Basic,129,West,English
+3/1/2025,18-34,Male,Content & Complacent,Enhanced,182,South,Spanish
+3/1/2025,18-34,Male,Content & Complacent,Premium,143,Northeast,Spanish
+3/1/2025,18-34,Male,Unengaged,Basic,132,South,English
+3/1/2025,18-34,Male,Unengaged,Enhanced,126,West,Vietnamese
+3/1/2025,18-34,Male,Unengaged,Premium,153,Midwest,English
+3/1/2025,18-34,Female,Highly Engaged,Basic,130,Northeast,Spanish
+3/1/2025,18-34,Female,Highly Engaged,Enhanced,149,Midwest,Vietnamese
+3/1/2025,18-34,Female,Highly Engaged,Premium,117,Midwest,Vietnamese
+3/1/2025,18-34,Female,Reactive Engagers,Basic,177,Midwest,English
+3/1/2025,18-34,Female,Reactive Engagers,Enhanced,128,South,English
+3/1/2025,18-34,Female,Reactive Engagers,Premium,149,West,English
+3/1/2025,18-34,Female,Content & Complacent,Basic,170,South,English
+3/1/2025,18-34,Female,Content & Complacent,Enhanced,124,West,Spanish
+3/1/2025,18-34,Female,Content & Complacent,Premium,205,Midwest,Spanish
+3/1/2025,18-34,Female,Unengaged,Basic,203,Midwest,English
+3/1/2025,18-34,Female,Unengaged,Enhanced,154,West,English
+3/1/2025,18-34,Female,Unengaged,Premium,153,West,Spanish
+3/1/2025,35-49,Male,Highly Engaged,Basic,117,Northeast,English
+3/1/2025,35-49,Male,Highly Engaged,Enhanced,135,Northeast,English
+3/1/2025,35-49,Male,Highly Engaged,Premium,165,South,Vietnamese
+3/1/2025,35-49,Male,Reactive Engagers,Basic,193,Northeast,English
+3/1/2025,35-49,Male,Reactive Engagers,Enhanced,162,South,English
+3/1/2025,35-49,Male,Reactive Engagers,Premium,114,Midwest,English
+3/1/2025,35-49,Male,Content & Complacent,Basic,206,West,English
+3/1/2025,35-49,Male,Content & Complacent,Enhanced,175,Northeast,Spanish
+3/1/2025,35-49,Male,Content & Complacent,Premium,171,South,Spanish
+3/1/2025,35-49,Male,Unengaged,Basic,216,Northeast,English
+3/1/2025,35-49,Male,Unengaged,Enhanced,179,West,Spanish
+3/1/2025,35-49,Male,Unengaged,Premium,176,Northeast,English
+3/1/2025,35-49,Female,Highly Engaged,Basic,201,Midwest,English
+3/1/2025,35-49,Female,Highly Engaged,Enhanced,228,Northeast,Spanish
+3/1/2025,35-49,Female,Highly Engaged,Premium,206,Midwest,Spanish
+3/1/2025,35-49,Female,Reactive Engagers,Basic,198,Midwest,Chinese
+3/1/2025,35-49,Female,Reactive Engagers,Enhanced,200,South,English
+3/1/2025,35-49,Female,Reactive Engagers,Premium,174,Northeast,Spanish
+3/1/2025,35-49,Female,Content & Complacent,Basic,145,Northeast,English
+3/1/2025,35-49,Female,Content & Complacent,Enhanced,130,South,English
+3/1/2025,35-49,Female,Content & Complacent,Premium,160,West,English
+3/1/2025,35-49,Female,Unengaged,Basic,114,Midwest,English
+3/1/2025,35-49,Female,Unengaged,Enhanced,154,South,English
+3/1/2025,35-49,Female,Unengaged,Premium,216,Northeast,English
+3/1/2025,50-64,Male,Highly Engaged,Basic,146,Midwest,Spanish
+3/1/2025,50-64,Male,Highly Engaged,Enhanced,206,Northeast,English
+3/1/2025,50-64,Male,Highly Engaged,Premium,190,Midwest,English
+3/1/2025,50-64,Male,Reactive Engagers,Basic,196,West,Spanish
+3/1/2025,50-64,Male,Reactive Engagers,Enhanced,219,Northeast,English
+3/1/2025,50-64,Male,Reactive Engagers,Premium,219,South,English
+3/1/2025,50-64,Male,Content & Complacent,Basic,132,Northeast,English
+3/1/2025,50-64,Male,Content & Complacent,Enhanced,192,West,Spanish
+3/1/2025,50-64,Male,Content & Complacent,Premium,199,West,English
+3/1/2025,50-64,Male,Unengaged,Basic,138,South,English
+3/1/2025,50-64,Male,Unengaged,Enhanced,150,Midwest,Spanish
+3/1/2025,50-64,Male,Unengaged,Premium,145,South,English
+3/1/2025,50-64,Female,Highly Engaged,Basic,108,West,English
+3/1/2025,50-64,Female,Highly Engaged,Enhanced,131,West,English
+3/1/2025,50-64,Female,Highly Engaged,Premium,177,Midwest,English
+3/1/2025,50-64,Female,Reactive Engagers,Basic,124,Midwest,English
+3/1/2025,50-64,Female,Reactive Engagers,Enhanced,167,West,English
+3/1/2025,50-64,Female,Reactive Engagers,Premium,147,Northeast,English
+3/1/2025,50-64,Female,Content & Complacent,Basic,124,Midwest,English
+3/1/2025,50-64,Female,Content & Complacent,Enhanced,150,Northeast,English
+3/1/2025,50-64,Female,Content & Complacent,Premium,187,Northeast,English
+3/1/2025,50-64,Female,Unengaged,Basic,142,West,English
+3/1/2025,50-64,Female,Unengaged,Enhanced,194,Midwest,English
+3/1/2025,50-64,Female,Unengaged,Premium,179,Midwest,Vietnamese
+3/1/2025,65+,Male,Highly Engaged,Basic,198,Midwest,English
+3/1/2025,65+,Male,Highly Engaged,Enhanced,162,Midwest,Spanish
+3/1/2025,65+,Male,Highly Engaged,Premium,174,Northeast,English
+3/1/2025,65+,Male,Reactive Engagers,Basic,150,South,English
+3/1/2025,65+,Male,Reactive Engagers,Enhanced,178,Midwest,English
+3/1/2025,65+,Male,Reactive Engagers,Premium,181,South,English
+3/1/2025,65+,Male,Content & Complacent,Basic,167,South,Chinese
+3/1/2025,65+,Male,Content & Complacent,Enhanced,168,West,English
+3/1/2025,65+,Male,Content & Complacent,Premium,176,South,Chinese
+3/1/2025,65+,Male,Unengaged,Basic,160,Midwest,English
+3/1/2025,65+,Male,Unengaged,Enhanced,139,South,English
+3/1/2025,65+,Male,Unengaged,Premium,169,West,Spanish
+3/1/2025,65+,Female,Highly Engaged,Basic,197,South,English
+3/1/2025,65+,Female,Highly Engaged,Enhanced,128,Midwest,English
+3/1/2025,65+,Female,Highly Engaged,Premium,217,West,English
+3/1/2025,65+,Female,Reactive Engagers,Basic,114,Northeast,English
+3/1/2025,65+,Female,Reactive Engagers,Enhanced,156,Midwest,English
+3/1/2025,65+,Female,Reactive Engagers,Premium,124,Midwest,English
+3/1/2025,65+,Female,Content & Complacent,Basic,176,Midwest,English
+3/1/2025,65+,Female,Content & Complacent,Enhanced,184,South,English
+3/1/2025,65+,Female,Content & Complacent,Premium,162,West,Vietnamese
+3/1/2025,65+,Female,Unengaged,Basic,195,Midwest,English
+3/1/2025,65+,Female,Unengaged,Enhanced,220,Northeast,English
+3/1/2025,65+,Female,Unengaged,Premium,178,West,English
+4/1/2025,18-34,Male,Highly Engaged,Basic,207,Northeast,English
+4/1/2025,18-34,Male,Highly Engaged,Enhanced,172,South,English
+4/1/2025,18-34,Male,Highly Engaged,Premium,177,West,English
+4/1/2025,18-34,Male,Reactive Engagers,Basic,164,Northeast,English
+4/1/2025,18-34,Male,Reactive Engagers,Enhanced,123,Northeast,English
+4/1/2025,18-34,Male,Reactive Engagers,Premium,208,West,English
+4/1/2025,18-34,Male,Content & Complacent,Basic,162,Northeast,English
+4/1/2025,18-34,Male,Content & Complacent,Enhanced,145,South,English
+4/1/2025,18-34,Male,Content & Complacent,Premium,229,West,English
+4/1/2025,18-34,Male,Unengaged,Basic,181,South,English
+4/1/2025,18-34,Male,Unengaged,Enhanced,178,West,English
+4/1/2025,18-34,Male,Unengaged,Premium,229,West,English
+4/1/2025,18-34,Female,Highly Engaged,Basic,185,South,English
+4/1/2025,18-34,Female,Highly Engaged,Enhanced,173,Northeast,English
+4/1/2025,18-34,Female,Highly Engaged,Premium,226,West,English
+4/1/2025,18-34,Female,Reactive Engagers,Basic,155,Midwest,English
+4/1/2025,18-34,Female,Reactive Engagers,Enhanced,190,West,Vietnamese
+4/1/2025,18-34,Female,Reactive Engagers,Premium,211,Northeast,Chinese
+4/1/2025,18-34,Female,Content & Complacent,Basic,196,Midwest,English
+4/1/2025,18-34,Female,Content & Complacent,Enhanced,177,Midwest,Vietnamese
+4/1/2025,18-34,Female,Content & Complacent,Premium,123,Northeast,Spanish
+4/1/2025,18-34,Female,Unengaged,Basic,199,South,English
+4/1/2025,18-34,Female,Unengaged,Enhanced,201,West,English
+4/1/2025,18-34,Female,Unengaged,Premium,128,Midwest,English
+4/1/2025,35-49,Male,Highly Engaged,Basic,200,West,Chinese
+4/1/2025,35-49,Male,Highly Engaged,Enhanced,216,Midwest,English
+4/1/2025,35-49,Male,Highly Engaged,Premium,141,Midwest,English
+4/1/2025,35-49,Male,Reactive Engagers,Basic,114,West,Spanish
+4/1/2025,35-49,Male,Reactive Engagers,Enhanced,152,Northeast,English
+4/1/2025,35-49,Male,Reactive Engagers,Premium,203,Northeast,Chinese
+4/1/2025,35-49,Male,Content & Complacent,Basic,151,Midwest,English
+4/1/2025,35-49,Male,Content & Complacent,Enhanced,109,South,English
+4/1/2025,35-49,Male,Content & Complacent,Premium,156,Northeast,English
+4/1/2025,35-49,Male,Unengaged,Basic,156,Midwest,English
+4/1/2025,35-49,Male,Unengaged,Enhanced,153,South,English
+4/1/2025,35-49,Male,Unengaged,Premium,209,West,Spanish
+4/1/2025,35-49,Female,Highly Engaged,Basic,226,West,English
+4/1/2025,35-49,Female,Highly Engaged,Enhanced,177,Northeast,Spanish
+4/1/2025,35-49,Female,Highly Engaged,Premium,140,South,English
+4/1/2025,35-49,Female,Reactive Engagers,Basic,169,Midwest,English
+4/1/2025,35-49,Female,Reactive Engagers,Enhanced,135,Northeast,English
+4/1/2025,35-49,Female,Reactive Engagers,Premium,148,South,Spanish
+4/1/2025,35-49,Female,Content & Complacent,Basic,117,South,English
+4/1/2025,35-49,Female,Content & Complacent,Enhanced,199,Midwest,English
+4/1/2025,35-49,Female,Content & Complacent,Premium,192,Midwest,English
+4/1/2025,35-49,Female,Unengaged,Basic,214,Midwest,Spanish
+4/1/2025,35-49,Female,Unengaged,Enhanced,187,Midwest,English
+4/1/2025,35-49,Female,Unengaged,Premium,141,West,English
+4/1/2025,50-64,Male,Highly Engaged,Basic,145,West,English
+4/1/2025,50-64,Male,Highly Engaged,Enhanced,211,Midwest,English
+4/1/2025,50-64,Male,Highly Engaged,Premium,169,West,English
+4/1/2025,50-64,Male,Reactive Engagers,Basic,136,Midwest,Chinese
+4/1/2025,50-64,Male,Reactive Engagers,Enhanced,153,South,English
+4/1/2025,50-64,Male,Reactive Engagers,Premium,176,West,English
+4/1/2025,50-64,Male,Content & Complacent,Basic,114,Midwest,English
+4/1/2025,50-64,Male,Content & Complacent,Enhanced,187,Northeast,English
+4/1/2025,50-64,Male,Content & Complacent,Premium,129,South,English
+4/1/2025,50-64,Male,Unengaged,Basic,170,South,Spanish
+4/1/2025,50-64,Male,Unengaged,Enhanced,124,Northeast,Vietnamese
+4/1/2025,50-64,Male,Unengaged,Premium,195,Northeast,Spanish
+4/1/2025,50-64,Female,Highly Engaged,Basic,152,Northeast,English
+4/1/2025,50-64,Female,Highly Engaged,Enhanced,160,South,English
+4/1/2025,50-64,Female,Highly Engaged,Premium,151,West,English
+4/1/2025,50-64,Female,Reactive Engagers,Basic,200,South,English
+4/1/2025,50-64,Female,Reactive Engagers,Enhanced,179,Midwest,Spanish
+4/1/2025,50-64,Female,Reactive Engagers,Premium,145,Midwest,Spanish
+4/1/2025,50-64,Female,Content & Complacent,Basic,112,Northeast,English
+4/1/2025,50-64,Female,Content & Complacent,Enhanced,229,Midwest,Vietnamese
+4/1/2025,50-64,Female,Content & Complacent,Premium,165,South,Spanish
+4/1/2025,50-64,Female,Unengaged,Basic,130,South,English
+4/1/2025,50-64,Female,Unengaged,Enhanced,138,Northeast,English
+4/1/2025,50-64,Female,Unengaged,Premium,234,Northeast,Vietnamese
+4/1/2025,65+,Male,Highly Engaged,Basic,161,Midwest,English
+4/1/2025,65+,Male,Highly Engaged,Enhanced,108,West,English
+4/1/2025,65+,Male,Highly Engaged,Premium,158,Midwest,English
+4/1/2025,65+,Male,Reactive Engagers,Basic,166,West,English
+4/1/2025,65+,Male,Reactive Engagers,Enhanced,182,South,English
+4/1/2025,65+,Male,Reactive Engagers,Premium,187,Midwest,English
+4/1/2025,65+,Male,Content & Complacent,Basic,159,South,English
+4/1/2025,65+,Male,Content & Complacent,Enhanced,179,Northeast,English
+4/1/2025,65+,Male,Content & Complacent,Premium,209,West,English
+4/1/2025,65+,Male,Unengaged,Basic,151,Midwest,English
+4/1/2025,65+,Male,Unengaged,Enhanced,142,South,Spanish
+4/1/2025,65+,Male,Unengaged,Premium,137,Northeast,English
+4/1/2025,65+,Female,Highly Engaged,Basic,196,Midwest,English
+4/1/2025,65+,Female,Highly Engaged,Enhanced,209,West,English
+4/1/2025,65+,Female,Highly Engaged,Premium,210,Northeast,English
+4/1/2025,65+,Female,Reactive Engagers,Basic,182,West,English
+4/1/2025,65+,Female,Reactive Engagers,Enhanced,195,Northeast,Chinese
+4/1/2025,65+,Female,Reactive Engagers,Premium,177,West,English
+4/1/2025,65+,Female,Content & Complacent,Basic,141,Northeast,English
+4/1/2025,65+,Female,Content & Complacent,Enhanced,203,West,English
+4/1/2025,65+,Female,Content & Complacent,Premium,165,West,English
+4/1/2025,65+,Female,Unengaged,Basic,192,West,Spanish
+4/1/2025,65+,Female,Unengaged,Enhanced,214,Northeast,Chinese
+4/1/2025,65+,Female,Unengaged,Premium,196,South,English
+5/1/2025,18-34,Male,Highly Engaged,Basic,202,Midwest,English
+5/1/2025,18-34,Male,Highly Engaged,Enhanced,160,South,English
+5/1/2025,18-34,Male,Highly Engaged,Premium,120,West,English
+5/1/2025,18-34,Male,Reactive Engagers,Basic,193,West,Spanish
+5/1/2025,18-34,Male,Reactive Engagers,Enhanced,108,South,Chinese
+5/1/2025,18-34,Male,Reactive Engagers,Premium,188,West,English
+5/1/2025,18-34,Male,Content & Complacent,Basic,125,Midwest,English
+5/1/2025,18-34,Male,Content & Complacent,Enhanced,206,Midwest,Vietnamese
+5/1/2025,18-34,Male,Content & Complacent,Premium,204,South,English
+5/1/2025,18-34,Male,Unengaged,Basic,191,West,English
+5/1/2025,18-34,Male,Unengaged,Enhanced,149,Northeast,Chinese
+5/1/2025,18-34,Male,Unengaged,Premium,117,West,English
+5/1/2025,18-34,Female,Highly Engaged,Basic,156,West,Spanish
+5/1/2025,18-34,Female,Highly Engaged,Enhanced,192,Northeast,Spanish
+5/1/2025,18-34,Female,Highly Engaged,Premium,131,South,English
+5/1/2025,18-34,Female,Reactive Engagers,Basic,186,South,English
+5/1/2025,18-34,Female,Reactive Engagers,Enhanced,140,Midwest,English
+5/1/2025,18-34,Female,Reactive Engagers,Premium,171,South,Vietnamese
+5/1/2025,18-34,Female,Content & Complacent,Basic,136,Northeast,English
+5/1/2025,18-34,Female,Content & Complacent,Enhanced,200,Midwest,English
+5/1/2025,18-34,Female,Content & Complacent,Premium,111,Northeast,English
+5/1/2025,18-34,Female,Unengaged,Basic,226,Northeast,Spanish
+5/1/2025,18-34,Female,Unengaged,Enhanced,199,South,English
+5/1/2025,18-34,Female,Unengaged,Premium,181,Midwest,English
+5/1/2025,35-49,Male,Highly Engaged,Basic,121,West,English
+5/1/2025,35-49,Male,Highly Engaged,Enhanced,228,South,English
+5/1/2025,35-49,Male,Highly Engaged,Premium,227,Northeast,English
+5/1/2025,35-49,Male,Reactive Engagers,Basic,132,South,English
+5/1/2025,35-49,Male,Reactive Engagers,Enhanced,172,West,English
+5/1/2025,35-49,Male,Reactive Engagers,Premium,138,West,English
+5/1/2025,35-49,Male,Content & Complacent,Basic,190,West,English
+5/1/2025,35-49,Male,Content & Complacent,Enhanced,122,Northeast,Spanish
+5/1/2025,35-49,Male,Content & Complacent,Premium,153,Midwest,English
+5/1/2025,35-49,Male,Unengaged,Basic,141,South,English
+5/1/2025,35-49,Male,Unengaged,Enhanced,137,Northeast,English
+5/1/2025,35-49,Male,Unengaged,Premium,150,South,Spanish
+5/1/2025,35-49,Female,Highly Engaged,Basic,209,Northeast,English
+5/1/2025,35-49,Female,Highly Engaged,Enhanced,123,South,English
+5/1/2025,35-49,Female,Highly Engaged,Premium,126,West,Spanish
+5/1/2025,35-49,Female,Reactive Engagers,Basic,175,Midwest,English
+5/1/2025,35-49,Female,Reactive Engagers,Enhanced,185,Northeast,Spanish
+5/1/2025,35-49,Female,Reactive Engagers,Premium,114,West,English
+5/1/2025,35-49,Female,Content & Complacent,Basic,148,South,English
+5/1/2025,35-49,Female,Content & Complacent,Enhanced,110,West,English
+5/1/2025,35-49,Female,Content & Complacent,Premium,179,Northeast,English
+5/1/2025,35-49,Female,Unengaged,Basic,153,South,English
+5/1/2025,35-49,Female,Unengaged,Enhanced,203,Midwest,Spanish
+5/1/2025,35-49,Female,Unengaged,Premium,128,Northeast,English
+5/1/2025,50-64,Male,Highly Engaged,Basic,148,Northeast,English
+5/1/2025,50-64,Male,Highly Engaged,Enhanced,201,Northeast,Spanish
+5/1/2025,50-64,Male,Highly Engaged,Premium,108,West,English
+5/1/2025,50-64,Male,Reactive Engagers,Basic,211,South,Spanish
+5/1/2025,50-64,Male,Reactive Engagers,Enhanced,204,Midwest,English
+5/1/2025,50-64,Male,Reactive Engagers,Premium,151,South,English
+5/1/2025,50-64,Male,Content & Complacent,Basic,182,South,English
+5/1/2025,50-64,Male,Content & Complacent,Enhanced,114,South,English
+5/1/2025,50-64,Male,Content & Complacent,Premium,149,South,English
+5/1/2025,50-64,Male,Unengaged,Basic,195,Midwest,English
+5/1/2025,50-64,Male,Unengaged,Enhanced,203,Midwest,Vietnamese
+5/1/2025,50-64,Male,Unengaged,Premium,191,Midwest,English
+5/1/2025,50-64,Female,Highly Engaged,Basic,141,West,English
+5/1/2025,50-64,Female,Highly Engaged,Enhanced,192,West,Spanish
+5/1/2025,50-64,Female,Highly Engaged,Premium,154,South,English
+5/1/2025,50-64,Female,Reactive Engagers,Basic,174,Midwest,English
+5/1/2025,50-64,Female,Reactive Engagers,Enhanced,120,South,English
+5/1/2025,50-64,Female,Reactive Engagers,Premium,179,Midwest,English
+5/1/2025,50-64,Female,Content & Complacent,Basic,126,South,English
+5/1/2025,50-64,Female,Content & Complacent,Enhanced,132,Midwest,Spanish
+5/1/2025,50-64,Female,Content & Complacent,Premium,102,Northeast,English
+5/1/2025,50-64,Female,Unengaged,Basic,130,West,English
+5/1/2025,50-64,Female,Unengaged,Enhanced,188,Northeast,English
+5/1/2025,50-64,Female,Unengaged,Premium,119,Northeast,Spanish
+5/1/2025,65+,Male,Highly Engaged,Basic,198,South,English
+5/1/2025,65+,Male,Highly Engaged,Enhanced,113,Midwest,English
+5/1/2025,65+,Male,Highly Engaged,Premium,173,Northeast,Vietnamese
+5/1/2025,65+,Male,Reactive Engagers,Basic,195,Midwest,English
+5/1/2025,65+,Male,Reactive Engagers,Enhanced,138,West,English
+5/1/2025,65+,Male,Reactive Engagers,Premium,124,West,English
+5/1/2025,65+,Male,Content & Complacent,Basic,129,Northeast,English
+5/1/2025,65+,Male,Content & Complacent,Enhanced,161,Midwest,English
+5/1/2025,65+,Male,Content & Complacent,Premium,182,West,English
+5/1/2025,65+,Male,Unengaged,Basic,217,Northeast,English
+5/1/2025,65+,Male,Unengaged,Enhanced,157,West,Spanish
+5/1/2025,65+,Male,Unengaged,Premium,122,South,English
+5/1/2025,65+,Female,Highly Engaged,Basic,118,Northeast,Spanish
+5/1/2025,65+,Female,Highly Engaged,Enhanced,202,West,English
+5/1/2025,65+,Female,Highly Engaged,Premium,113,South,Spanish
+5/1/2025,65+,Female,Reactive Engagers,Basic,171,Northeast,English
+5/1/2025,65+,Female,Reactive Engagers,Enhanced,195,Midwest,English
+5/1/2025,65+,Female,Reactive Engagers,Premium,159,Northeast,Spanish
+5/1/2025,65+,Female,Content & Complacent,Basic,126,Northeast,Spanish
+5/1/2025,65+,Female,Content & Complacent,Enhanced,175,Midwest,Vietnamese
+5/1/2025,65+,Female,Content & Complacent,Premium,178,Midwest,English
+5/1/2025,65+,Female,Unengaged,Basic,130,South,English
+5/1/2025,65+,Female,Unengaged,Enhanced,170,Midwest,English
+5/1/2025,65+,Female,Unengaged,Premium,199,Northeast,Spanish
+6/1/2025,18-34,Male,Highly Engaged,Basic,106,Northeast,English
+6/1/2025,18-34,Male,Highly Engaged,Enhanced,109,West,Spanish
+6/1/2025,18-34,Male,Highly Engaged,Premium,190,Midwest,English
+6/1/2025,18-34,Male,Reactive Engagers,Basic,146,Midwest,English
+6/1/2025,18-34,Male,Reactive Engagers,Enhanced,203,South,English
+6/1/2025,18-34,Male,Reactive Engagers,Premium,197,Northeast,English
+6/1/2025,18-34,Male,Content & Complacent,Basic,194,Midwest,English
+6/1/2025,18-34,Male,Content & Complacent,Enhanced,189,Northeast,Vietnamese
+6/1/2025,18-34,Male,Content & Complacent,Premium,198,Northeast,English
+6/1/2025,18-34,Male,Unengaged,Basic,141,Midwest,English
+6/1/2025,18-34,Male,Unengaged,Enhanced,118,West,English
+6/1/2025,18-34,Male,Unengaged,Premium,127,West,Spanish
+6/1/2025,18-34,Female,Highly Engaged,Basic,191,West,Spanish
+6/1/2025,18-34,Female,Highly Engaged,Enhanced,159,Midwest,Spanish
+6/1/2025,18-34,Female,Highly Engaged,Premium,127,South,English
+6/1/2025,18-34,Female,Reactive Engagers,Basic,139,West,Vietnamese
+6/1/2025,18-34,Female,Reactive Engagers,Enhanced,171,Midwest,English
+6/1/2025,18-34,Female,Reactive Engagers,Premium,175,Northeast,English
+6/1/2025,18-34,Female,Content & Complacent,Basic,190,South,English
+6/1/2025,18-34,Female,Content & Complacent,Enhanced,190,South,English
+6/1/2025,18-34,Female,Content & Complacent,Premium,154,Midwest,English
+6/1/2025,18-34,Female,Unengaged,Basic,221,South,English
+6/1/2025,18-34,Female,Unengaged,Enhanced,112,Midwest,Chinese
+6/1/2025,18-34,Female,Unengaged,Premium,117,South,Spanish
+6/1/2025,35-49,Male,Highly Engaged,Basic,140,South,Chinese
+6/1/2025,35-49,Male,Highly Engaged,Enhanced,158,West,English
+6/1/2025,35-49,Male,Highly Engaged,Premium,151,West,English
+6/1/2025,35-49,Male,Reactive Engagers,Basic,133,South,English
+6/1/2025,35-49,Male,Reactive Engagers,Enhanced,134,South,English
+6/1/2025,35-49,Male,Reactive Engagers,Premium,197,West,English
+6/1/2025,35-49,Male,Content & Complacent,Basic,151,Midwest,English
+6/1/2025,35-49,Male,Content & Complacent,Enhanced,121,Midwest,English
+6/1/2025,35-49,Male,Content & Complacent,Premium,113,South,Spanish
+6/1/2025,35-49,Male,Unengaged,Basic,149,Midwest,English
+6/1/2025,35-49,Male,Unengaged,Enhanced,131,Northeast,English
+6/1/2025,35-49,Male,Unengaged,Premium,148,Northeast,English
+6/1/2025,35-49,Female,Highly Engaged,Basic,115,South,English
+6/1/2025,35-49,Female,Highly Engaged,Enhanced,134,Northeast,English
+6/1/2025,35-49,Female,Highly Engaged,Premium,202,West,English
+6/1/2025,35-49,Female,Reactive Engagers,Basic,175,South,English
+6/1/2025,35-49,Female,Reactive Engagers,Enhanced,125,South,English
+6/1/2025,35-49,Female,Reactive Engagers,Premium,148,West,English
+6/1/2025,35-49,Female,Content & Complacent,Basic,203,West,Spanish
+6/1/2025,35-49,Female,Content & Complacent,Enhanced,177,Midwest,English
+6/1/2025,35-49,Female,Content & Complacent,Premium,213,Northeast,English
+6/1/2025,35-49,Female,Unengaged,Basic,209,South,Spanish
+6/1/2025,35-49,Female,Unengaged,Enhanced,201,West,English
+6/1/2025,35-49,Female,Unengaged,Premium,210,South,English
+6/1/2025,50-64,Male,Highly Engaged,Basic,112,Midwest,English
+6/1/2025,50-64,Male,Highly Engaged,Enhanced,181,Northeast,Spanish
+6/1/2025,50-64,Male,Highly Engaged,Premium,174,Midwest,Spanish
+6/1/2025,50-64,Male,Reactive Engagers,Basic,210,Midwest,Vietnamese
+6/1/2025,50-64,Male,Reactive Engagers,Enhanced,128,Northeast,English
+6/1/2025,50-64,Male,Reactive Engagers,Premium,123,Midwest,English
+6/1/2025,50-64,Male,Content & Complacent,Basic,167,Northeast,English
+6/1/2025,50-64,Male,Content & Complacent,Enhanced,205,South,English
+6/1/2025,50-64,Male,Content & Complacent,Premium,125,Midwest,English
+6/1/2025,50-64,Male,Unengaged,Basic,177,Northeast,English
+6/1/2025,50-64,Male,Unengaged,Enhanced,133,West,English
+6/1/2025,50-64,Male,Unengaged,Premium,182,South,Chinese
+6/1/2025,50-64,Female,Highly Engaged,Basic,149,West,English
+6/1/2025,50-64,Female,Highly Engaged,Enhanced,147,Northeast,Spanish
+6/1/2025,50-64,Female,Highly Engaged,Premium,126,West,English
+6/1/2025,50-64,Female,Reactive Engagers,Basic,146,West,English
+6/1/2025,50-64,Female,Reactive Engagers,Enhanced,226,West,English
+6/1/2025,50-64,Female,Reactive Engagers,Premium,118,West,English
+6/1/2025,50-64,Female,Content & Complacent,Basic,147,Northeast,English
+6/1/2025,50-64,Female,Content & Complacent,Enhanced,174,West,English
+6/1/2025,50-64,Female,Content & Complacent,Premium,162,West,English
+6/1/2025,50-64,Female,Unengaged,Basic,125,West,English
+6/1/2025,50-64,Female,Unengaged,Enhanced,116,South,English
+6/1/2025,50-64,Female,Unengaged,Premium,200,Northeast,Chinese
+6/1/2025,65+,Male,Highly Engaged,Basic,113,South,English
+6/1/2025,65+,Male,Highly Engaged,Enhanced,167,Northeast,English
+6/1/2025,65+,Male,Highly Engaged,Premium,188,West,Vietnamese
+6/1/2025,65+,Male,Reactive Engagers,Basic,157,South,English
+6/1/2025,65+,Male,Reactive Engagers,Enhanced,158,Midwest,Chinese
+6/1/2025,65+,Male,Reactive Engagers,Premium,183,South,English
+6/1/2025,65+,Male,Content & Complacent,Basic,154,Northeast,Spanish
+6/1/2025,65+,Male,Content & Complacent,Enhanced,162,West,English
+6/1/2025,65+,Male,Content & Complacent,Premium,152,West,English
+6/1/2025,65+,Male,Unengaged,Basic,126,West,Spanish
+6/1/2025,65+,Male,Unengaged,Enhanced,112,Midwest,English
+6/1/2025,65+,Male,Unengaged,Premium,144,West,English
+6/1/2025,65+,Female,Highly Engaged,Basic,114,West,English
+6/1/2025,65+,Female,Highly Engaged,Enhanced,128,Northeast,Spanish
+6/1/2025,65+,Female,Highly Engaged,Premium,158,Midwest,Spanish
+6/1/2025,65+,Female,Reactive Engagers,Basic,122,South,English
+6/1/2025,65+,Female,Reactive Engagers,Enhanced,129,Northeast,Spanish
+6/1/2025,65+,Female,Reactive Engagers,Premium,157,West,English
+6/1/2025,65+,Female,Content & Complacent,Basic,142,Northeast,English
+6/1/2025,65+,Female,Content & Complacent,Enhanced,133,West,English
+6/1/2025,65+,Female,Content & Complacent,Premium,129,South,English
+6/1/2025,65+,Female,Unengaged,Basic,131,South,English
+6/1/2025,65+,Female,Unengaged,Enhanced,157,West,English
+6/1/2025,65+,Female,Unengaged,Premium,189,Northeast,English

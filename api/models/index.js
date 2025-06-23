@@ -39,7 +39,8 @@ function initModels(sequelize) {
     }
   }, {
     tableName: 'membership_data',
-    timestamps: true
+    timestamps: true,
+    underscored: true
   });
 
   // CallData model
@@ -82,7 +83,8 @@ function initModels(sequelize) {
     }
   }, {
     tableName: 'call_data',
-    timestamps: true
+    timestamps: true,
+    underscored: true
   });
 
   // HeadcountData model
@@ -121,7 +123,8 @@ function initModels(sequelize) {
     }
   }, {
     tableName: 'headcount_data',
-    timestamps: true
+    timestamps: true,
+    underscored: true
   });
 
   // ForecastScenario model
@@ -163,7 +166,8 @@ function initModels(sequelize) {
     }
   }, {
     tableName: 'forecast_scenarios',
-    timestamps: true
+    timestamps: true,
+    underscored: true
   });
 
   // User model for authentication
@@ -209,7 +213,8 @@ function initModels(sequelize) {
     }
   }, {
     tableName: 'users',
-    timestamps: true
+    timestamps: true,
+    underscored: true
   });
 
   return {

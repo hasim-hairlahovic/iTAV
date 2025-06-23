@@ -13,6 +13,7 @@ import {
   Building
 } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
+import { getApiBaseUrl } from "@/api/base44Client";
 
 import FileUploadZone from "../components/data/FileUploadZone";
 import DataPreview from "../components/data/DataPreview";
@@ -52,27 +53,70 @@ export default function DataManagement() {
   const [previewData, setPreviewData] = useState(null);
   const [error, setError] = useState(null);
 
-  const handleFileSelect = (dataType, files) => {
+  const handleFileSelect = async (dataType, files) => {
     setSelectedDataType(dataType);
     setError(null);
     
-    // Simulate file processing
+    // Start upload progress
     setUploadProgress({ [dataType]: 0 });
     
-    const interval = setInterval(() => {
-      setUploadProgress(prev => {
-        const currentProgress = prev[dataType] || 0;
-        if (currentProgress >= 100) {
-          clearInterval(interval);
+    try {
+      const formData = new FormData();
+      formData.append('file', files[0]);
+      formData.append('dataType', dataType);
+      
+      // Update progress to show processing
+      setUploadProgress({ [dataType]: 25 });
+      
+      // Use shared API URL function
+      const apiBaseUrl = getApiBaseUrl();
+      
+      const response = await fetch(`${apiBaseUrl}/data-management/upload`, {
+        method: 'POST',
+        body: formData,
+      });
+      
+      // Update progress
+      setUploadProgress({ [dataType]: 75 });
+      
+      const result = await response.json();
+      
+      if (result.success) {
+        // Complete progress
+        setUploadProgress({ [dataType]: 100 });
+        
+        // After a brief delay, mark as uploaded
+        setTimeout(() => {
+          setUploadProgress(prev => {
+            const newProgress = { ...prev };
+            delete newProgress[dataType];
+            return newProgress;
+          });
+          
           setUploadedFiles(prev => ({
             ...prev,
-            [dataType]: { fileName: files[0].name, uploadDate: new Date() }
+            [dataType]: { 
+              fileName: files[0].name, 
+              uploadDate: new Date(),
+              recordsImported: result.data.imported
+            }
           }));
-          return prev;
-        }
-        return { ...prev, [dataType]: currentProgress + 10 };
+        }, 1000);
+      } else {
+        throw new Error(result.error || 'Upload failed');
+      }
+      
+    } catch (error) {
+      console.error('Upload error:', error);
+      setError(`Failed to upload ${dataType} data: ${error.message}`);
+      
+      // Clear progress on error
+      setUploadProgress(prev => {
+        const newProgress = { ...prev };
+        delete newProgress[dataType];
+        return newProgress;
       });
-    }, 200);
+    }
   };
 
   const getDataTypeColor = (color) => {
@@ -162,6 +206,7 @@ export default function DataManagement() {
                     </div>
                     <p className="text-xs text-green-600 mt-1">
                       Uploaded {isUploaded.uploadDate.toLocaleDateString()}
+                      {isUploaded.recordsImported && ` • ${isUploaded.recordsImported} records imported`}
                     </p>
                   </div>
                 ) : (

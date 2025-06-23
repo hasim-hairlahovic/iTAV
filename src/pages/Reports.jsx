@@ -25,7 +25,7 @@ export default function ReportsPage() {
     setIsLoading(true);
     setError(null);
     try {
-      const data = await selectedDataSource.entity.list('-created_date', 0); // 0 for all records
+      const data = await selectedDataSource.entity.list('-createdAt', 0); // 0 for all records
       setReportData(data);
     } catch (err) {
       console.error("Error fetching report data:", err);

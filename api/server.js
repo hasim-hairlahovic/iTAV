@@ -13,7 +13,6 @@ const sequelize = new Sequelize(process.env.DATABASE_URL || 'postgresql://postgr
   dialect: 'postgres',
   logging: false,
   define: {
-    underscored: true,
     freezeTableName: true
   }
 });
@@ -23,7 +22,12 @@ app.use(helmet());
 app.use(compression());
 app.use(morgan('combined'));
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173'],
+  origin: [
+    'http://localhost:3000', 
+    'http://localhost:5173',
+    'http://192.168.1.100:3000',
+    /^http:\/\/192\.168\.\d+\.\d+:3000$/
+  ],
   credentials: true
 }));
 app.use(express.json());
@@ -37,6 +41,7 @@ const headcountRoutes = require('./routes/headcount');
 const forecastRoutes = require('./routes/forecast');
 const { router: authRoutes } = require('./routes/auth');
 const integrationRoutes = require('./routes/integrations');
+const dataManagementRoutes = require('./routes/data-management');
 
 // Initialize database models
 initModels(sequelize);
@@ -48,6 +53,7 @@ app.use('/api/calls', callRoutes);
 app.use('/api/headcount', headcountRoutes);
 app.use('/api/forecast', forecastRoutes);
 app.use('/api/integrations', integrationRoutes);
+app.use('/api/data-management', dataManagementRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {

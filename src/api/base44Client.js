@@ -1,7 +1,24 @@
 import axios from 'axios';
 
-// Create API client instance
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api';
+// Create API client instance - dynamically determine API URL
+export const getApiBaseUrl = () => {
+  const hostname = window.location.hostname;
+  
+  // Use environment variable if set, otherwise determine dynamically
+  if (process.env.REACT_APP_API_URL) {
+    return process.env.REACT_APP_API_URL;
+  }
+  
+  // Default to localhost for development
+  if (hostname === 'localhost') {
+    return 'http://localhost:3001/api';
+  }
+  
+  // For other hostnames, use the same hostname with port 3001
+  return `http://${hostname}:3001/api`;
+};
+
+const API_BASE_URL = getApiBaseUrl();
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,

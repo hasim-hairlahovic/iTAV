@@ -6,7 +6,8 @@ import path from 'path'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: true
+    allowedHosts: true,
+    host: '0.0.0.0', // Allow external connections (needed for Docker)
   },
   resolve: {
     alias: {

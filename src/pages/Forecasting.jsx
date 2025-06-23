@@ -42,7 +42,7 @@ export default function ForecastingPage() {
         MembershipData.list("-date"),
         CallData.list("-date"),
         HeadcountData.list("-date"),
-        ForecastScenario.list("-created_date")
+        ForecastScenario.list("-createdAt")
       ]);
       
       setHistoricalData({ membership, calls, headcount });

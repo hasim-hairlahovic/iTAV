@@ -39,7 +39,7 @@ export default function ReportDataTable({ data, dataName }) {
 
   const headers = useMemo(() => {
     if (!data || data.length === 0) return [];
-    return Object.keys(data[0]).filter(header => header !== 'id' && header !== 'created_date' && header !== 'updated_date' && header !== 'created_by');
+    return Object.keys(data[0]).filter(header => header !== 'id' && header !== 'createdAt' && header !== 'updatedAt' && header !== 'created_by');
   }, [data]);
 
   const filteredAndSortedData = useMemo(() => {
