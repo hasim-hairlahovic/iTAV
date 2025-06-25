@@ -1,5 +1,5 @@
 import React from "react";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, LabelList } from "recharts";
 import { AlertTriangle } from "lucide-react";
 
 export default function GenericTrendChart({ data, dataKey, lineColor, yAxisLabel }) {
@@ -48,7 +48,9 @@ export default function GenericTrendChart({ data, dataKey, lineColor, yAxisLabel
             dot={{ fill: lineColor, strokeWidth: 2, r: 4 }}
             activeDot={{ r: 6, strokeWidth: 2 }}
             name={yAxisLabel}
-          />
+          >
+            <LabelList dataKey={dataKey} position="top" formatter={(value) => value.toLocaleString()} />
+          </Line>
         </LineChart>
       </ResponsiveContainer>
     </div>

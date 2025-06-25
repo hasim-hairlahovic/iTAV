@@ -1,5 +1,5 @@
 import React from "react";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Cell } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Cell, LabelList } from "recharts";
 import { AlertTriangle } from "lucide-react";
 
 const COLORS = ["#3b82f6", "#6366f1", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6", "#06b6d4", "#ec4899"];
@@ -62,6 +62,7 @@ export default function MemberSnapshotChart({ data, dimension, dimensionLabel })
             {chartData.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={entry.fill} />
             ))}
+            <LabelList dataKey="value" position="right" formatter={(value) => value.toLocaleString()} />
           </Bar>
         </BarChart>
       </ResponsiveContainer>
