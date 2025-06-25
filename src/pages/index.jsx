@@ -52,14 +52,19 @@ function PagesContent() {
                 
                 
                 <Route path="/Dashboard" element={<Dashboard />} />
+                <Route path="/dashboard" element={<Dashboard />} />
                 
                 <Route path="/DataManagement" element={<DataManagement />} />
+                <Route path="/datamanagement" element={<DataManagement />} />
                 
                 <Route path="/Analytics" element={<Analytics />} />
+                <Route path="/analytics" element={<Analytics />} />
                 
                 <Route path="/Forecasting" element={<Forecasting />} />
+                <Route path="/forecasting" element={<Forecasting />} />
                 
                 <Route path="/Reports" element={<Reports />} />
+                <Route path="/reports" element={<Reports />} />
                 
             </Routes>
         </Layout>

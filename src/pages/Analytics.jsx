@@ -24,6 +24,7 @@ export default function AnalyticsPage() {
   const [callData, setCallData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDimension, setSelectedDimension] = useState(DIMENSIONS[0].value);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     loadAnalyticsData();
@@ -32,6 +33,7 @@ export default function AnalyticsPage() {
   const loadAnalyticsData = async () => {
     try {
       setIsLoading(true);
+      setError(null);
       const [members, calls] = await Promise.all([
         MembershipData.list("-date"),
         CallData.list("-date"),
@@ -40,6 +42,7 @@ export default function AnalyticsPage() {
       setCallData(calls);
     } catch (error) {
       console.error("Error loading analytics data:", error);
+      setError("Failed to load analytics data. Please try again later.");
     } finally {
       setIsLoading(false);
     }
@@ -103,6 +106,22 @@ export default function AnalyticsPage() {
           <div className="h-96 bg-white/50 rounded-xl"></div>
         </div>
         <div className="h-96 bg-white/50 rounded-xl"></div>
+      </div>
+    );
+  }
+  
+  if (error) {
+    return (
+      <div className="p-8 flex flex-col items-center justify-center min-h-[60vh]">
+        <div className="bg-red-100 text-red-700 px-6 py-4 rounded-xl shadow-md text-lg font-semibold mb-4">
+          {error}
+        </div>
+        <button
+          className="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+          onClick={loadAnalyticsData}
+        >
+          Retry
+        </button>
       </div>
     );
   }

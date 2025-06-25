@@ -24,8 +24,8 @@ export default function CallMetricsTable({ callData }) {
         ...item,
         dateISO: parseISO(item.date),
         dateFormatted: format(parseISO(item.date), "MMM d, yyyy"),
-        avg_call_duration_formatted: `${item.avg_call_duration.toFixed(2)} min`,
-        resolution_rate_formatted: `${item.resolution_rate.toFixed(2)}%`
+        avg_call_duration_formatted: `${Number.isFinite(Number(item.avg_call_duration)) ? Number(item.avg_call_duration).toFixed(2) : '-'} min`,
+        resolution_rate_formatted: `${Number.isFinite(Number(item.resolution_rate)) ? Number(item.resolution_rate).toFixed(2) : '-'}%`
       }))
       .filter(item => item.dateISO >= thirtyDaysAgo) // Filter for last 30 days
       .filter(item => filterCallType === "All" || item.call_type === filterCallType)
