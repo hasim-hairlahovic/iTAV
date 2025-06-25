@@ -8,6 +8,13 @@ export default defineConfig({
   server: {
     allowedHosts: true,
     host: '0.0.0.0', // Allow external connections (needed for Docker)
+    proxy: {
+      '/api': {
+        target: 'http://api:3001', // Use Docker service name
+        changeOrigin: true,
+        secure: false
+      }
+    }
   },
   resolve: {
     alias: {

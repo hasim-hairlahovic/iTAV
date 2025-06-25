@@ -55,6 +55,26 @@ services:
     networks:
       - app-network
 
+  # Python Forecasting Engine
+  forecasting-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile.forecasting
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:password@db:5432/analytics_db
+      - REDIS_URL=redis://redis:6379
+      - NODE_ENV=development
+    depends_on:
+      - db
+      - redis
+    networks:
+      - app-network
+    volumes:
+      - ./forecasting:/app
+      - /app/__pycache__
+
 volumes:
   postgres_data:
 

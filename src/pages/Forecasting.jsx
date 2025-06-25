@@ -38,11 +38,19 @@ export default function ForecastingPage() {
   const loadData = async () => {
     try {
       setIsLoading(true);
+      
+      // Load historical data and scenarios in parallel
       const [membership, calls, headcount, savedScenarios] = await Promise.all([
         MembershipData.list("-date"),
         CallData.list("-date"),
         HeadcountData.list("-date"),
-        ForecastScenario.list("-createdAt")
+        // Load scenarios from the new Python service API
+        fetch('/api/forecast/scenarios')
+          .then(response => response.ok ? response.json() : [])
+          .catch(error => {
+            console.warn("Could not load scenarios from Python service:", error);
+            return [];
+          })
       ]);
       
       setHistoricalData({ membership, calls, headcount });
@@ -51,6 +59,8 @@ export default function ForecastingPage() {
       if (savedScenarios.length > 0) {
         setActiveScenario(savedScenarios[0]);
       }
+      
+      console.log(`Loaded ${savedScenarios.length} forecast scenarios`);
     } catch (error) {
       console.error("Error loading forecasting data:", error);
     } finally {
@@ -62,109 +72,133 @@ export default function ForecastingPage() {
     setIsGenerating(true);
     
     try {
-      // Create baseline scenario with default parameters
+      console.log('Generating baseline forecast using Python service...');
+      
+      // Call the Python forecasting service via Node.js API
+      const response = await fetch('/api/forecast/baseline', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          forecast_months: 12
+        })
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to generate baseline forecast');
+      }
+
+      const forecastData = await response.json();
+      console.log('Baseline forecast generated successfully:', forecastData);
+
+      // Convert Python service response to our format
       const baselineScenario = {
+        id: forecastData.scenario_id || `baseline-${Date.now()}`,
         name: "Baseline Forecast",
-        description: "Standard forecast based on historical trends",
+        description: "Standard forecast based on historical trends and sophisticated algorithms",
         base_month: new Date().toISOString().slice(0, 10),
         forecast_months: 12,
         member_growth_rate: 2.5,
-        segment_adjustments: {
-          highly_engaged: 0,
-          reactive_engagers: 0,
-          content_complacent: 0,
-          unengaged: 0
-        },
-        call_volume_factors: {
-          seasonal_factor: 1.0,
-          engagement_impact: 1.0,
-          product_mix_impact: 1.0
-        },
-        staffing_parameters: {
-          avg_handle_time: 6.2,
-          hours_per_agent: 160,
-          utilization_target: 0.85,
-          supervisor_ratio: 0.12
-        }
+        forecast_results: forecastData.forecast_results || [],
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        computation_time: forecastData.computation_time || 0,
+        confidence_intervals: forecastData.confidence_intervals || {}
       };
 
-      // Generate forecast results
-      const forecastResults = generateForecastData(baselineScenario);
-      baselineScenario.forecast_results = forecastResults;
-
-      // Save scenario
-      const savedScenario = await ForecastScenario.create(baselineScenario);
-      setScenarios(prev => [savedScenario, ...prev]);
-      setActiveScenario(savedScenario);
+      // Add to scenarios list
+      setScenarios(prev => [baselineScenario, ...prev]);
+      setActiveScenario(baselineScenario);
       
     } catch (error) {
       console.error("Error generating baseline:", error);
+      alert(`Failed to generate baseline forecast: ${error.message}`);
     } finally {
       setIsGenerating(false);
     }
   };
 
-  const generateForecastData = (scenario) => {
-    const { historicalData: hist } = this.state || { historicalData };
-    
-    // Calculate baseline metrics from historical data
-    const latestMonth = hist.membership.filter(m => m.date === hist.membership[0]?.date);
-    const totalMembers = latestMonth.reduce((sum, m) => sum + m.total_customers, 0);
-    
-    const latestCalls = hist.calls.filter(c => c.date === hist.calls[0]?.date);
-    const totalCalls = latestCalls.reduce((sum, c) => sum + c.total_calls, 0);
-    
-    const callsPerMember = totalCalls / totalMembers;
-    
-    // Generate forecast for each month
-    const results = [];
-    for (let i = 1; i <= scenario.forecast_months; i++) {
-      const growthFactor = Math.pow(1 + scenario.member_growth_rate / 100, i);
-      const predictedMembers = Math.round(totalMembers * growthFactor);
-      
-      // Apply seasonal and engagement factors
-      const seasonalMultiplier = 1 + 0.15 * Math.sin((i - 1) * Math.PI / 6); // Seasonal pattern
-      const predictedCalls = Math.round(
-        predictedMembers * 
-        callsPerMember * 
-        scenario.call_volume_factors.seasonal_factor * 
-        seasonalMultiplier
-      );
-      
-      // Calculate required staffing
-      const totalMinutes = predictedCalls * scenario.staffing_parameters.avg_handle_time;
-      const availableMinutes = scenario.staffing_parameters.hours_per_agent * 60 * scenario.staffing_parameters.utilization_target;
-      const requiredStaff = Math.ceil(totalMinutes / availableMinutes);
-      const requiredSupervisors = Math.ceil(requiredStaff * scenario.staffing_parameters.supervisor_ratio);
-      
-      const month = new Date();
-      month.setMonth(month.getMonth() + i);
-      
-      results.push({
-        month: month.toISOString().slice(0, 7),
-        predicted_members: predictedMembers,
-        predicted_calls: predictedCalls,
-        required_staff: requiredStaff,
-        required_supervisors: requiredSupervisors
-      });
-    }
-    
-    return results;
-  };
+
 
   const handleScenarioSave = async (scenarioData) => {
     try {
-      const forecastResults = generateForecastData(scenarioData);
+      console.log('Generating custom forecast scenario using Python service...');
+      
+      // Call the Python forecasting service to generate the forecast
+      const response = await fetch('/api/forecast/generate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          scenario_data: {
+            name: scenarioData.name,
+            description: scenarioData.description,
+            base_month: scenarioData.base_month || new Date().toISOString().slice(0, 10),
+            forecast_months: scenarioData.forecast_months || 12,
+            member_growth_rate: scenarioData.member_growth_rate || 2.5,
+            segment_adjustments: scenarioData.segment_adjustments || {
+              highly_engaged: 0,
+              reactive_engagers: 0,
+              content_complacent: 0,
+              unengaged: 0
+            },
+            call_volume_factors: scenarioData.call_volume_factors || {
+              seasonal_factor: 1.0,
+              engagement_impact: 1.0,
+              product_mix_impact: 1.0,
+              regulatory_impact: 1.0
+            },
+            staffing_parameters: scenarioData.staffing_parameters || {
+              avg_handle_time: 6.2,
+              hours_per_agent: 160,
+              utilization_target: 0.85,
+              supervisor_ratio: 0.12,
+              target_service_level: 0.8,
+              target_answer_time: 20
+            },
+            monte_carlo_iterations: scenarioData.monte_carlo_iterations || 1000,
+            confidence_level: scenarioData.confidence_level || 0.9
+          },
+          save_scenario: true
+        })
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to generate forecast scenario');
+      }
+
+      const forecastData = await response.json();
+      console.log('Custom forecast scenario generated successfully:', forecastData);
+
+      // Convert Python service response to our format
       const completeScenario = {
-        ...scenarioData,
-        forecast_results: forecastResults
+        id: forecastData.scenario_id || `scenario-${Date.now()}`,
+        name: scenarioData.name,
+        description: scenarioData.description,
+        base_month: scenarioData.base_month || new Date().toISOString().slice(0, 10),
+        forecast_months: scenarioData.forecast_months || 12,
+        member_growth_rate: scenarioData.member_growth_rate || 2.5,
+        forecast_results: forecastData.forecast_results || [],
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+        computation_time: forecastData.computation_time || 0,
+        confidence_intervals: forecastData.confidence_intervals || {},
+        // Include original scenario parameters
+        segment_adjustments: scenarioData.segment_adjustments,
+        call_volume_factors: scenarioData.call_volume_factors,
+        staffing_parameters: scenarioData.staffing_parameters
       };
       
-      const savedScenario = await ForecastScenario.create(completeScenario);
-      setScenarios(prev => [savedScenario, ...prev]);
-      setActiveScenario(savedScenario);
+      setScenarios(prev => [completeScenario, ...prev]);
+      setActiveScenario(completeScenario);
+      
     } catch (error) {
       console.error("Error saving scenario:", error);
+      alert(`Failed to generate forecast scenario: ${error.message}`);
     }
   };
 
