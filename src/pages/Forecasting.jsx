@@ -30,6 +30,7 @@ export default function ForecastingPage() {
   const [activeScenario, setActiveScenario] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [isGenerating, setIsGenerating] = useState(false);
+  const [activeTab, setActiveTab] = useState("results");
 
   useEffect(() => {
     loadData();
@@ -111,6 +112,14 @@ export default function ForecastingPage() {
       // Add to scenarios list
       setScenarios(prev => [baselineScenario, ...prev]);
       setActiveScenario(baselineScenario);
+      
+      // If there are other scenarios, navigate to Compare tab to show comparison
+      if (scenarios.length > 0) {
+        console.log(`✅ Baseline forecast created successfully!`);
+        setTimeout(() => {
+          setActiveTab("compare");
+        }, 500);
+      }
       
     } catch (error) {
       console.error("Error generating baseline:", error);
@@ -195,6 +204,14 @@ export default function ForecastingPage() {
       
       setScenarios(prev => [completeScenario, ...prev]);
       setActiveScenario(completeScenario);
+      
+      // Show success feedback and navigate to Compare tab
+      console.log(`✅ Scenario "${scenarioData.name}" created successfully!`);
+      
+      // Automatically navigate to Compare tab after a brief delay
+      setTimeout(() => {
+        setActiveTab("compare");
+      }, 500);
       
     } catch (error) {
       console.error("Error saving scenario:", error);
@@ -291,7 +308,7 @@ export default function ForecastingPage() {
           </CardContent>
         </Card>
       ) : (
-        <Tabs defaultValue="results" className="w-full">
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
           <TabsList className="grid w-full grid-cols-4 md:w-auto md:inline-flex bg-slate-100 p-1 rounded-lg mb-6">
             <TabsTrigger value="results" className="data-[state=active]:bg-blue-600 data-[state=active]:text-white">
               <BarChart3 className="w-4 h-4 mr-2" /> Results
