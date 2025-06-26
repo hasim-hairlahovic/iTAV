@@ -45,23 +45,43 @@ export default function ForecastingPage() {
         MembershipData.list("-date"),
         CallData.list("-date"),
         HeadcountData.list("-date"),
-        // Load scenarios from the new Python service API
-        fetch('/api/forecast/scenarios')
+        // Load scenarios from the Node.js database
+        fetch('/api/forecast')
           .then(response => response.ok ? response.json() : [])
           .catch(error => {
-            console.warn("Could not load scenarios from Python service:", error);
+            console.warn("Could not load scenarios from database:", error);
             return [];
           })
       ]);
       
       setHistoricalData({ membership, calls, headcount });
-      setScenarios(savedScenarios);
       
-      if (savedScenarios.length > 0) {
-        setActiveScenario(savedScenarios[0]);
+      // Transform database scenarios to frontend format
+      const transformedScenarios = savedScenarios.map(scenario => ({
+        id: scenario.id,
+        name: scenario.name,
+        description: scenario.description,
+        base_month: scenario.base_month || scenario.forecast_date,
+        forecast_months: scenario.forecast_months || 12,
+        member_growth_rate: scenario.member_growth_rate || 2.5,
+        forecast_results: scenario.forecast_results || [],
+        scenario_type: scenario.scenario_type || 'realistic',
+        created_at: scenario.created_at,
+        updated_at: scenario.updated_at,
+        computation_time: scenario.computation_time || 0,
+        confidence_intervals: scenario.confidence_intervals || {},
+        segment_adjustments: scenario.segment_adjustments || {},
+        call_volume_factors: scenario.call_volume_factors || {},
+        staffing_parameters: scenario.staffing_parameters || {}
+      }));
+      
+      setScenarios(transformedScenarios);
+      
+      if (transformedScenarios.length > 0) {
+        setActiveScenario(transformedScenarios[0]);
       }
       
-      console.log(`Loaded ${savedScenarios.length} forecast scenarios`);
+      console.log(`Loaded ${transformedScenarios.length} forecast scenarios`);
     } catch (error) {
       console.error("Error loading forecasting data:", error);
     } finally {
@@ -106,8 +126,42 @@ export default function ForecastingPage() {
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
         computation_time: forecastData.computation_time || 0,
-        confidence_intervals: forecastData.confidence_intervals || {}
+        confidence_intervals: forecastData.confidence_intervals || {},
+        scenario_type: 'baseline'
       };
+
+      // Save to database via Node.js API
+      const saveResponse = await fetch('/api/forecast', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: baselineScenario.name,
+          description: baselineScenario.description,
+          forecast_date: baselineScenario.base_month,
+          predicted_members: baselineScenario.forecast_results.length > 0 ? 
+            baselineScenario.forecast_results[baselineScenario.forecast_results.length - 1].predicted_members : 0,
+          predicted_calls: baselineScenario.forecast_results.length > 0 ? 
+            baselineScenario.forecast_results[baselineScenario.forecast_results.length - 1].predicted_calls : 0,
+          confidence_level: 0.9,
+          scenario_type: 'baseline',
+          base_month: baselineScenario.base_month,
+          forecast_months: baselineScenario.forecast_months,
+          member_growth_rate: baselineScenario.member_growth_rate,
+          forecast_results: baselineScenario.forecast_results,
+          confidence_intervals: baselineScenario.confidence_intervals,
+          computation_time: baselineScenario.computation_time
+        })
+      });
+
+      if (saveResponse.ok) {
+        const savedScenario = await saveResponse.json();
+        baselineScenario.id = savedScenario.id;
+        console.log('Baseline scenario saved to database:', savedScenario.id);
+      } else {
+        console.warn('Failed to save baseline scenario to database, using temporary ID');
+      }
 
       // Add to scenarios list
       setScenarios(prev => [baselineScenario, ...prev]);
@@ -196,11 +250,48 @@ export default function ForecastingPage() {
         updated_at: new Date().toISOString(),
         computation_time: forecastData.computation_time || 0,
         confidence_intervals: forecastData.confidence_intervals || {},
+        scenario_type: 'custom',
         // Include original scenario parameters
         segment_adjustments: scenarioData.segment_adjustments,
         call_volume_factors: scenarioData.call_volume_factors,
         staffing_parameters: scenarioData.staffing_parameters
       };
+
+      // Save to database via Node.js API
+      const saveResponse = await fetch('/api/forecast', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: completeScenario.name,
+          description: completeScenario.description,
+          forecast_date: completeScenario.base_month,
+          predicted_members: completeScenario.forecast_results.length > 0 ? 
+            completeScenario.forecast_results[completeScenario.forecast_results.length - 1].predicted_members : 0,
+          predicted_calls: completeScenario.forecast_results.length > 0 ? 
+            completeScenario.forecast_results[completeScenario.forecast_results.length - 1].predicted_calls : 0,
+          confidence_level: scenarioData.confidence_level || 0.9,
+          scenario_type: 'custom',
+          base_month: completeScenario.base_month,
+          forecast_months: completeScenario.forecast_months,
+          member_growth_rate: completeScenario.member_growth_rate,
+          forecast_results: completeScenario.forecast_results,
+          segment_adjustments: completeScenario.segment_adjustments,
+          call_volume_factors: completeScenario.call_volume_factors,
+          staffing_parameters: completeScenario.staffing_parameters,
+          confidence_intervals: completeScenario.confidence_intervals,
+          computation_time: completeScenario.computation_time
+        })
+      });
+
+      if (saveResponse.ok) {
+        const savedScenario = await saveResponse.json();
+        completeScenario.id = savedScenario.id;
+        console.log('Custom scenario saved to database:', savedScenario.id);
+      } else {
+        console.warn('Failed to save custom scenario to database, using temporary ID');
+      }
       
       setScenarios(prev => [completeScenario, ...prev]);
       setActiveScenario(completeScenario);

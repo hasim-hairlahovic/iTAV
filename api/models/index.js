@@ -160,9 +160,49 @@ function initModels(sequelize) {
       defaultValue: 0.0
     },
     scenario_type: {
-      type: DataTypes.ENUM('optimistic', 'realistic', 'pessimistic'),
+      type: DataTypes.ENUM('optimistic', 'realistic', 'pessimistic', 'baseline', 'custom'),
       allowNull: false,
       defaultValue: 'realistic'
+    },
+    // Additional fields for complete scenario data
+    base_month: {
+      type: DataTypes.DATEONLY,
+      allowNull: true
+    },
+    forecast_months: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 12
+    },
+    member_growth_rate: {
+      type: DataTypes.FLOAT,
+      allowNull: true,
+      defaultValue: 2.5
+    },
+    forecast_results: {
+      type: DataTypes.JSONB,
+      allowNull: true
+    },
+    segment_adjustments: {
+      type: DataTypes.JSONB,
+      allowNull: true
+    },
+    call_volume_factors: {
+      type: DataTypes.JSONB,
+      allowNull: true
+    },
+    staffing_parameters: {
+      type: DataTypes.JSONB,
+      allowNull: true
+    },
+    confidence_intervals: {
+      type: DataTypes.JSONB,
+      allowNull: true
+    },
+    computation_time: {
+      type: DataTypes.FLOAT,
+      allowNull: true,
+      defaultValue: 0.0
     }
   }, {
     tableName: 'forecast_scenarios',

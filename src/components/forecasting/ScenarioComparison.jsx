@@ -10,7 +10,7 @@ const SCENARIO_COLORS = ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6"];
 
 export default function ScenarioComparison({ scenarios }) {
   const [selectedScenarios, setSelectedScenarios] = useState([]);
-  const [comparisonMetric, setComparisonMetric] = useState("required_staff");
+  const [comparisonMetric, setComparisonMetric] = useState("predicted_calls");
 
   const handleScenarioToggle = (scenarioId) => {
     setSelectedScenarios(prev => 
@@ -28,9 +28,13 @@ export default function ScenarioComparison({ scenarios }) {
     // Get all unique months across scenarios
     const allMonths = new Set();
     selectedScenarioData.forEach(scenario => {
-      scenario.forecast_results?.forEach(result => {
-        allMonths.add(result.month);
-      });
+      if (scenario.forecast_results && Array.isArray(scenario.forecast_results)) {
+        scenario.forecast_results.forEach(result => {
+          if (result && result.month) {
+            allMonths.add(result.month);
+          }
+        });
+      }
     });
 
     const sortedMonths = Array.from(allMonths).sort();
@@ -41,9 +45,11 @@ export default function ScenarioComparison({ scenarios }) {
       };
 
       selectedScenarioData.forEach((scenario, index) => {
-        const result = scenario.forecast_results?.find(r => r.month === month);
-        if (result) {
-          dataPoint[scenario.name] = result[comparisonMetric];
+        if (scenario.forecast_results && Array.isArray(scenario.forecast_results)) {
+          const result = scenario.forecast_results.find(r => r && r.month === month);
+          if (result && result[comparisonMetric] !== undefined) {
+            dataPoint[scenario.name] = result[comparisonMetric];
+          }
         }
       });
 
@@ -52,17 +58,29 @@ export default function ScenarioComparison({ scenarios }) {
   };
 
   const calculateScenarioSummary = (scenario) => {
-    if (!scenario.forecast_results) return null;
+    if (!scenario || !scenario.forecast_results || !Array.isArray(scenario.forecast_results) || scenario.forecast_results.length === 0) {
+      return null;
+    }
 
     const finalResult = scenario.forecast_results[scenario.forecast_results.length - 1];
     const initialResult = scenario.forecast_results[0];
     
-    const staffGrowth = ((finalResult.required_staff - initialResult.required_staff) / initialResult.required_staff) * 100;
-    const memberGrowth = ((finalResult.predicted_members - initialResult.predicted_members) / initialResult.predicted_members) * 100;
+    if (!finalResult || !initialResult) {
+      return null;
+    }
+
+    // Handle different possible field names and provide defaults
+    const finalStaff = finalResult.required_staff || finalResult.predicted_staff || finalResult.staff_required || 0;
+    const initialStaff = initialResult.required_staff || initialResult.predicted_staff || initialResult.staff_required || 0;
+    const finalMembers = finalResult.predicted_members || finalResult.members || 0;
+    const initialMembers = initialResult.predicted_members || initialResult.members || 0;
+    
+    const staffGrowth = initialStaff > 0 ? ((finalStaff - initialStaff) / initialStaff) * 100 : 0;
+    const memberGrowth = initialMembers > 0 ? ((finalMembers - initialMembers) / initialMembers) * 100 : 0;
 
     return {
-      finalStaff: finalResult.required_staff,
-      finalMembers: finalResult.predicted_members,
+      finalStaff: finalStaff,
+      finalMembers: finalMembers,
       staffGrowth: staffGrowth.toFixed(1),
       memberGrowth: memberGrowth.toFixed(1)
     };
@@ -95,7 +113,8 @@ export default function ScenarioComparison({ scenarios }) {
     return null;
   };
 
-  if (scenarios.length === 0) {
+  // Early return for no scenarios
+  if (!scenarios || scenarios.length === 0) {
     return (
       <Card className="glass-card border-none shadow-xl">
         <CardContent className="flex items-center justify-center h-64">
@@ -126,10 +145,10 @@ export default function ScenarioComparison({ scenarios }) {
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="required_staff">Required Staff</SelectItem>
-                  <SelectItem value="predicted_members">Predicted Members</SelectItem>
                   <SelectItem value="predicted_calls">Predicted Calls</SelectItem>
-                  <SelectItem value="required_supervisors">Required Supervisors</SelectItem>
+                  <SelectItem value="predicted_members">Predicted Members</SelectItem>
+                  <SelectItem value="required_staff">Required Staff</SelectItem>
+                  <SelectItem value="predicted_staff">Predicted Staff</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -157,7 +176,7 @@ export default function ScenarioComparison({ scenarios }) {
                     `}
                   >
                     <div className="flex items-start justify-between mb-2">
-                      <h4 className="font-semibold text-slate-900 text-sm">{scenario.name}</h4>
+                      <h4 className="font-semibold text-slate-900 text-sm">{scenario.name || 'Unnamed Scenario'}</h4>
                       {isSelected && (
                         <Badge className="bg-blue-100 text-blue-800 border-blue-200 text-xs">
                           Selected
@@ -178,6 +197,11 @@ export default function ScenarioComparison({ scenarios }) {
                         </div>
                       </div>
                     )}
+                    {!summary && (
+                      <div className="text-xs text-slate-500">
+                        No forecast data available
+                      </div>
+                    )}
                   </div>
                 );
               })}
@@ -196,32 +220,38 @@ export default function ScenarioComparison({ scenarios }) {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="h-80">
-              <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={chartData}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-                  <XAxis dataKey="month" stroke="#64748b" fontSize={12} />
-                  <YAxis stroke="#64748b" fontSize={12} />
-                  <Tooltip content={<CustomTooltip />} />
-                  <Legend />
-                  
-                  {scenarios
-                    .filter(s => selectedScenarios.includes(s.id))
-                    .map((scenario, index) => (
-                      <Line
-                        key={scenario.id}
-                        type="monotone"
-                        dataKey={scenario.name}
-                        name={scenario.name}
-                        stroke={SCENARIO_COLORS[index % SCENARIO_COLORS.length]}
-                        strokeWidth={3}
-                        dot={{ r: 4 }}
-                        activeDot={{ r: 6 }}
-                      />
-                    ))}
-                </LineChart>
-              </ResponsiveContainer>
-            </div>
+            {chartData.length > 0 ? (
+              <div className="h-80">
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart data={chartData}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
+                    <XAxis dataKey="month" stroke="#64748b" fontSize={12} />
+                    <YAxis stroke="#64748b" fontSize={12} />
+                    <Tooltip content={<CustomTooltip />} />
+                    <Legend />
+                    
+                    {scenarios
+                      .filter(s => selectedScenarios.includes(s.id))
+                      .map((scenario, index) => (
+                        <Line
+                          key={scenario.id}
+                          type="monotone"
+                          dataKey={scenario.name}
+                          name={scenario.name}
+                          stroke={SCENARIO_COLORS[index % SCENARIO_COLORS.length]}
+                          strokeWidth={3}
+                          dot={{ r: 4 }}
+                          activeDot={{ r: 6 }}
+                        />
+                      ))}
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            ) : (
+              <div className="flex items-center justify-center h-64">
+                <p className="text-slate-500">No data available for selected scenarios</p>
+              </div>
+            )}
           </CardContent>
         </Card>
       )}
@@ -254,12 +284,14 @@ export default function ScenarioComparison({ scenarios }) {
                       const summary = calculateScenarioSummary(scenario);
                       return (
                         <tr key={scenario.id} className="border-b border-slate-100 hover:bg-slate-50">
-                          <td className="p-3 font-medium text-slate-900">{scenario.name}</td>
-                          <td className="p-3 text-right text-slate-700">{scenario.member_growth_rate}%</td>
-                          <td className="p-3 text-right text-slate-700">{summary?.finalMembers.toLocaleString()}</td>
-                          <td className="p-3 text-right text-slate-700">{summary?.finalStaff}</td>
-                          <td className={`p-3 text-right font-semibold ${parseFloat(summary?.staffGrowth) >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
-                            {summary?.staffGrowth}%
+                          <td className="p-3 font-medium text-slate-900">{scenario.name || 'Unnamed'}</td>
+                          <td className="p-3 text-right text-slate-700">{scenario.member_growth_rate || 'N/A'}%</td>
+                          <td className="p-3 text-right text-slate-700">
+                            {summary?.finalMembers ? summary.finalMembers.toLocaleString() : 'N/A'}
+                          </td>
+                          <td className="p-3 text-right text-slate-700">{summary?.finalStaff || 'N/A'}</td>
+                          <td className={`p-3 text-right font-semibold ${summary && parseFloat(summary.staffGrowth) >= 0 ? 'text-emerald-600' : 'text-red-600'}`}>
+                            {summary?.staffGrowth || 'N/A'}%
                           </td>
                         </tr>
                       );

@@ -3,6 +3,7 @@ import axios from 'axios';
 // Create API client instance - dynamically determine API URL
 export const getApiBaseUrl = () => {
   const hostname = window.location.hostname;
+  const protocol = window.location.protocol; // 'http:' or 'https:'
   
   // Use environment variable if set, otherwise determine dynamically
   if (process.env.REACT_APP_API_URL) {
@@ -13,6 +14,16 @@ export const getApiBaseUrl = () => {
   if (hostname === 'localhost') {
     return 'http://localhost:3001/api';
   }
+  
+  // For the domain, use same domain with path routing (avoiding subdomain DNS issues)
+  if (hostname === 'itav.hhtechconsulting.org') {
+    return `${protocol}//${hostname}/api`;
+  }
+  
+  // Fallback: API subdomain approach (if subdomain DNS is working)
+  // if (hostname === 'itav.hhtechconsulting.org') {
+  //   return `${protocol}//api.itav.hhtechconsulting.org/api`;
+  // }
   
   // For other hostnames, use the same hostname with port 3001
   return `http://${hostname}:3001/api`;

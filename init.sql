@@ -60,7 +60,16 @@ CREATE TABLE IF NOT EXISTS forecast_scenarios (
   predicted_members INTEGER NOT NULL,
   predicted_calls INTEGER NOT NULL,
   confidence_level REAL NOT NULL DEFAULT 0.0,
-  scenario_type VARCHAR(50) NOT NULL DEFAULT 'realistic' CHECK (scenario_type IN ('optimistic', 'realistic', 'pessimistic')),
+  scenario_type VARCHAR(50) NOT NULL DEFAULT 'realistic' CHECK (scenario_type IN ('optimistic', 'realistic', 'pessimistic', 'baseline', 'custom')),
+  base_month DATE,
+  forecast_months INTEGER DEFAULT 12,
+  member_growth_rate REAL DEFAULT 2.5,
+  forecast_results JSONB,
+  segment_adjustments JSONB,
+  call_volume_factors JSONB,
+  staffing_parameters JSONB,
+  confidence_intervals JSONB,
+  computation_time REAL DEFAULT 0.0,
   created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT NOW()
 );
