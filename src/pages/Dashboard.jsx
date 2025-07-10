@@ -176,7 +176,7 @@ export default function Dashboard() {
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
         <div>
           <h1 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-2">
-            Executive Dashboard
+            Customer & Sector Insights
           </h1>
           <p className="text-slate-600 text-lg">
             Real-time workforce analytics and customer insights
@@ -213,8 +213,8 @@ export default function Dashboard() {
           gradient="from-indigo-500 to-indigo-600"
         />
         <MetricCard
-          title="Call Resolution"
-          value={`${metrics.avgResolution.toFixed(1)}%`}
+          title="Calls per 1,000 Members"
+          value={metrics.callsPerMember.toFixed(1)}
           change={2.3}
           icon={Target}
           gradient="from-emerald-500 to-emerald-600"
@@ -230,76 +230,20 @@ export default function Dashboard() {
 
       {/* Main Analytics Grid */}
       <div className="grid lg:grid-cols-3 gap-8">
-        {/* Trend Analysis */}
-        <div className="lg:col-span-2">
-          <TrendChart data={trendData} />
-        </div>
-
         {/* Customer Segmentation */}
         <div>
           <SegmentDistribution membershipData={membershipData} />
         </div>
+
+        {/* Trend Analysis */}
+        <div className="lg:col-span-2">
+          <TrendChart data={trendData} />
+        </div>
       </div>
 
       {/* Call Volume Analysis */}
-      <div className="grid lg:grid-cols-2 gap-8">
+      <div className="grid lg:grid-cols-1 gap-8">
         <CallVolumeChart callData={callData} />
-        
-        {/* Performance Metrics */}
-        <Card className="glass-card border-none shadow-xl">
-          <CardHeader className="pb-4">
-            <CardTitle className="flex items-center gap-2 text-slate-900">
-              <BarChart3 className="w-5 h-5 text-blue-600" />
-              Performance Metrics
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-6">
-              <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
-                <div>
-                  <p className="text-sm font-medium text-slate-600">Calls per 1,000 Members</p>
-                  <p className="text-2xl font-bold text-slate-900">{metrics.callsPerMember.toFixed(1)}</p>
-                </div>
-                <div className="text-right">
-                  <p className="text-sm text-slate-500">Industry Avg: 127.3</p>
-                  <Badge className={
-                    metrics.callsPerMember < 127.3 
-                      ? "bg-green-100 text-green-800" 
-                      : "bg-yellow-100 text-yellow-800"
-                  }>
-                    {metrics.callsPerMember < 127.3 ? "Below Average" : "Above Average"}
-                  </Badge>
-                </div>
-              </div>
-              
-              <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
-                <div>
-                  <p className="text-sm font-medium text-slate-600">Average Handle Time</p>
-                  <p className="text-2xl font-bold text-slate-900">6.2 min</p>
-                </div>
-                <div className="text-right">
-                  <p className="text-sm text-slate-500">Target: ≤ 6.5 min</p>
-                  <Badge className="bg-green-100 text-green-800">
-                    On Target
-                  </Badge>
-                </div>
-              </div>
-
-              <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
-                <div>
-                  <p className="text-sm font-medium text-slate-600">Staff Utilization</p>
-                  <p className="text-2xl font-bold text-slate-900">87.3%</p>
-                </div>
-                <div className="text-right">
-                  <p className="text-sm text-slate-500">Optimal: 80-90%</p>
-                  <Badge className="bg-green-100 text-green-800">
-                    Optimal
-                  </Badge>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
       </div>
     </div>
   );

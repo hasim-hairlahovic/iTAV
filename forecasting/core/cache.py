@@ -1,4 +1,3 @@
-"""
 Redis-based caching system for the iTAV Forecasting Engine
 """
 
