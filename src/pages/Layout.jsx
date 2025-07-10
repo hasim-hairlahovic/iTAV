@@ -32,7 +32,7 @@ import { Badge } from "@/components/ui/badge";
 
 const navigationItems = [
   {
-    title: "Executive Dashboard",
+    title: "Customer & Sector Insights",
     url: createPageUrl("Dashboard"),
     icon: BarChart3,
     description: "Key metrics & insights",

@@ -43,6 +43,8 @@ export default function Dashboard() {
   const [headcountData, setHeadcountData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [selectedTimeframe, setSelectedTimeframe] = useState("3M");
+  const [selectedSegmentationDimension, setSelectedSegmentationDimension] = useState("segment");
+  const [selectedSegmentationValue, setSelectedSegmentationValue] = useState(null);
 
   useEffect(() => {
     loadData();
@@ -132,7 +134,7 @@ export default function Dashboard() {
   const metrics = calculateMetrics();
 
   const prepareTrendData = () => {
-    const dates = [...new Set(membershipData.map(m => m.date))].sort();
+    const dates = [...new Set(membershipData.map(m => m.date))].sort((a, b) => new Date(a) - new Date(b));
     
     return dates.map(date => {
       const monthMembership = membershipData.filter(m => m.date === date);
@@ -153,6 +155,12 @@ export default function Dashboard() {
   };
 
   const trendData = prepareTrendData();
+
+  // Handler for when a segment is clicked in SegmentDistribution
+  const handleSegmentationSelection = (dimension, value) => {
+    setSelectedSegmentationDimension(dimension);
+    setSelectedSegmentationValue(value);
+  };
 
   if (isLoading) {
     return (
@@ -232,18 +240,32 @@ export default function Dashboard() {
       <div className="grid lg:grid-cols-3 gap-8">
         {/* Customer Segmentation */}
         <div>
-          <SegmentDistribution membershipData={membershipData} />
+          <SegmentDistribution 
+            membershipData={membershipData} 
+            selectedDimension={selectedSegmentationDimension}
+            selectedValue={selectedSegmentationValue}
+            onSelectionChange={handleSegmentationSelection}
+          />
         </div>
 
-        {/* Trend Analysis */}
-        <div className="lg:col-span-2">
-          <TrendChart data={trendData} />
+        {/* Trend Analysis and Call Volume by Type stacked */}
+        <div className="lg:col-span-2 flex flex-col gap-8">
+          <TrendChart 
+            data={trendData} 
+            membershipData={membershipData}
+            callData={callData}
+            headcountData={headcountData}
+            selectedTimeframe={selectedTimeframe}
+            onTimeframeChange={setSelectedTimeframe}
+          />
+          <CallVolumeChart 
+            callData={callData}
+            selectedTimeframe={selectedTimeframe}
+            filterDimension={selectedSegmentationDimension}
+            filterValue={selectedSegmentationValue}
+            membershipData={membershipData}
+          />
         </div>
-      </div>
-
-      {/* Call Volume Analysis */}
-      <div className="grid lg:grid-cols-1 gap-8">
-        <CallVolumeChart callData={callData} />
       </div>
     </div>
   );

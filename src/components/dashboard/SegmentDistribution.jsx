@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Users, Filter } from "lucide-react";
@@ -26,8 +26,19 @@ const DIMENSION_OPTIONS = [
   { value: "line_of_business", label: "Line of Business", field: "product", available: false }
 ];
 
-export default function SegmentDistribution({ membershipData }) {
-  const [selectedDimension, setSelectedDimension] = useState("segment");
+const SEGMENT_EXPLANATIONS = {
+  "Highly Engaged": "Frequently interacts and utilizes services extensively.",
+  "Reactive Engagers": "Responds to outreach but less proactive in engagement.",
+  "Content & Complacent": "Satisfied but not highly active or involved.",
+  "Unengaged": "Rarely interacts and shows minimal activity."
+};
+
+export default function SegmentDistribution({ membershipData, selectedDimension = "segment", selectedValue, onSelectionChange }) {
+  const [localDimension, setLocalDimension] = useState(selectedDimension);
+
+  useEffect(() => {
+    setLocalDimension(selectedDimension);
+  }, [selectedDimension]);
 
   const prepareSegmentData = () => {
     if (!membershipData.length) return [];
@@ -35,7 +46,7 @@ export default function SegmentDistribution({ membershipData }) {
     const latestDate = membershipData[0]?.date;
     const latestData = membershipData.filter(m => m.date === latestDate);
     
-    const selectedOption = DIMENSION_OPTIONS.find(opt => opt.value === selectedDimension);
+    const selectedOption = DIMENSION_OPTIONS.find(opt => opt.value === localDimension);
     
     // Check if the selected dimension is available in current data
     if (!selectedOption?.available) {
@@ -54,16 +65,16 @@ export default function SegmentDistribution({ membershipData }) {
       let value = record[field];
       
       // Handle special cases for derived dimensions
-      if (selectedDimension === "age_band") {
+      if (localDimension === "age_band") {
         value = record.age_range || "Unknown";
-      } else if (selectedDimension === "line_of_business") {
+      } else if (localDimension === "line_of_business") {
         // Map product to line of business
         value = mapProductToLineOfBusiness(record.product);
-      } else if (selectedDimension === "plan_name") {
+      } else if (localDimension === "plan_name") {
         value = record.product || "Unknown";
-      } else if (selectedDimension === "gender") {
+      } else if (localDimension === "gender") {
         value = record.gender || "Unknown";
-      } else if (selectedDimension === "region") {
+      } else if (localDimension === "region") {
         value = record.region || "Unknown";
       } else {
         value = record.segment || "Unknown";
@@ -86,7 +97,7 @@ export default function SegmentDistribution({ membershipData }) {
     
     const productMap = {
       "Basic": "Standard Plans",
-      "Enhanced": "Premium Plans", 
+      "Enhanced": "Premium Plans",
       "Premium": "Premium Plans",
       "Medicare Advantage": "Medicare Advantage",
       "Medicare Supplement": "Medicare Supplement",
@@ -103,10 +114,14 @@ export default function SegmentDistribution({ membershipData }) {
     if (active && payload && payload.length) {
       const data = payload[0];
       const percentage = ((data.value / totalMembers) * 100).toFixed(1);
+      const explanation = SEGMENT_EXPLANATIONS[data.payload.name];
       
       return (
         <div className="bg-white/95 backdrop-blur-sm p-4 rounded-lg border border-slate-200 shadow-xl">
           <p className="font-semibold text-slate-900">{data.payload.name}</p>
+          {explanation && (
+            <p className="text-xs text-slate-500 mb-1">{explanation}</p>
+          )}
           <p className="text-sm text-slate-600">
             {data.value.toLocaleString()} members ({percentage}%)
           </p>
@@ -116,7 +131,7 @@ export default function SegmentDistribution({ membershipData }) {
     return null;
   };
 
-  const selectedOption = DIMENSION_OPTIONS.find(opt => opt.value === selectedDimension);
+  const selectedOption = DIMENSION_OPTIONS.find(opt => opt.value === localDimension);
 
   return (
     <Card className="glass-card border-none shadow-xl">
@@ -129,7 +144,10 @@ export default function SegmentDistribution({ membershipData }) {
           
           <div className="flex items-center gap-2">
             <Filter className="w-4 h-4 text-slate-500" />
-            <Select value={selectedDimension} onValueChange={setSelectedDimension}>
+            <Select value={localDimension} onValueChange={val => {
+              setLocalDimension(val);
+              if (onSelectionChange) onSelectionChange(val, null);
+            }}>
               <SelectTrigger className="w-40 h-8 text-xs">
                 <SelectValue placeholder="Select dimension" />
               </SelectTrigger>
@@ -163,9 +181,19 @@ export default function SegmentDistribution({ membershipData }) {
                 outerRadius={80}
                 paddingAngle={2}
                 dataKey="value"
+                onClick={(_, idx) => {
+                  if (onSelectionChange) onSelectionChange(localDimension, segmentData[idx]?.name);
+                }}
               >
                 {segmentData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={entry.color} />
+                  <Cell 
+                    key={`cell-${index}`} 
+                    fill={entry.color}
+                    stroke={selectedValue === entry.name ? "#334155" : undefined}
+                    strokeWidth={selectedValue === entry.name ? 3 : 1}
+                    opacity={selectedValue && selectedValue !== entry.name ? 0.5 : 1}
+                    style={{ cursor: "pointer" }}
+                  />
                 ))}
               </Pie>
               <Tooltip content={<CustomTooltip />} />
@@ -177,7 +205,12 @@ export default function SegmentDistribution({ membershipData }) {
           {segmentData.map((segment) => {
             const percentage = ((segment.value / totalMembers) * 100).toFixed(1);
             return (
-              <div key={segment.name} className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+              <div 
+                key={segment.name} 
+                className={`flex items-center justify-between p-3 bg-slate-50 rounded-lg ${selectedValue === segment.name ? "ring-2 ring-blue-500" : ""}`}
+                style={{ cursor: "pointer", opacity: selectedValue && selectedValue !== segment.name ? 0.5 : 1 }}
+                onClick={() => onSelectionChange && onSelectionChange(localDimension, segment.name)}
+              >
                 <div className="flex items-center gap-3">
                   <div 
                     className="w-4 h-4 rounded-full"
@@ -204,7 +237,6 @@ export default function SegmentDistribution({ membershipData }) {
             </p>
           </div>
         )}
-        
         <div className="mt-6 pt-4 border-t border-slate-200">
           <div className="flex justify-between items-center">
             <span className="text-sm font-medium text-slate-600">Total Members</span>
