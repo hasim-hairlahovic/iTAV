@@ -46,13 +46,6 @@ const navigationItems = [
     color: "emerald"
   },
   {
-    title: "Analytics Hub",
-    url: createPageUrl("Analytics"),
-    icon: TrendingUp,
-    description: "Deep-dive analysis",
-    color: "purple"
-  },
-  {
     title: "Forecasting",
     url: createPageUrl("Forecasting"),
     icon: Users,

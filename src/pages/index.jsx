@@ -4,8 +4,6 @@ import Dashboard from "./Dashboard";
 
 import DataManagement from "./DataManagement";
 
-import Analytics from "./Analytics";
-
 import Forecasting from "./Forecasting";
 
 import Reports from "./Reports";
@@ -17,8 +15,6 @@ const PAGES = {
     Dashboard: Dashboard,
     
     DataManagement: DataManagement,
-    
-    Analytics: Analytics,
     
     Forecasting: Forecasting,
     
@@ -56,9 +52,6 @@ function PagesContent() {
                 
                 <Route path="/DataManagement" element={<DataManagement />} />
                 <Route path="/datamanagement" element={<DataManagement />} />
-                
-                <Route path="/Analytics" element={<Analytics />} />
-                <Route path="/analytics" element={<Analytics />} />
                 
                 <Route path="/Forecasting" element={<Forecasting />} />
                 <Route path="/forecasting" element={<Forecasting />} />

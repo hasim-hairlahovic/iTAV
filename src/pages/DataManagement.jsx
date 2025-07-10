@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { getApiBaseUrl } from "@/api/base44Client";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
 import FileUploadZone from "../components/data/FileUploadZone";
 import DataPreview from "../components/data/DataPreview";
@@ -185,36 +186,50 @@ export default function DataManagement() {
               </CardHeader>
               
               <CardContent className="space-y-4">
-                <div>
-                  <p className="text-sm font-medium text-slate-700 mb-2">Expected Fields:</p>
-                  <div className="flex flex-wrap gap-1">
-                    {dataType.fields.map((field) => (
-                      <Badge key={field} variant="outline" className="text-xs">
-                        {field}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
-                
-                {progress !== undefined ? (
-                  <UploadProgress progress={progress} fileName="Processing..." />
-                ) : isUploaded ? (
-                  <div className="p-3 bg-green-50 rounded-lg border border-green-200">
-                    <div className="flex items-center gap-2 text-sm">
-                      <CheckCircle className="w-4 h-4 text-green-600" />
-                      <span className="text-green-800 font-medium">{isUploaded.fileName}</span>
+                <Tabs defaultValue="actual" className="w-full">
+                  <TabsList className="mb-2">
+                    <TabsTrigger value="actual">{dataType.title}</TabsTrigger>
+                    <TabsTrigger value="forecast">{dataType.title.replace('Data', ' Forecast Data')}</TabsTrigger>
+                  </TabsList>
+                  <TabsContent value="actual">
+                    <div>
+                      <p className="text-sm font-medium text-slate-700 mb-2">Expected Fields:</p>
+                      <div className="flex flex-wrap gap-1">
+                        {dataType.fields.map((field) => (
+                          <Badge key={field} variant="outline" className="text-xs">
+                            {field}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <p className="text-xs text-green-600 mt-1">
-                      Uploaded {isUploaded.uploadDate.toLocaleDateString()}
-                      {isUploaded.recordsImported && ` • ${isUploaded.recordsImported} records imported`}
-                    </p>
-                  </div>
-                ) : (
-                  <FileUploadZone
-                    onFileSelect={(files) => handleFileSelect(dataType.id, files)}
-                    dataType={dataType}
-                  />
-                )}
+                    {progress !== undefined ? (
+                      <UploadProgress progress={progress} fileName="Processing..." />
+                    ) : isUploaded ? (
+                      <div className="p-3 bg-green-50 rounded-lg border border-green-200">
+                        <div className="flex items-center gap-2 text-sm">
+                          <CheckCircle className="w-4 h-4 text-green-600" />
+                          <span className="text-green-800 font-medium">{isUploaded.fileName}</span>
+                        </div>
+                        <p className="text-xs text-green-600 mt-1">
+                          Uploaded {isUploaded.uploadDate.toLocaleDateString()}
+                          {isUploaded.recordsImported && ` • ${isUploaded.recordsImported} records imported`}
+                        </p>
+                      </div>
+                    ) : (
+                      <FileUploadZone
+                        onFileSelect={(files) => handleFileSelect(dataType.id, files)}
+                        dataType={dataType}
+                      />
+                    )}
+                  </TabsContent>
+                  <TabsContent value="forecast">
+                    <div className="flex flex-col items-center justify-center min-h-[120px] text-center text-slate-500">
+                      <FileText className="w-8 h-8 mb-2 text-blue-400" />
+                      <div className="font-semibold text-slate-700 mb-1">{dataType.title.replace('Data', ' Forecast Data')}</div>
+                      <div className="text-sm">Forecast data upload coming soon.<br/>You will be able to upload forecast CSV files here.</div>
+                    </div>
+                  </TabsContent>
+                </Tabs>
               </CardContent>
             </Card>
           );
